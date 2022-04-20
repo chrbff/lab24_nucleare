@@ -1,0 +1,286 @@
+/* qui mettere le variabili che potrebbero cambiare */
+:root{
+    --font-paragrafi: 21px;
+    --regular: 400;
+    --bold: 700;
+    --corallo: #fc4646;
+    --ciano: #83f9f3;
+    --grigio-scuro: #1c1c1c;
+    --grigio-chiaro: #4a4a4a;
+    --bianco: #ededef;
+    --viola: #7E3FE5;
+}
+
+body {
+    background-color: var(--grigio-scuro);
+    margin: 0;
+    color: var(--corallo);
+    font-family: Sole24Serif;
+}
+
+.paragrafo-bianco {
+    width: 974px;
+    height: 325px;
+    padding-top: 50px;
+    font-family: 'Sole24Serif Text';
+    font-style: normal;
+    font-weight: var(--regular);
+    font-size: var(--font-paragrafi);
+    line-height: 140.4%;
+    color: var(--bianco);
+}
+
+
+/* TOP-BAR */
+
+.top-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.top-bar_sx {
+    width: 102px;
+    height: 24px;
+    padding-left: 20px;
+}
+
+.top-bar_centro {
+    width: 102px;
+    height: 24px;
+}
+
+.top-bar_dx {
+    position: relative;
+    width: width/12;
+    height: 24px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo_social {
+    position: relative;
+    align-items: center;
+    width: 40px;
+}
+
+
+/* COPERTINA */
+
+#container-copertina{
+    position: relative;
+    background-color: var(--corallo);
+    width: 100%;
+    height: 1289px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+#copertina {
+    width: 974px;
+    margin: auto;
+}
+
+.titolo {
+    width: 100%;
+    height: 455px;
+}
+
+h1 {
+    padding-top: 205px;
+    font-family: 'Sole24Serif Display';
+    font-style: normal;
+    font-weight: var(--bold);
+    font-size: 113px;
+    line-height: 93.5%;
+    color: var(--grigio-scuro);
+}
+
+div span.titolo {
+    font-family: 'Sole24Serif Display';
+    font-style: italic;
+    font-weight: var(--regular);
+    font-size: 113px;
+    line-height: 93.5%;
+    color: var(--grigio-scuro);
+}
+
+#info {
+    font-family: 'Sole24Serif Headline';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 35px;
+    color: var(--bianco);  
+}
+
+#paragrafo-nero {
+    width: 974px;
+    height: 325px;
+    padding-top: 350px;
+    font-family: 'Sole24Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-paragrafi);
+    line-height: 140.4%;
+    color: var(--grigio-scuro);
+}
+
+
+/* CONTAINER */
+
+.container {
+    position: relative;
+    /* background-color: white; */
+    width: 974px;
+    display: flex; 
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+/* CONTAINER ARSENALI */
+
+.container-arsenali {
+    width: 974px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+#titoli-arsenali{
+  
+}
+
+h2 {
+    font-family: 'Sole24Serif Display';
+    font-style: normal;
+    font-weight: var(--bold);
+    font-size: 60px;
+    line-height: 102%;
+    color: var(--corallo);
+    margin: auto;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Sole24Serif Display';
+    font-style: normal;
+    font-weight: var(--regular);
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--bianco);
+    margin: auto;
+}
+
+div span.titoletto {
+    font-family: 'Sole24Serif Display';
+    font-style: italic;
+    font-weight: var(--regular);
+    font-size: 60px;
+    line-height: 102%;
+    color: var(--corallo);
+}
+
+hr {
+    width: 42px;
+    border: 1px solid var(--bianco);
+    margin-left: 0em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#data1-tabella{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+#data1 {
+    background-color: white;
+    width: 601px;
+    height: 606px;
+    margin-top: 50px;
+}
+
+#paesi, #num-testate {
+    font-family: 'Sole24Serif Headline';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.46px;
+    color: #ededef;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+/* CONTAINER TIMELINE */
+
+.container-timeline {
+    width: 974px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* CONTAINER TRATTATO */
+
+.container-trattato {
+    width: 974px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* CONTAINER SPESE */
+
+.container-spese {
+    width: 974px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* CONTAINER ITALIA */
+
+.container-italia {
+    width: 974px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* CONTAINER TIMER */
+
+.container-timer {
+    width: 974px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* CONTAINER FOOTER */
+
+#footer {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+} 
