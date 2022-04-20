@@ -153,13 +153,12 @@ h2 {
     color: var(--corallo);
 }
 
-hr {
-  margin-left: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 4%;
-  border: 0px;
-  border-top: 2px solid var(--bianco);
+.linea_titoletto {
+    width: 42px;
+    border: 1px solid var(--bianco);
+    margin-left: 0em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 h3 {
@@ -184,13 +183,69 @@ div span.titoletto {
 
 #data1-tabella{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #fc4646; */
 }
 
 #data1 {
-    background-color: white;
     width: 601px;
     height: 606px;
-    margin-top: 45px;
+    margin-top: 50px;
+    /* background-color: #7E3FE5; */
+}
+
+#tabella {
+    width: 248px;
+}
+
+.voce_tabella_russia, .voce_tabella_usa, .voce_tabella_altri {
+    height: 60px;
+    font-size: 16px;
+    line-height: 18.46px;
+    color: #ededef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.voce_tabella_russia {
+    color: var(--grigio-scuro);
+    background-color: var(--corallo);
+}
+
+.testo_tabella {
+    margin: 0;
+    height: 16px;
+    font-family: 'Sole24Serif Headline';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cifra_tabella {
+    margin: 0;
+    height: 16px;
+    font-family: 'Sole24Serif Text';
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.linea_tabella {
+    margin: 0;
+    width: 248px;
+    border: 0.5px solid var(--grigio-chiaro);
+
+}
+
+.linea_spessa_tabella {
+    margin: 0;
+    width: 248px;
+    border: 1px solid var(--bianco);
+
 }
 
 #paesi, #num-testate {
