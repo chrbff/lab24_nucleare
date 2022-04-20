@@ -248,7 +248,7 @@ div span.titoletto {
 
 }
 
-#paesi, #num-testate {
+/* #paesi, #num-testate {
     font-family: 'Sole24Serif Headline';
     font-style: medium;
     font-weight: 500;
@@ -257,7 +257,7 @@ div span.titoletto {
     color: var(--bianco);
     margin-top: 35px;
     margin-left: 25px;
-}
+} */
 
 /* CONTAINER TIMELINE */
 
