@@ -248,6 +248,23 @@ hr {
     flex-wrap: nowrap;
 }
 
+#popolazione{
+    width: 360px;
+    height: 556px;
+    margin: auto;
+}
+
+#nazioni {
+font-family: 'Sole24Sans';
+font-style: normal;
+font-weight: var( --regular);
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+text-transform: uppercase;
+color: var(--ciano);
+}
+
 
 /* CONTAINER SPESE */
 
