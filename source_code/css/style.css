@@ -19,9 +19,8 @@ body {
 }
 
 .paragrafo-bianco {
-    width: 974px;
-    height: 325px;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: 'Sole24Serif Text';
     font-style: normal;
     font-weight: var(--regular);
@@ -39,56 +38,39 @@ body {
     width: 100%;
     height: 65px;
     top: 0;
-    left: 0;
     z-index: 999;
-    display: flex; 
-    flex-wrap: nowrap;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
 }
 
 .top-bar_sx {
-    width: 102px;
-    height: 24px;
+    width: 60px;
     padding-left: 20px;
 }
 
 .top-bar_centro {
-    width: 102px;
-    height: 24px;
+    width: 80px;
 }
 
 .top-bar_dx {
     position: relative;
-    width: width/12;
-    height: 24px;
     padding-right: 20px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
 }
 
 .logo_social {
     position: relative;
     align-items: center;
-    width: 40px;
+    width: 30px;
 }
 
 
 /* COPERTINA */
 
 #container-copertina{
-    position: relative;
     background-color: var(--corallo);
-    width: 100%;
-    height: 1289px; 
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
+    height: auto;
 }
 
 #copertina {
@@ -97,18 +79,18 @@ body {
 }
 
 .titolo {
-    width: 100%;
-    height: 455px;
+    height: auto;
 }
 
 h1 {
-    padding-top: 205px;
-    font-family: 'Sole24Serif Display';
-    font-style: normal;
-    font-weight: var(--bold);
-    font-size: 113px;
-    line-height: 93.5%;
-    color: var(--grigio-scuro);
+  padding-top: 200px;
+  margin: auto;
+  font-family: 'Sole24Serif Display';
+  font-style: normal;
+  font-weight: var(--bold);
+  font-size: 113px;
+  line-height: 93.5%;
+  color: var(--grigio-scuro);
 }
 
 div span.titolo {
@@ -126,13 +108,12 @@ div span.titolo {
     font-weight: 200;
     font-size: 30px;
     line-height: 35px;
-    color: var(--bianco);  
+    color: var(--bianco);
 }
 
 #paragrafo-nero {
-    width: 974px;
-    height: 325px;
-    padding-top: 350px;
+    margin-top: 100px;
+    padding-bottom: 50px;
     font-family: 'Sole24Serif Text';
     font-style: normal;
     font-weight: 400;
@@ -145,12 +126,7 @@ div span.titolo {
 /* CONTAINER */
 
 .container {
-    position: relative;
-    /* background-color: white; */
     width: 974px;
-    display: flex; 
-    /* flex-wrap: nowrap; */
-    justify-content: center;
     flex-direction: column;
     margin: auto;
 }
@@ -159,35 +135,41 @@ div span.titolo {
 /* CONTAINER ARSENALI */
 
 .container-arsenali {
-    width: 974px;
-    display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
 }
 
 /* #titoli-arsenali{
-  
+
 } */
 
 h2 {
+    margin: auto;
+    padding-top: 50px;
     font-family: 'Sole24Serif Display';
     font-style: normal;
     font-weight: var(--bold);
     font-size: 60px;
     line-height: 102%;
     color: var(--corallo);
-    margin: auto;
-    margin-top: 50px;
+}
+
+hr {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 4%;
+  border: 0px;
+  border-top: 2px solid var(--bianco);
 }
 
 h3 {
+    margin: auto;
     font-family: 'Sole24Serif Display';
     font-style: normal;
     font-weight: var(--regular);
     font-size: 30px;
     line-height: 100%;
     color: var(--bianco);
-    margin: auto;
 }
 
 div span.titoletto {
@@ -199,25 +181,16 @@ div span.titoletto {
     color: var(--corallo);
 }
 
-hr {
-    width: 42px;
-    border: 1px solid var(--bianco);
-    margin-left: 0em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
 
 #data1-tabella{
     display: flex;
-    flex-direction: row;
-    background-color: red;
 }
 
 #data1 {
     background-color: white;
     width: 601px;
     height: 606px;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 #paesi, #num-testate {
@@ -226,26 +199,21 @@ hr {
     font-weight: 500;
     font-size: 16px;
     line-height: 18.46px;
-    color: #ededef;
-    margin-top: 50px;
+    color: var(--bianco);
+    margin-top: 35px;
     margin-left: 25px;
 }
 
 /* CONTAINER TIMELINE */
 
 .container-timeline {
-    width: 974px;
-    display: flex;
-    flex-wrap: nowrap;
+
 }
 
 
 /* CONTAINER TRATTATO */
 
 .container-trattato {
-    width: 974px;
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 #popolazione{
@@ -255,41 +223,40 @@ hr {
 }
 
 #nazioni {
-font-family: 'Sole24Sans';
-font-style: normal;
-font-weight: var( --regular);
-font-size: 14px;
-line-height: 17px;
-text-align: justify;
-text-transform: uppercase;
-color: var(--ciano);
+    font-family: 'Sole24Sans';
+    font-style: normal;
+    font-weight: var( --regular);
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: var(--ciano);
 }
 
 
 /* CONTAINER SPESE */
 
 .container-spese {
-    width: 974px;
-    display: flex;
-    flex-wrap: nowrap;
+
 }
 
+/* VIZ3 */
+
+#data3 {
+    width: 100vw;
+}
 
 /* CONTAINER ITALIA */
 
 .container-italia {
-    width: 974px;
-    display: flex;
-    flex-wrap: nowrap;
+
 }
 
 
 /* CONTAINER TIMER */
 
 .container-timer {
-    width: 974px;
-    display: flex;
-    flex-wrap: nowrap;
+
 }
 
 
@@ -300,4 +267,4 @@ color: var(--ciano);
     position: fixed;
     width: 100vw;
     height: 65px;
-} 
+}
