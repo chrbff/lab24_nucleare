@@ -9,8 +9,18 @@
 	<link rel="stylesheet" href="css/sole-sans.css">
 	<link rel="stylesheet" href="css/w-fonts.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type = "text/javascript" src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.waypoints.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			//caso singolo ad es
+			$('#USA').waypoint(function() {
+				  $('#USA').css("opacity", "1");
+			},
+			{offset: '70%'});
+		});
+	</script>
 	
 </head>
 
@@ -1239,13 +1249,13 @@
 								d="
 		M255.9,635.7C459.5,292.4,821.8,54.3,1241.7,22.4" />
 						</g>
-						<g id="USA_00000132052245823551376260000013397870144235450271_">
+						<g id="USA">
 							<circle class="st9" cx="277.3" cy="599.7" r="52.4" />
 							<path class="st10" d="M80.7,1276.3c0-234,63.9-453,175.2-640.6" />
 							<text transform="matrix(1 0 0 1 264.1531 605.2628)"
 								class="st11 st12 st13 sigla_nera">USA</text>
 						</g>
-						<g id="CINA_00000156551435929208704550000008234876675093117371_">
+						<g id="CINA">
 							<circle class="st14" cx="157.5" cy="1075.7" r="29.1" />
 							<path class="st15" d="M140.4,1276.3c0-60.4,4.5-119.7,13.1-177.7" />
 							<text transform="matrix(1 0 0 1 148.2331 1080.8221)" class="st16 st12 st13 sigle">CN</text>
