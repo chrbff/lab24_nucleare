@@ -353,6 +353,22 @@ div span.titoletto {
 .container-trattato {
 }
 
+#intro-firmatari{
+  font-family: 'Sole24Serif Text';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 24px;
+  color: var(--bianco);
+}
+
+#firmatari-corallo{
+  color: var(--corallo);
+}
+
+#firmatari-ciano{
+  color: var(--ciano);
+}
+
 #popolazione{
     width: 360px;
     height: 556px;
@@ -369,7 +385,11 @@ div span.titoletto {
     line-height: 17px;
     text-align: justify;
     text-transform: uppercase;
-    color: var(--ciano);
+    color: var(--corallo);
+}
+
+#nazioni span {
+  color: var(--ciano);
 }
 
 
@@ -406,6 +426,21 @@ fill: #FC4646;
 
 }
 
+#sottotitolo-timer {
+  font-family: 'Sole24Serif Text';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 20px;
+  color: var(--bianco);
+}
+
+#soldi-spesi {
+  font-family: 'Sole24Serif Display';
+font-style: normal;
+font-weight: var(--regular);
+font-size: 195px;
+color: var(--corallo);
+}
 
 /* CONTAINER FOOTER */
 
