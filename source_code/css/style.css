@@ -599,7 +599,7 @@ fill: #FC4646;
   font-family: Sole24Sans-Regular, Sole24Sans;
 }
 
-#USA {
+.USA {
   transition: all 1s;
   opacity: 0;
 }
