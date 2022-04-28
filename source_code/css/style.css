@@ -197,85 +197,120 @@ div span.titoletto {
 }
 
 #data1 .st0 {
-  fill: none;
-  stroke: #4A4A4A;
-  stroke-miterlimit: 10;
+  fill:none;
+  stroke:#FC4646;
+  stroke-miterlimit:10;
 }
 
 #data1 .st1 {
-  fill: none;
-  stroke: var(--bianco);
-  stroke-width: 0.5;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
+  fill:none;
+  stroke:#FC4646;
+  stroke-width:0.5;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
 }
 
 #data1 .st2 {
-  fill: none;
-  stroke: #FC4646;
-  stroke-miterlimit: 10;
+  fill:#FC4646;
 }
 
 #data1 .st3 {
-  fill: none;
-  stroke: #FC4646;
-  stroke-width: 0.5;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
+  font-family:'Sole24Sans-Regular';
 }
 
 #data1 .st4 {
-  fill: none;
-  stroke: #FC4646;
-  stroke-width: 0.5;
-  stroke-miterlimit: 10;
+  font-size:38px;
 }
 
 #data1 .st5 {
-  fill: #1C1C1C;
-  stroke: #FC4646;
-  stroke-width: 0.5;
+  fill:#83F9F3;
 }
 
 #data1 .st6 {
-  fill: #FC4646;
-  stroke: #1C1C1C;
+  fill:#7E3FE5;
 }
 
 #data1 .st7 {
-  fill: none;
-  stroke: var(--bianco);
-  stroke-miterlimit: 10;
+  fill:none;
+  stroke:#4A4A4A;
+  stroke-miterlimit:10;
+}
+
+.usa_attivo {
+  fill:none;
+  stroke:var(--ciano);
+  stroke-miterlimit:10;
 }
 
 #data1 .st8 {
-  fill: var(--bianco);
-  stroke: #1C1C1C;
+  fill:none;
+  stroke:#EDEDEF;
+  stroke-width:0.5;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
 }
 
 #data1 .st9 {
-  fill: none;
-  stroke: var(--bianco);
-  stroke-width: 0.5;
-  stroke-miterlimit: 10;
+  fill:#1C1C1C;
+  stroke:#EDEDEF;
+  stroke-width:0.5;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
 }
 
 #data1 .st10 {
-  fill: #1C1C1C;
-  stroke: var(--bianco);
-  stroke-width: 0.5;
+  fill:none;
+  stroke:#EDEDEF;
+  stroke-width:0.5;
+  stroke-miterlimit:10;
 }
 
 #data1 .st11 {
-  fill: #1C1C1C;
-  stroke: var(--bianco);
-  stroke-width: 0.5;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
+  fill:#1C1C1C;
+  stroke:#EDEDEF;
+  stroke-width:0.5;
 }
 
 #data1 .st12 {
-  fill: #FC4646;
+  fill:none;
+  stroke:#FC4646;
+  stroke-width:0.5;
+  stroke-miterlimit:10;
+}
+
+#data1 .st13 {
+  fill:#1C1C1C;
+  stroke:#FC4646;
+  stroke-width:0.5;
+}
+
+#data1 .st14 {
+  fill:none;
+  stroke:#EDEDEF;
+  stroke-miterlimit:10;
+}
+
+#data1 .st15 {
+  fill:#EDEDEF;
+  stroke:#1C1C1C;
+}
+#data1 .st16 {
+  fill:#FC4646;
+  stroke:#1C1C1C;
+}
+
+#nome_usa {
+  display: none; 
+  
+}
+
+#nome_altri {
+  display: none; 
+  
+}
+
+.blue {
+  color: blue;
 }
 
 #tabella {
