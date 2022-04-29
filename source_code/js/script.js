@@ -10,11 +10,7 @@ $(document).ready(function () {
          $("#data1 svg #asta_3 .st11, #data1 svg #asta_2 .st11").css("fill", "#83f9f3");
          $("#data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10, #data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#83f9f3");
          $("#tabella .voce_tabella_usa").css("background-color", "#83f9f3");
-<<<<<<< HEAD
-
-=======
          $("#tabella .voce_tabella_usa").css("color", "#1c1c1c");
->>>>>>> 80af2be99089d92da5e76b27e7e3ce3af217da52
          $("#data1 #cerchio_pallina .st8").css("display", "block");
 
 
@@ -344,37 +340,6 @@ $(document).ready(function () {
       offset: '91%'
    });
 
-<<<<<<< HEAD
-      $('.COREANORD').waypoint(function () {
-         $('.PALLA_COREANORD').css("opacity", "1");
-         $('.LINEA_COREANORD').css("stroke-width", "3px");
-         $('.LINEA_COREANORD').css("stroke", "#7E3FE5");
-      }, {
-         offset: '91%'
-      });
-
-
-// click grafico chiara- DATA 4 -
-
-$('#unicredit_container').click (
-  function () {
-    $("#data4 svg #unicredit_container .st0").css("fill", "#fc4646");
-    $("#data4 svg #Uc_centrale .st1").css("fill", "#ededef");
-    $("#data4 svg #Uc_details").css("display", "block");
-
-
-  });
-
-
-
-
-
-
-
-
-
-
-=======
    $('.COREANORD').waypoint(function () {
       $('.PALLA_COREANORD').css("opacity", "1");
       $('.LINEA_COREANORD').css("stroke-width", "3px");
@@ -382,5 +347,4 @@ $('#unicredit_container').click (
    }, {
       offset: '91%'
    });
->>>>>>> 80af2be99089d92da5e76b27e7e3ce3af217da52
 });
