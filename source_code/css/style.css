@@ -474,6 +474,54 @@ div span.titoletto {
 
 /* CONTAINER TRATTATO */
 
+#slider {
+  width: 226px;
+  height: 33px;
+  fill: none;
+  border: 1px solid var(--bianco);
+  border-radius: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#tasto_nazioni {
+  background: var(--bianco);
+  width: 105px;
+  height: 25px;
+  border-radius: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.35s;
+}
+
+div#tasto_nazioni p {
+  color: var(--grigio-scuro);
+}
+
+#tasto_popolazioni {
+  background: var(--grigio-scuro);
+  width: 105px;
+  height: 25px;
+  border-radius: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1;
+  transition: 0.35s;
+}
+
+div#tasto_popolazioni p {
+  color: var(--bianco);
+}
+
 #intro-firmatari {
   font-family: 'sole_text';
   font-style: normal;
@@ -490,10 +538,14 @@ div span.titoletto {
   color: var(--ciano);
 }
 
-#popolazione {
+#popolazioni {
   width: 360px;
   height: 556px;
   margin: auto;
+  display: none;
+  
+  opacity: 1;
+  transition: 0.35s;
 }
 
 #nazioni {
@@ -507,6 +559,9 @@ div span.titoletto {
   text-align: justify;
   text-transform: uppercase;
   color: var(--corallo);
+  
+  opacity: 1;
+  transition: 0.35s;
 }
 
 #nazioni span {
@@ -518,11 +573,11 @@ div span.titoletto {
 
 
 /* VIZ3 */
-#popolazione .st0 {
+#popolazioni .st0 {
   fill: #83F9F3;
 }
 
-#popolazione .st1 {
+#popolazioni .st1 {
   fill: #FC4646;
 }
 
@@ -625,12 +680,28 @@ div span.titoletto {
   font-size: 14px;
 }
 
-.PALLA_USA, .PALLA_CINA, .PALLA_RUSSIA, .PALLA_GRANBRETAGNA, .PALLA_FRANCIA, .PALLA_INDIA, .PALLA_ISRAELE, .PALLA_PAKISTAN, .PALLA_COREANORD {
+.PALLA_USA,
+.PALLA_CINA,
+.PALLA_RUSSIA,
+.PALLA_GRANBRETAGNA,
+.PALLA_FRANCIA,
+.PALLA_INDIA,
+.PALLA_ISRAELE,
+.PALLA_PAKISTAN,
+.PALLA_COREANORD {
   transition: all 0.35s;
   opacity: 0;
 }
 
-.LINEA_USA, .LINEA_CINA, .LINEA_RUSSIA, .LINEA_GRANBRETAGNA, .LINEA_FRANCIA, .LINEA_INDIA, .LINEA_ISRAELE, .LINEA_PAKISTAN, .LINEA_COREANORD {
+.LINEA_USA,
+.LINEA_CINA,
+.LINEA_RUSSIA,
+.LINEA_GRANBRETAGNA,
+.LINEA_FRANCIA,
+.LINEA_INDIA,
+.LINEA_ISRAELE,
+.LINEA_PAKISTAN,
+.LINEA_COREANORD {
   fill: none;
   transition: all 0.35s;
   stroke: #6D6D6C;

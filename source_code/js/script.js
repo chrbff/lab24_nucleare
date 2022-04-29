@@ -102,4 +102,44 @@ $(document).ready(function () {
       function () {
          $("#data1 svg #sagoma_hover_altri").css("cursor", "pointer");
       });
+
+
+   // click slider trattato
+   $("#tasto_popolazioni").click(
+         function () {
+            $("#tasto_nazioni").css("background", "#1c1c1c");
+            $("#tasto_nazioni").css("opacity", "1");
+            $("div#tasto_nazioni p").css("color", "#ededef");
+            $("#tasto_popolazioni").css("background", "#ededef");
+            $("#tasto_popolazioni").css("opacity", "1");
+            $("div#tasto_popolazioni p").css("color", "#1c1c1c");
+
+            $("#popolazioni").css("display", "block");
+            $("#popolazioni").css("opacity", "1");
+            $("#nazioni").css("display", "none");
+            $("#nazioni").css("opacity", "1");
+         });
+   $("#tasto_popolazioni").hover(
+      function () {
+         $("#tasto_popolazioni").css("cursor", "pointer");
+       });
+
+   $("#tasto_nazioni").click(
+      function () {
+         $("#tasto_nazioni").css("background", "#ededef");
+         $("#tasto_nazioni").css("opacity", "1");
+         $("div#tasto_nazioni p").css("color", "#1c1c1c");
+         $("#tasto_popolazioni").css("background", "#1c1c1c");
+         $("#tasto_popolazioni").css("opacity", "1");
+         $("div#tasto_popolazioni p").css("color", "#ededef");
+
+         $("#nazioni").css("display", "block");
+         $("#nazioni").css("opacity", "1");
+         $("#popolazioni").css("display", "none");
+         $("#popolazioni").css("opacity", "1");
+      });
+   $("#tasto_nazioni").hover(
+      function () {
+         $("#tasto_nazioni").css("cursor", "pointer");
+      });
 });
