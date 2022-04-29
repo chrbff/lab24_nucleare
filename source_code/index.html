@@ -15,15 +15,18 @@
 
 	<script>
 	$(document).ready(function () {
-		window.setInterval((function () {
-			var start = Date.now();
-			var textNode = document.createTextNode('0');
-			document.getElementById('soldi-spesi').appendChild(textNode);
-			return function () {
-				textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333);
-				console.log(value);
-			};
-		}()), 1000);
+			window.setInterval((function () {
+				var start = Date.now();
+				var textNode = document.createTextNode('0');
+				document.getElementById('soldi-spesi').appendChild(textNode);
+				return function () {
+					textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
+						'it-IT', // leave undefined to use the visitor's browser
+						// locale or a string like 'en-US' to override it.
+						{ minimumFractionDigits: 0 }
+					);
+				};
+			}()), 1000);
 
 			$('.USA').waypoint(function() {
 				$('.PALLA_USA').css("opacity", "1");
