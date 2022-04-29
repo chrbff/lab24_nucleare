@@ -347,4 +347,19 @@ $(document).ready(function () {
    }, {
       offset: '91%'
    });
+
+   $('#unicredit_container').click(
+      function () {
+         $("#data4 svg #unicredit_container .st0").css("fill", "#fc4646");
+         $("#data4 svg #Uc_centrale .st1").css("fill", "#ededef");
+         $("#data4 svg #Uc_details").css("display", "block");
+      });
+
+      $("#unicredit_container").hover(
+         function () {
+            $("#unicredit_container").css("cursor", "pointer");
+         });
+
 });
+
+
