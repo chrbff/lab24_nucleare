@@ -23,7 +23,7 @@ body {
   margin-bottom: 50px;
   font-family: 'sole_text';
   font-style: normal;
-  font-weight: var(--regular);
+  font-weight: 300;
   font-size: var(--font-paragrafi);
   line-height: 140.4%;
   color: var(--bianco);
@@ -103,9 +103,9 @@ div span.titolo {
 }
 
 #info {
-  font-family: 'sole_hairline';
+  font-family: 'sole_display';
   font-style: normal;
-  font-weight: 200;
+  font-weight: var(--bold);
   font-size: 30px;
   line-height: 35px;
   color: var(--bianco);
@@ -198,12 +198,14 @@ div span.titoletto {
 
 #data1 .st0 {
   fill: #1C1C1C;
+  transition: all 0.35s;
 }
 
 #data1 .st1 {
   fill: none;
   stroke: #4A4A4A;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st2 {
@@ -212,26 +214,32 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st3 {
   fill: #FC4646;
+  transition: all 0.35s;
 }
 
 #data1 .st4 {
   font-family: 'SoleSans';
+  transition: all 0.35s;
 }
 
 #data1 .st5 {
   font-size: 38px;
+  transition: all 0.35s;
 }
 
 #data1 .st6 {
   fill: #83F9F3;
+  transition: all 0.35s;
 }
 
 #data1 .st7 {
   fill: #7E3FE5;
+  transition: all 0.35s;
 }
 
 #data1 .st8 {
@@ -240,50 +248,55 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st10 {
   fill: #1C1C1C;
   stroke: #EDEDEF;
   stroke-width: 0.5;
+  transition: all 0.35s;
 }
 
 #data1 .st11 {
   fill: #EDEDEF;
   stroke: #1C1C1C;
+  transition: all 0.35s;
 }
 
 #data1 .st12 {
   fill: none;
   stroke: #EDEDEF;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 #cerchio_pallina .st8 {
   display: none;
+  transition: all 0.35s;
 }
 
 #data1 #cerchio_pallina {
   transform: rotate(0);
+  transition: all 0.35s;
 }
 
 #nome_usa {
   display: none;
+  transition: all 0.35s;
 
 }
 
 #nome_altri {
   display: none;
+  transition: all 0.35s;
 
 }
 
 #nome_rus {
   display: none;
+  transition: all 0.35s;
 
-}
-
-.blue {
-  color: blue;
 }
 
 #tabella {
@@ -304,12 +317,13 @@ div span.titoletto {
   padding-left: 20px;
   padding-right: 20px;
   background-color: var(--grigio-scuro);
+  transition: all 0.35s;
 }
 
 .testo_tabella {
   margin: 0;
   height: 16px;
-  font-family: 'sole_hairline';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: 400;
 }
@@ -326,7 +340,6 @@ div span.titoletto {
   margin: 0;
   width: 248px;
   border: 0.5px solid var(--grigio-chiaro);
-
 }
 
 .linea_spessa_tabella {
@@ -504,6 +517,62 @@ div span.titoletto {
 
 /* CONTAINER TRATTATO */
 
+#slider {
+  width: 226px;
+  height: 33px;
+  fill: none;
+  border: 1px solid var(--bianco);
+  border-radius: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#tasto_nazioni {
+  background: var(--bianco);
+  width: 105px;
+  height: 25px;
+  border-radius: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.35s;
+}
+
+div#tasto_nazioni p {
+  color: var(--grigio-scuro);
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 12px;
+}
+
+#tasto_popolazioni {
+  background: var(--grigio-scuro);
+  width: 105px;
+  height: 25px;
+  border-radius: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1;
+  transition: 0.35s;
+}
+
+div#tasto_popolazioni p {
+  color: var(--bianco);
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 12px;
+}
+
 #intro-firmatari {
   font-family: 'sole_text';
   font-style: normal;
@@ -520,10 +589,14 @@ div span.titoletto {
   color: var(--ciano);
 }
 
-#popolazione {
+#popolazioni {
   width: 360px;
   height: 556px;
   margin: auto;
+  display: none;
+
+  opacity: 1;
+  transition: 0.35s;
 }
 
 #nazioni {
@@ -537,6 +610,9 @@ div span.titoletto {
   text-align: justify;
   text-transform: uppercase;
   color: var(--corallo);
+
+  opacity: 1;
+  transition: 0.35s;
 }
 
 #nazioni span {
@@ -548,11 +624,11 @@ div span.titoletto {
 
 
 /* VIZ3 */
-#popolazione .st0 {
+#popolazioni .st0 {
   fill: #83F9F3;
 }
 
-#popolazione .st1 {
+#popolazioni .st1 {
   fill: #FC4646;
 }
 
@@ -655,12 +731,28 @@ div span.titoletto {
   font-size: 14px;
 }
 
-.PALLA_USA, .PALLA_CINA, .PALLA_RUSSIA, .PALLA_GRANBRETAGNA, .PALLA_FRANCIA, .PALLA_INDIA, .PALLA_ISRAELE, .PALLA_PAKISTAN, .PALLA_COREANORD {
+.PALLA_USA,
+.PALLA_CINA,
+.PALLA_RUSSIA,
+.PALLA_GRANBRETAGNA,
+.PALLA_FRANCIA,
+.PALLA_INDIA,
+.PALLA_ISRAELE,
+.PALLA_PAKISTAN,
+.PALLA_COREANORD {
   transition: all 0.35s;
   opacity: 0;
 }
 
-.LINEA_USA, .LINEA_CINA, .LINEA_RUSSIA, .LINEA_GRANBRETAGNA, .LINEA_FRANCIA, .LINEA_INDIA, .LINEA_ISRAELE, .LINEA_PAKISTAN, .LINEA_COREANORD {
+.LINEA_USA,
+.LINEA_CINA,
+.LINEA_RUSSIA,
+.LINEA_GRANBRETAGNA,
+.LINEA_FRANCIA,
+.LINEA_INDIA,
+.LINEA_ISRAELE,
+.LINEA_PAKISTAN,
+.LINEA_COREANORD {
   fill: none;
   transition: all 0.35s;
   stroke: #6D6D6C;
@@ -669,8 +761,42 @@ div span.titoletto {
 
 /* CONTAINER ITALIA */
 
+#data4 .st0{fill:#4A4A4A;}
+#data4 .st1{fill:#1C1C1C;}
+#data4 .st2{font-family: SoleSans;}
+#data4 .st3{font-size:200px;}
+#data4 .st4{fill:#EDEDEF;}
+#data4 .st5{font-size:40px;}
+#data4 .st6{font-size:20px;}
+#data4 .st7{font-size:100px;}
+#data4 .st8{font-size:24px;}
+#data4 .st9{font-size:14px;}
+#data4 .st10{font-size:30px;}
+#data4 .st11{font-size:25px;}
+#data4 .st12{font-size:35px;}
+#data4 .st13{font-size:15px;}
+#data4 .st14{fill:#FC4646;}
+#data4 .st15{font-size:51px;}
+#data4 .st16{font-size:28px;}
+#data4 .st17{font-size:13.8293px;}
 
+#Mb_tooltip,
+#Bps_tooltip,
+#Bpm_tooltip,
+#Cv_tooltip,
+#An_tooltip,
+#Bi_tooltip,
+#Cdp_tooltip,
+#Bper_tooltip
+ {
+  display: none;
+}
 
+#Isp_details,
+#Uc_details
+{
+ display: none;
+}
 
 /* CONTAINER TIMER */
 
