@@ -23,7 +23,7 @@ body {
   margin-bottom: 50px;
   font-family: 'sole_text';
   font-style: normal;
-  font-weight: var(--regular);
+  font-weight: 300;
   font-size: var(--font-paragrafi);
   line-height: 140.4%;
   color: var(--bianco);
@@ -309,7 +309,7 @@ div span.titoletto {
 .testo_tabella {
   margin: 0;
   height: 16px;
-  font-family: 'sole_hairline';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: 400;
 }
