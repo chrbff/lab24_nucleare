@@ -506,7 +506,7 @@ div#tasto_nazioni p {
   font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--regular);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 #tasto_popolazioni {
@@ -527,7 +527,7 @@ div#tasto_popolazioni p {
   font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--regular);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 #intro-firmatari {
