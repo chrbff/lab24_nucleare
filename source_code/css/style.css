@@ -198,12 +198,14 @@ div span.titoletto {
 
 #data1 .st0 {
   fill: #1C1C1C;
+  transition: all 0.35s;
 }
 
 #data1 .st1 {
   fill: none;
   stroke: #4A4A4A;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st2 {
@@ -212,26 +214,32 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st3 {
   fill: #FC4646;
+  transition: all 0.35s;
 }
 
 #data1 .st4 {
   font-family: 'SoleSans';
+  transition: all 0.35s;
 }
 
 #data1 .st5 {
   font-size: 38px;
+  transition: all 0.35s;
 }
 
 #data1 .st6 {
   fill: #83F9F3;
+  transition: all 0.35s;
 }
 
 #data1 .st7 {
   fill: #7E3FE5;
+  transition: all 0.35s;
 }
 
 #data1 .st8 {
@@ -240,50 +248,55 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 .st10 {
   fill: #1C1C1C;
   stroke: #EDEDEF;
   stroke-width: 0.5;
+  transition: all 0.35s;
 }
 
 #data1 .st11 {
   fill: #EDEDEF;
   stroke: #1C1C1C;
+  transition: all 0.35s;
 }
 
 #data1 .st12 {
   fill: none;
   stroke: #EDEDEF;
   stroke-miterlimit: 10;
+  transition: all 0.35s;
 }
 
 #data1 #cerchio_pallina .st8 {
   display: none;
+  transition: all 0.35s;
 }
 
 #data1 #cerchio_pallina {
   transform: rotate(0);
+  transition: all 0.35s;
 }
 
 #nome_usa {
   display: none;
+  transition: all 0.35s;
 
 }
 
 #nome_altri {
   display: none;
+  transition: all 0.35s;
 
 }
 
 #nome_rus {
   display: none;
+  transition: all 0.35s;
 
-}
-
-.blue {
-  color: blue;
 }
 
 #tabella {
@@ -304,6 +317,7 @@ div span.titoletto {
   padding-left: 20px;
   padding-right: 20px;
   background-color: var(--grigio-scuro);
+  transition: all 0.35s;
 }
 
 .testo_tabella {
