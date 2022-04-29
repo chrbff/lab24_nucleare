@@ -219,7 +219,8 @@ div span.titoletto {
 }
 
 #data1 .st4 {
-  font-family: 'Sole24Sans-Regular';
+  font-family: 'SoleSans';
+  /* font-style: regular; */
 }
 
 #data1 .st5 {
@@ -383,7 +384,8 @@ div span.titoletto {
 }
 
 #data2 .st7 {
-  font-family: 'Sole24Sans-Regular';
+  font-family: 'SoleSans';
+  /* font-style: regular; */
 }
 
 #data2 .st8 {
@@ -500,7 +502,7 @@ div span.titoletto {
 #nazioni {
   width: 478px;
   margin: auto;
-  font-family: 'Sole24Sans';
+  font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--regular);
   font-size: 14px;
@@ -599,7 +601,8 @@ div span.titoletto {
 }
 
 #data3 .st12 {
-  font-family: Sole24Sans-Regular, Sole24Sans;
+  font-family: "SoleSans";
+  /* font-style: regular; */
 }
 
 #data3 .st13 {
@@ -685,7 +688,7 @@ div span.titoletto {
 }
 
 .text-footer {
-  font-family: 'Sole24Sans';
+  font-family: 'SoleSans';
   font-style: normal;
   font-size: 14px;
   color: white;
@@ -694,7 +697,7 @@ div span.titoletto {
 }
 
 div span.bold-footer {
-  font-family: 'Sole24Sans';
+  font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--bold);
   font-size: 14px;
