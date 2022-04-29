@@ -503,6 +503,10 @@ div span.titoletto {
 
 div#tasto_nazioni p {
   color: var(--grigio-scuro);
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 11px;
 }
 
 #tasto_popolazioni {
@@ -520,6 +524,10 @@ div#tasto_nazioni p {
 
 div#tasto_popolazioni p {
   color: var(--bianco);
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 11px;
 }
 
 #intro-firmatari {
