@@ -349,57 +349,72 @@ div span.titoletto {
 
 /* CONTAINER TIMELINE */
 
-
 #data2 .st0 {
   fill: none;
   stroke: #83F9F3;
   stroke-width: 1.5;
   stroke-miterlimit: 10;
+  opacity: 0;
 }
 
 #data2 .st1 {
   fill: none;
+  opacity: 0;
 }
 
 #data2 .st2 {
   fill: #83F9F3;
+  opacity: 0;
 }
 
 #data2 .st3 {
   font-family: 'sole_display';
+  opacity: 0;
 }
 
 #data2 .st4 {
   font-size: 24px;
+  opacity: 0;
 }
 
 #data2 .st5 {
   fill: none;
   stroke: #83F9F3;
+  opacity: 0;
 }
 
 #data2 .st6 {
   fill: #EDEDEF;
+  opacity: 0;
 }
 
 #data2 .st7 {
-  font-family: 'SoleSans';
+  font-family: SoleSans;
+  font-weight: 400;
+	font-style: normal;
+  opacity: 0;
+  color: #ededef;
 }
 
 #data2 .st8 {
   font-size: 16px;
+  opacity: 0;
 }
 
 #data2 .st9 {
   fill: #6FD0CB;
+  opacity: 0;
 }
 
 #data2 .st10 {
   font-size: 14px;
+  opacity: 0;
 }
 
 #data2 .st11 {
   fill: #FF514B;
+  opacity: 0;
+  
 }
 
 #data2 .st12 {
@@ -407,40 +422,48 @@ div span.titoletto {
   stroke: #FF514B;
   stroke-width: 1.5;
   stroke-miterlimit: 10;
+  opacity: 0;
 }
 
 #data2 .st13 {
   fill: none;
   stroke: #FF514B;
+  opacity: 0;
 }
 
 #data2 .st14 {
   fill: none;
   stroke: #7E3FE6;
+  opacity: 0;
 }
 
 #data2 .st15 {
   fill: none;
   stroke: #7E3FE6;
   stroke-width: 2;
+  opacity: 0;
 }
 
 #data2 .st16 {
   fill: #7E3FE6;
-  enable-background: new;
+  opacity: 0;
 }
+
+#data2 #Base_permanente .st1, #data2 #Base_permanente .st3, #data2 #Base_permanente .st4,
+#data2 #Base_permanente .st6, #data2 #Base_permanente .st7, #data2 #Base_permanente .st10 {
+  opacity: 1;
+} 
 
 #data2 .st17 {
   opacity: 0.2;
   fill: none;
   stroke: #EDEDEF;
   stroke-width: 1.5;
-  enable-background: new;
 }
 
 #data2 .st18 {
   fill: #EDEDEF;
-  enable-background: new;
+  opacity: 0;
 }
 
 #data2 .st19 {
@@ -454,22 +477,28 @@ div span.titoletto {
 }
 
 #data2 .st21 {
-  fill: none;
+  fill: var(--grigio-scuro);
   stroke: #83F9F3;
   stroke-miterlimit: 10;
 }
 
 #data2 .st22 {
   opacity: 0.7;
-  fill: none;
+  fill: var(--grigio-scuro);
   stroke: #FC4646;
-  enable-background: new;
 }
 
 #data2 .st23 {
-  fill: none;
+  fill: var(--grigio-scuro);
   stroke: #7E3FE6;
-  enable-background: new;
+}
+
+#data2 #Base_permanente #trentamila {
+  opacity: 1;
+}
+
+#data2 #Base_permanente #quarantamila {
+  opacity: 1;
 }
 
 
