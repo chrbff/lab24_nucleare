@@ -654,6 +654,8 @@ div span.titoletto {
 }
 
 #soldi-spesi {
+  text-align: center;
+  margin: 50px 0px;
   font-family: 'Sole24Serif Display';
   font-style: normal;
   font-weight: var(--regular);
