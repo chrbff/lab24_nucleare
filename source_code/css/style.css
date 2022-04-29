@@ -21,7 +21,7 @@ body {
 .paragrafo-bianco {
   margin-top: 50px;
   margin-bottom: 50px;
-  font-family: 'Sole24Serif Text';
+  font-family: 'sole_text';
   font-style: normal;
   font-weight: var(--regular);
   font-size: var(--font-paragrafi);
@@ -85,7 +85,7 @@ body {
 h1 {
   padding-top: 200px;
   margin: auto;
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--bold);
   font-size: 113px;
@@ -94,7 +94,7 @@ h1 {
 }
 
 div span.titolo {
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: italic;
   font-weight: var(--regular);
   font-size: 113px;
@@ -103,7 +103,7 @@ div span.titolo {
 }
 
 #info {
-  font-family: 'Sole24Serif Headline';
+  font-family: 'sole_hairline';
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -114,7 +114,7 @@ div span.titolo {
 #paragrafo-nero {
   margin-top: 100px;
   padding-bottom: 50px;
-  font-family: 'Sole24Serif Text';
+  font-family: 'sole_text';
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-paragrafi);
@@ -145,7 +145,7 @@ div span.titolo {
 h2 {
   margin: auto;
   padding-top: 50px;
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--bold);
   font-size: 60px;
@@ -163,7 +163,7 @@ h2 {
 
 h3 {
   margin: auto;
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--regular);
   font-size: 30px;
@@ -172,7 +172,7 @@ h3 {
 }
 
 div span.titoletto {
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: italic;
   font-weight: var(--regular);
   font-size: 60px;
@@ -220,7 +220,6 @@ div span.titoletto {
 
 #data1 .st4 {
   font-family: 'SoleSans';
-  /* font-style: regular; */
 }
 
 #data1 .st5 {
@@ -310,7 +309,7 @@ div span.titoletto {
 .testo_tabella {
   margin: 0;
   height: 16px;
-  font-family: 'Sole24Serif Headline';
+  font-family: 'sole_hairline';
   font-style: normal;
   font-weight: 400;
 }
@@ -318,7 +317,7 @@ div span.titoletto {
 .cifra_tabella {
   margin: 0;
   height: 16px;
-  font-family: 'Sole24Serif Text';
+  font-family: 'sole_text';
   font-style: normal;
   font-weight: lighter;
 }
@@ -367,7 +366,7 @@ div span.titoletto {
 }
 
 #data2 .st3 {
-  font-family: 'Sole24SerifDisplay-Regular';
+  font-family: 'sole_display';
 }
 
 #data2 .st4 {
@@ -385,7 +384,6 @@ div span.titoletto {
 
 #data2 .st7 {
   font-family: 'SoleSans';
-  /* font-style: regular; */
 }
 
 #data2 .st8 {
@@ -478,7 +476,7 @@ div span.titoletto {
 /* CONTAINER TRATTATO */
 
 #intro-firmatari {
-  font-family: 'Sole24Serif Text';
+  font-family: 'sole_text';
   font-style: normal;
   font-weight: var(--regular);
   font-size: 24px;
@@ -602,7 +600,6 @@ div span.titoletto {
 
 #data3 .st12 {
   font-family: "SoleSans";
-  /* font-style: regular; */
 }
 
 #data3 .st13 {
@@ -649,7 +646,7 @@ div span.titoletto {
 /* CONTAINER TIMER */
 
 #sottotitolo-timer {
-  font-family: 'Sole24Serif Text';
+  font-family: 'sole_text';
   font-style: normal;
   font-weight: var(--regular);
   font-size: 20px;
@@ -657,7 +654,7 @@ div span.titoletto {
 }
 
 #soldi-spesi {
-  font-family: 'Sole24Serif Display';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--regular);
   font-size: 195px;
