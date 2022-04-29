@@ -14,7 +14,15 @@
 
 	<script>
 		$(document).ready(function () {
-			//caso singolo ad es
+			window.setInterval((function () {
+			var start = Date.now();
+			var textNode = document.createTextNode('0');
+			document.getElementById('soldi-spesi').appendChild(textNode);
+			return function () {
+				textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333);
+			};
+		}()), 1000);
+
 			$('.USA').waypoint(function () {
 				$('.PALLA_USA').css("opacity", "1");
 				$('.LINEA_USA').css("stroke-width", "3px");
@@ -1641,7 +1649,9 @@
 				<hr class="linea_titoletto">
 				<h3>Le più grandi potenze spendono milioni al minuto in armi atomiche</h3>
 				<p id="sottotitolo-timer">Significa che da quanto hai iniziato a leggere sono già stati investiti</p>
-				<p id="soldi-spesi">$27.200.012</p>
+				<p id="soldi-spesi">$</p>
+				<!-- You've been on this page for <span id=seconds></span> seconds. -->
+
 			</div>
 		</div>
 	</div>

@@ -603,6 +603,8 @@ font-style: normal;
 font-weight: var(--regular);
 font-size: 195px;
 color: var(--corallo);
+margin: 50px 0px;
+text-align: center;
 }
 
 /* CONTAINER FOOTER */
