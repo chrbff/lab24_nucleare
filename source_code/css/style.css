@@ -103,7 +103,7 @@ div span.titolo {
 }
 
 #info {
-  font-family: 'sole_hairline';
+  font-family: 'sole_display';
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -326,7 +326,6 @@ div span.titoletto {
   margin: 0;
   width: 248px;
   border: 0.5px solid var(--grigio-chiaro);
-
 }
 
 .linea_spessa_tabella {
