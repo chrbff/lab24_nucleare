@@ -10,7 +10,7 @@ $(document).ready(function () {
          $("#data1 svg #asta_3 .st11, #data1 svg #asta_2 .st11").css("fill", "#83f9f3");
          $("#data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10, #data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#83f9f3");
          $("#tabella .voce_tabella_usa").css("background-color", "#83f9f3");
-         
+
          $("#data1 #cerchio_pallina .st8").css("display", "block");
 
 
@@ -230,4 +230,26 @@ $(document).ready(function () {
       }, {
          offset: '91%'
       });
+
+
+// click grafico chiara- DATA 4 -
+
+$('#unicredit_container').click (
+  function () {
+    $("#data4 svg #unicredit_container .st0").css("fill", "#fc4646");
+    $("#data4 svg #Uc_centrale .st1").css("fill", "#ededef");
+    $("#data4 svg #Uc_details").css("display", "block");
+
+
+  });
+
+
+
+
+
+
+
+
+
+
 });
