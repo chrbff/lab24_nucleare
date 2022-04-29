@@ -1,6 +1,105 @@
-$(document).ready(function(){
+$(document).ready(function () {
+   ////// ATOMO /////////////
 
-   $("#data1 svg #gruppo_usa").click(function(){
-    $("#data1 svg #gruppo_usa").;
-   });
+   /////// interazione usa /////////
+   $("#data1 svg #sagoma_hover_usa").click(
+      function () {
+         $("#data1 svg #gruppo_usa .st1, #data1 svg #gruppo_usa .st2").css("stroke", "#83f9f3");
+         $("#data1 svg #nome_usa").css("display", "block");
+         $("#data1 svg #asta_3 .st12, #data1 svg #asta_2 .st12").css("stroke", "#83f9f3");
+         $("#data1 svg #asta_3 .st11, #data1 svg #asta_2 .st11").css("fill", "#83f9f3");
+         $("#data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10, #data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#83f9f3");
+         $("#tabella .voce_tabella_usa").css("background-color", "#83f9f3");
+         // $("#data1 #cerchio_pallina").css({'transform' : 'rotate(90deg)'});
+         $("#data1 #cerchio_pallina .st8").css("display", "block");
+
+
+         $("#data1 svg #gruppo_rus .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
+         $("#data1 svg #asta_1 .st12").css("stroke", "#ededef");
+         $("#data1 svg #asta_1 .st11").css("fill", "#ededef");
+         $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10").css("stroke", "#ededef");
+         $("#data1 svg #nome_rus").css("display", "none");
+         $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+
+         $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
+         $("#data1 svg #nome_altri").css("display", "none");
+         $("#data1 svg #aste_altri .st12").css("stroke", "#ededef");
+         $("#data1 svg #aste_altri .st11").css("fill", "#ededef");
+         $("#tabella .voce_tabella_altri").css("background-color", "#1c1c1c");
+         $("#data1 #cerchio_pallina .st8").css("display", "block");
+      });
+
+   $("#data1 svg #sagoma_hover_usa").hover(
+      function () {
+         $("#data1 svg #sagoma_hover_usa").css("cursor", "pointer");
+      });
+
+   /////// interazione russia /////////
+   $("#data1 svg #sagoma_hover_rus").click(
+      function () {
+         $("#data1 svg #gruppo_rus .st1, #data1 svg #gruppo_rus .st2").css("stroke", "#fc4646");
+         $("#data1 svg #nome_rus").css("display", "block");
+         $("#data1 svg #asta_1 .st12, #data1 svg #asta_2 .st12").css("stroke", "#fc4646");
+         $("#data1 svg #asta_1 .st11, #data1 svg #asta_2 .st11").css("fill", "#fc4646");
+         $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10, #data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10").css("stroke", "#fc4646");
+         $("#tabella .voce_tabella_russia").css("background-color", "#fc4646");
+         $("#data1 #cerchio_pallina .st8").css("display", "block");
+
+         $("#data1 svg #gruppo_usa .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_usa .st2").css("stroke", "#ededef");
+         $("#data1 svg #asta_3 .st12").css("stroke", "#ededef");
+         $("#data1 svg #asta_3 .st11").css("fill", "#ededef");
+         $("#data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#ededef");
+         $("#data1 svg #nome_usa").css("display", "none");
+         $("#tabella .voce_tabella_usa").css("background-color", "#1c1c1c");
+
+         $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
+         $("#data1 svg #nome_altri").css("display", "none");
+         $("#data1 svg #aste_altri .st12, #data1 svg #asta_3 .st12").css("stroke", "#ededef");
+         $("#data1 svg #aste_altri .st11, #data1 svg #asta_3 .st11").css("fill", "#ededef");
+         $("#data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#ededef");
+         $("#tabella .voce_tabella_altri").css("background-color", "#1c1c1c");
+         $("#data1 #cerchio_pallina .st8").css("display", "block");
+
+      });
+
+   $("#data1 svg #sagoma_hover_rus").hover(
+      function () {
+         $("#data1 svg #sagoma_hover_rus").css("cursor", "pointer");
+      });
+
+   /////// interazione altri /////////
+   $("#data1 svg #sagoma_hover_altri").click(
+      function () {
+         $("#data1 svg #gruppo_altri .st1, #data1 svg #gruppo_altri .st2").css("stroke", "#7E3FE5");
+         $("#data1 svg #nome_altri").css("display", "block");
+         $("#data1 svg #aste_altri .st12, #data1 svg #asta_1 .st12, #data1 svg #asta_3 .st12").css("stroke", "#7E3FE5");
+         $("#data1 svg #aste_altri .st11, #data1 svg #asta_1 .st11, #data1 svg #asta_3 .st11").css("fill", "#7E3FE5");
+         $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10, #data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#7E3FE5");
+         $("#tabella .voce_tabella_altri").css("background-color", "#7E3FE5");
+         $("#data1 #cerchio_pallina .st8").css("display", "block");
+
+         $("#data1 svg #asta_2 .st12").css("stroke", "#ededef");
+         $("#data1 svg #asta_2 .st11").css("fill", "#ededef");
+         $("#data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10").css("stroke", "#ededef");
+
+         $("#data1 svg #gruppo_usa .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_usa .st2").css("stroke", "#ededef");
+         $("#data1 svg #nome_usa").css("display", "none");
+         $("#tabella .voce_tabella_usa").css("background-color", "#1c1c1c");
+
+         $("#data1 svg #gruppo_rus .st1").css("stroke", "#4a4a4a");
+         $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
+         $("#data1 svg #nome_rus").css("display", "none");
+         $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+
+      });
+
+   $("#data1 svg #sagoma_hover_altri").hover(
+      function () {
+         $("#data1 svg #sagoma_hover_altri").css("cursor", "pointer");
+      });
 });
