@@ -407,6 +407,7 @@ div span.titoletto {
 	font-style: normal;
   opacity: 0;
   color: #ededef;
+  fill: #ededef;
 }
 
 #data2 .st8 {
@@ -589,6 +590,7 @@ div#tasto_popolazioni p {
   color: var(--ciano);
 }
 
+/* 
 #popolazioni {
   width: 360px;
   height: 556px;
@@ -614,11 +616,57 @@ div#tasto_popolazioni p {
   opacity: 1;
   transition: 0.35s;
 }
+*/
 
 #nazioni span {
   color: var(--ciano);
 }
 
+.trattato-wrapper {
+  position: relative;
+  height: 556px;
+}
+
+.tab-trattato#popolazioni {
+  height: 556px;
+  margin: 0 auto;
+}
+
+.tab-trattato#popolazioni .tab-trattato-wrapper {
+  width: 360px;
+}
+
+.tab-trattato#nazioni {
+  height: 556px;
+  margin: auto;
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: var(--corallo);
+}
+
+.tab-trattato#nazioni .tab-trattato-wrapper {
+  width: 478px;
+}
+
+.tab-trattato {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tab-trattato.visible {
+  opacity: 1;
+}
 
 /* CONTAINER SPESE */
 
