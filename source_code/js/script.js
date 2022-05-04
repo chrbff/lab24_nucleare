@@ -185,7 +185,7 @@ $(document).ready(function () {
          $("#data1 svg #sagoma_hover_altri").css("cursor", "pointer");
       });
 
-        ///// interazione altri su tabella//////
+   ///// interazione altri su tabella//////
 
    $("#tabella .voce_tabella_altri").click(
       function () {
@@ -242,14 +242,14 @@ $(document).ready(function () {
 
          //Se clicco USA mi scompare 30.000
          $("#data2 svg #Base_permanente #trentamila").css("opacity", 0);
-                  
+
          //Se clicco Altri Stati mi ricompare 40.000
          $("#data2 svg #Base_permanente #quarantamila").css("opacity", 1);
       });
 
-         //Trasformazione del cursore al click
-         $("#Base_permanente #Pallino_USA").hover(
-         function () {
+   //Trasformazione del cursore al click
+   $("#Base_permanente #Pallino_USA").hover(
+      function () {
          $("#Base_permanente #Pallino_USA").css("cursor", "pointer");
       });
 
@@ -277,9 +277,9 @@ $(document).ready(function () {
          $("#data2 svg #Base_permanente #quarantamila").css("opacity", 0);
       });
 
-         //Trasformazione del cursore al click
-         $("#Base_permanente #Pallino_RU").hover(
-         function () {
+   //Trasformazione del cursore al click
+   $("#Base_permanente #Pallino_RU").hover(
+      function () {
          $("#Base_permanente #Pallino_RU").css("cursor", "pointer");
       });
 
@@ -301,22 +301,23 @@ $(document).ready(function () {
          $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#1c1c1c"); //Il pallino USA torna spento
 
          //Se clicco Altri Stati mi ricompare 30.000
-          $("#data2 svg #Base_permanente #trentamila").css("opacity", 1);
+         $("#data2 svg #Base_permanente #trentamila").css("opacity", 1);
 
          //Se clicco Altri Stati mi ricompare 40.000
          $("#data2 svg #Base_permanente #quarantamila").css("opacity", 1);
       });
 
-         //Trasformazione del cursore al click
-         $("#Base_permanente #Pallini_altri_stati").hover(
-            function () {
-            $("#Base_permanente #Pallini_altri_stati").css("cursor", "pointer");
-         });      
-
- 
+   //Trasformazione del cursore al click
+   $("#Base_permanente #Pallini_altri_stati").hover(
+      function () {
+         $("#Base_permanente #Pallini_altri_stati").css("cursor", "pointer");
+      });
 
 
-   // click slider trattato
+
+
+   /////// slider trattato nazioni/popolazioni /////////
+
    $("#tasto_popolazioni").click(
       function () {
          $("#tasto_nazioni").css("background", "#1c1c1c");
@@ -363,26 +364,7 @@ $(document).ready(function () {
 
 
 
-
-   window.setInterval((function () {
-      var start = Date.now();
-      var textNode = document.createTextNode('0');
-      document.getElementById('soldi-spesi').appendChild(textNode);
-      return function () {
-         textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
-            'it-IT', // leave undefined to use the visitor's browser
-            // locale or a string like 'en-US' to override it.
-            {
-               minimumFractionDigits: 0
-            }
-         );
-      };
-   }()), 1000);
-
-
-
-
-
+   /////// apparizione sfere spese per armi nucleari /////////
 
    $('.USA').waypoint(function () {
       $('.PALLA_USA').css("opacity", "1");
@@ -456,18 +438,100 @@ $(document).ready(function () {
       offset: '91%'
    });
 
-   $('#unicredit_container').click(
+
+
+
+
+   /////// conteggio spese al minuto (timer) /////////
+
+   window.setInterval((function () {
+      var start = Date.now();
+      var textNode = document.createTextNode('0');
+      document.getElementById('soldi-spesi').appendChild(textNode);
+      return function () {
+         textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
+            'it-IT', // leave undefined to use the visitor's browser
+            // locale or a string like 'en-US' to override it.
+            {
+               minimumFractionDigits: 0
+            }
+         );
+      };
+   }()), 1000);
+
+
+
+
+
+   /////// interazione banche /////////
+
+   // unicredit
+   $('#Uc_container').click(
       function () {
-         $("#data4 svg #unicredit_container .st0").css("fill", "#fc4646");
-         $("#data4 svg #Uc_centrale .st1").css("fill", "#ededef");
-         $("#data4 svg #Uc_details").css("display", "block");
+         $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
+         $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
+         $("#data4 svg #Uc_details").css("opacity", "1");
+
+         $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Isp_details").css("opacity", "0");
+         $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Bpm_tooltip").removeClass("visible");
+      });
+   $('#Uc_container').hover(
+      function () {
+         $("#Uc_container").css("cursor", "pointer");
       });
 
-      $("#unicredit_container").hover(
-         function () {
-            $("#unicredit_container").css("cursor", "pointer");
-         });
+   // intesa san paolo
+   $('#Isp_container').click(
+      function () {
+         $("#data4 svg #Isp_container .st0").css("fill", "#fc4646");
+         $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
+         $("#data4 svg #Isp_details").css("opacity", "1");
 
+         $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Uc_details").css("opacity", "0");
+         $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Bpm_tooltip").removeClass("visible");
+      });
+   $('#Isp_container').hover(
+      function () {
+         $("#Isp_container").css("cursor", "pointer");
+      });
+
+   // bpm
+   $('#Bpm_container').click(
+      function () {
+         $("#data4 svg #Bpm_container .st0").css("fill", "#fc4646");
+         $("#data4 svg #Bpm_grande .st1").css("fill", "#ededef");
+         $("#data4 svg #Bpm_tooltip").addClass("visible");
+
+         $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Uc_details").css("opacity", "0");
+         $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
+         $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
+         $("#data4 svg #Isp_details").css("opacity", "0");
+      });
+   $('#Bpm_container').hover(
+      function () {
+         $("#Bpm_container").css("cursor", "pointer");
+      });
+
+      $('#Bpm_tooltip_close').click(
+         function () {
+            $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+            $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+            $("#data4 svg #Bpm_tooltip").removeClass("visible");
+         });
+      $('#Bpm_tooltip_close').hover(
+         function () {
+            $("#Bpm_tooltip_close").css("cursor", "pointer");
+         });
 });
 
 

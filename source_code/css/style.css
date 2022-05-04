@@ -198,14 +198,14 @@ div span.titoletto {
 
 #data1 .st0 {
   fill: #1C1C1C;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st1 {
   fill: none;
   stroke: #4A4A4A;
   stroke-miterlimit: 10;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st2 {
@@ -214,32 +214,32 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st3 {
   fill: #FC4646;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st4 {
   font-family: 'SoleSans';
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st5 {
   font-size: 38px;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st6 {
   fill: #83F9F3;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st7 {
   fill: #7E3FE5;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st8 {
@@ -248,54 +248,54 @@ div span.titoletto {
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st10 {
   fill: #1C1C1C;
   stroke: #EDEDEF;
   stroke-width: 0.5;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st11 {
   fill: #EDEDEF;
   stroke: #1C1C1C;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 .st12 {
   fill: none;
   stroke: #EDEDEF;
   stroke-miterlimit: 10;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 #cerchio_pallina .st8 {
   display: none;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #data1 #cerchio_pallina {
   transform: rotate(0);
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 #nome_usa {
   display: none;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 
 }
 
 #nome_altri {
   display: none;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 
 }
 
 #nome_rus {
   display: none;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 
 }
 
@@ -317,7 +317,7 @@ div span.titoletto {
   padding-left: 20px;
   padding-right: 20px;
   background-color: var(--grigio-scuro);
-  transition: all 0.35s;
+  transition: all 0.35s linear;
 }
 
 .testo_tabella {
@@ -404,7 +404,7 @@ div span.titoletto {
 #data2 .st7 {
   font-family: SoleSans;
   font-weight: 400;
-	font-style: normal;
+  font-style: normal;
   opacity: 0;
   color: #ededef;
   fill: #ededef;
@@ -428,7 +428,7 @@ div span.titoletto {
 #data2 .st11 {
   fill: #FF514B;
   opacity: 0;
-  
+
 }
 
 #data2 .st12 {
@@ -463,10 +463,14 @@ div span.titoletto {
   opacity: 0;
 }
 
-#data2 #Base_permanente .st1, #data2 #Base_permanente .st3, #data2 #Base_permanente .st4,
-#data2 #Base_permanente .st6, #data2 #Base_permanente .st7, #data2 #Base_permanente .st10 {
+#data2 #Base_permanente .st1,
+#data2 #Base_permanente .st3,
+#data2 #Base_permanente .st4,
+#data2 #Base_permanente .st6,
+#data2 #Base_permanente .st7,
+#data2 #Base_permanente .st10 {
   opacity: 1;
-} 
+}
 
 #data2 .st17 {
   opacity: 0.2;
@@ -542,7 +546,7 @@ div span.titoletto {
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: 0.35s;
+  transition: 0.35s linear;
 }
 
 div#tasto_nazioni p {
@@ -563,7 +567,7 @@ div#tasto_nazioni p {
   justify-content: center;
 
   opacity: 1;
-  transition: 0.35s;
+  transition: 0.35s linear;
 }
 
 div#tasto_popolazioni p {
@@ -598,7 +602,7 @@ div#tasto_popolazioni p {
   display: none;
 
   opacity: 1;
-  transition: 0.35s;
+  transition: 0.35s linear;
 }
 
 #nazioni {
@@ -614,7 +618,7 @@ div#tasto_popolazioni p {
   color: var(--corallo);
 
   opacity: 1;
-  transition: 0.35s;
+  transition: 0.35s linear;
 }
 */
 
@@ -625,6 +629,7 @@ div#tasto_popolazioni p {
 .trattato-wrapper {
   position: relative;
   height: 556px;
+  margin-bottom: 70px;
 }
 
 .tab-trattato#popolazioni {
@@ -658,7 +663,7 @@ div#tasto_popolazioni p {
   top: 0px;
   left: 0px;
   opacity: 0;
-  transition: opacity 0.5s linear;
+  transition: opacity 0.35s linear;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -788,7 +793,7 @@ div#tasto_popolazioni p {
 .PALLA_ISRAELE,
 .PALLA_PAKISTAN,
 .PALLA_COREANORD {
-  transition: all 0.35s;
+  transition: all 0.35s linear;
   opacity: 0;
 }
 
@@ -802,49 +807,136 @@ div#tasto_popolazioni p {
 .LINEA_PAKISTAN,
 .LINEA_COREANORD {
   fill: none;
-  transition: all 0.35s;
+  transition: all 0.35s linear;
   stroke: #6D6D6C;
   stroke-width: 1px;
 }
 
 /* CONTAINER ITALIA */
 
-#data4 .st0{fill:#4A4A4A;}
-#data4 .st1{fill:#1C1C1C;}
-#data4 .st2{font-family: SoleSans;}
-#data4 .st3{font-size:200px;}
-#data4 .st4{fill:#EDEDEF;}
-#data4 .st5{font-size:40px;}
-#data4 .st6{font-size:20px;}
-#data4 .st7{font-size:100px;}
-#data4 .st8{font-size:24px;}
-#data4 .st9{font-size:14px;}
-#data4 .st10{font-size:30px;}
-#data4 .st11{font-size:25px;}
-#data4 .st12{font-size:35px;}
-#data4 .st13{font-size:15px;}
-#data4 .st14{fill:#FC4646;}
-#data4 .st15{font-size:51px;}
-#data4 .st16{font-size:28px;}
-#data4 .st17{font-size:13.8293px;}
+#data4 .st0 {
+  fill: #4A4A4A;
+  transition: all 0.35s linear;
+}
+
+#data4 .st1 {
+  fill: #1C1C1C;
+  transition: all 0.35s linear;
+}
+
+#data4 .st2 {
+  font-family: SoleSans;
+  transition: all 0.35s linear;
+}
+
+#data4 .st3 {
+  font-size: 200px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st4 {
+  fill: #EDEDEF;
+  transition: all 0.35s linear;
+}
+
+#data4 .st5 {
+  font-size: 40px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st6 {
+  font-size: 20px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st7 {
+  font-size: 100px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st8 {
+  font-size: 24px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st9 {
+  font-size: 14px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st10 {
+  font-size: 30px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st11 {
+  font-size: 25px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st12 {
+  font-size: 35px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st13 {
+  font-size: 15px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st14 {
+  fill: #FC4646;
+  transition: all 0.35s linear;
+}
+
+#data4 .st15 {
+  font-size: 51px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st16 {
+  font-size: 28px;
+  transition: all 0.35s linear;
+}
+
+#data4 .st17 {
+  font-size: 13.8293px;
+  transition: all 0.35s linear;
+}
 
 #Mb_tooltip,
 #Bps_tooltip,
-#Bpm_tooltip,
 #Cv_tooltip,
 #An_tooltip,
 #Bi_tooltip,
 #Cdp_tooltip,
-#Bper_tooltip
- {
-  display: none;
+#Bper_tooltip {
+display: none;
 }
 
-#Isp_details,
-#Uc_details
-{
- display: none;
+#Bpm_tooltip {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s linear;
 }
+
+#Bpm_tooltip.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#Uc_details,
+#Isp_details {
+  opacity: 0;
+  transition: 0.35s linear;
+}
+
+#Uc_container,
+#Isp_container {
+  opacity: 1;
+  transition: all 0.35s linear;
+}
+
 
 /* CONTAINER TIMER */
 
