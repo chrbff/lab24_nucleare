@@ -594,7 +594,7 @@ div#tasto_popolazioni p {
   color: var(--ciano);
 }
 
-/* 
+/*
 #popolazioni {
   width: 360px;
   height: 556px;
@@ -921,6 +921,17 @@ display: none;
 }
 
 #Bpm_tooltip.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#Cdp_tooltip {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s linear;
+}
+
+#Cdp_tooltip.visible {
   opacity: 1;
   visibility: visible;
 }
