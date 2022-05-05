@@ -451,9 +451,13 @@ $(document).ready(function() {
       $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Isp_details").css("opacity", "0");
+
       $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Bpm_tooltip").removeClass("visible");
+
+      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Uc_container').hover(
     function() {
@@ -470,9 +474,13 @@ $(document).ready(function() {
       $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Uc_details").css("opacity", "0");
+
       $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Bpm_tooltip").removeClass("visible");
+
+      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Isp_container').hover(
     function() {
@@ -489,9 +497,13 @@ $(document).ready(function() {
       $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Uc_details").css("opacity", "0");
+
       $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Isp_details").css("opacity", "0");
+
+      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Bpm_container').hover(
     function() {
@@ -519,6 +531,7 @@ $(document).ready(function() {
       $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Uc_details").css("opacity", "0");
+
       $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
       $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
       $("#data4 svg #Isp_details").css("opacity", "0");

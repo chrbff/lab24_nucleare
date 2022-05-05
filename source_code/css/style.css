@@ -812,7 +812,7 @@ div#tasto_popolazioni p {
   stroke-width: 1px;
 }
 
-/* CONTAINER ITALIA */
+  /* CONTAINER BANCHE */
 
 #data4 .st0 {
   fill: #4A4A4A;
@@ -904,34 +904,27 @@ div#tasto_popolazioni p {
   transition: all 0.35s linear;
 }
 
+#Bpm_tooltip,
+#Cdp_tooltip,
 #Mb_tooltip,
 #Bps_tooltip,
 #Cv_tooltip,
 #An_tooltip,
 #Bi_tooltip,
-#Cdp_tooltip,
 #Bper_tooltip {
-display: none;
-}
-
-#Bpm_tooltip {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.35s linear;
 }
 
-#Bpm_tooltip.visible {
-  opacity: 1;
-  visibility: visible;
-}
-
-#Cdp_tooltip {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.35s linear;
-}
-
-#Cdp_tooltip.visible {
+#Bpm_tooltip.visible,
+#Cdp_tooltip.visible,
+#Mb_tooltip.visible,
+#Bps_tooltip.visible,
+#Cv_tooltip.visible,
+#An_tooltip.visible,
+#Bi_tooltip.visible,
+#Bper_tooltip.visible {
   opacity: 1;
   visibility: visible;
 }
