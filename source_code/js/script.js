@@ -72,10 +72,6 @@ $(document).ready(function() {
       $("#tabella .voce_tabella_usa").css("cursor", "pointer");
     });
 
-
-
-
-
   /////// interazione russia su atomo/////////
   $("#data1 svg #sagoma_hover_rus").click(
     function() {
@@ -556,8 +552,143 @@ $(document).ready(function() {
       $("#Cdp_tooltip_close").css("cursor", "pointer");
     });
 
+    //Mb
+    $('#Mb_container').click(
+      function() {
+        $("#data4 svg #Mb_container .st0").css("fill", "#fc4646");
+        $("#data4 svg #Mb_grande .st1").css("fill", "#ededef");
+        $("#data4 svg #Mb_tooltip").addClass("visible");
+      });
+    $('#Mb_container').hover(
+      function() {
+        $("#Mb_container").css("cursor", "pointer");
+      });
 
+    $('#Mb_tooltip_close').click(
+      function() {
+        $("#data4 svg #Mb_container .st0").css("fill", "#4A4A4A");
+        $("#data4 svg #Mb_grande .st1").css("fill", "#1C1C1C");
+        $("#data4 svg #Mb_tooltip").removeClass("visible");
+      });
+    $('#Mb_tooltip_close').hover(
+      function() {
+        $("#Mb_tooltip_close").css("cursor", "pointer");
+      });
 
+      //Bps
+      $('#Bps_container').click(
+        function() {
+          $("#data4 svg #Bps_container .st0").css("fill", "#fc4646");
+          $("#data4 svg #Bps_grande .st1").css("fill", "#ededef");
+          $("#data4 svg #Bps_tooltip").addClass("visible");
+        });
+      $('#Bps_container').hover(
+        function() {
+          $("#Bps_container").css("cursor", "pointer");
+        });
+
+      $('#Bps_tooltip_close').click(
+        function() {
+          $("#data4 svg #Bps_container .st0").css("fill", "#4A4A4A");
+          $("#data4 svg #Bps_grande .st1").css("fill", "#1C1C1C");
+          $("#data4 svg #Bps_tooltip").removeClass("visible");
+        });
+      $('#Bps_tooltip_close').hover(
+        function() {
+          $("#Bps_tooltip_close").css("cursor", "pointer");
+        });
+
+        //Cv
+        $('#Cv_container').click(
+          function() {
+            $("#data4 svg #Cv_container .st0").css("fill", "#fc4646");
+            $("#data4 svg #Cv_grande .st1").css("fill", "#ededef");
+            $("#data4 svg #Cv_tooltip").addClass("visible");
+          });
+        $('#Cv_container').hover(
+          function() {
+            $("#Cv_container").css("cursor", "pointer");
+          });
+
+        $('#Cv_tooltip_close').click(
+          function() {
+            $("#data4 svg #Cv_container .st0").css("fill", "#4A4A4A");
+            $("#data4 svg #Cv_grande .st1").css("fill", "#1C1C1C");
+            $("#data4 svg #Cv_tooltip").removeClass("visible");
+          });
+        $('#Cv_tooltip_close').hover(
+          function() {
+            $("#Cv_tooltip_close").css("cursor", "pointer");
+          });
+
+          //An
+          $('#An_container').click(
+            function() {
+              $("#data4 svg #An_container .st0").css("fill", "#fc4646");
+              $("#data4 svg #An_grande .st1").css("fill", "#ededef");
+              $("#data4 svg #An_tooltip").addClass("visible");
+            });
+          $('#An_container').hover(
+            function() {
+              $("#An_container").css("cursor", "pointer");
+            });
+
+          $('#An_tooltip_close').click(
+            function() {
+              $("#data4 svg #An_container .st0").css("fill", "#4A4A4A");
+              $("#data4 svg #An_grande .st1").css("fill", "#1C1C1C");
+              $("#data4 svg #An_tooltip").removeClass("visible");
+            });
+          $('#An_tooltip_close').hover(
+            function() {
+              $("#An_tooltip_close").css("cursor", "pointer");
+            });
+
+            //Bi
+            $('#Bi_container').click(
+              function() {
+                $("#data4 svg #Bi_container .st0").css("fill", "#fc4646");
+                $("#data4 svg #Bi_grande .st1").css("fill", "#ededef");
+                $("#data4 svg #Bi_tooltip").addClass("visible");
+              });
+            $('#Bi_container').hover(
+              function() {
+                $("#Bi_container").css("cursor", "pointer");
+              });
+
+            $('#Bi_tooltip_close').click(
+              function() {
+                $("#data4 svg #Bi_container .st0").css("fill", "#4A4A4A");
+                $("#data4 svg #Bi_grande .st1").css("fill", "#1C1C1C");
+                $("#data4 svg #Bi_tooltip").removeClass("visible");
+              });
+            $('#Bi_tooltip_close').hover(
+              function() {
+                $("#Bi_tooltip_close").css("cursor", "pointer");
+              });
+
+              //Bper
+              $('#Bper_container').click(
+                function() {
+                  $("#data4 svg #Bper_container .st0").css("fill", "#fc4646");
+                  $("#data4 svg #Bper_grande .st1").css("fill", "#ededef");
+                  $("#data4 svg #Bper_tooltip").addClass("visible");
+                });
+              $('#Bper_container').hover(
+                function() {
+                  $("#Bper_container").css("cursor", "pointer");
+                });
+
+              $('#Bper_tooltip_close').click(
+                function() {
+                  $("#data4 svg #Bper_container .st0").css("fill", "#4A4A4A");
+                  $("#data4 svg #Bper_grande .st1").css("fill", "#1C1C1C");
+                  $("#data4 svg #Bper_tooltip").removeClass("visible");
+                });
+              $('#Bper_tooltip_close').hover(
+                function() {
+                  $("#Bper_tooltip_close").css("cursor", "pointer");
+                });
 
     /////// conteggio spese al minuto (timer) /////////
 
