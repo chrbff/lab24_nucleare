@@ -49,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 2px solid var(--bianco);
 }
 
 .top-bar_sx {
