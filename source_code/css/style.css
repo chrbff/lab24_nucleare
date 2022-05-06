@@ -192,7 +192,7 @@ div span.titoletto {
 
 #data1 {
   width: 601px;
-  height: 606px;
+  height: auto;
   margin-top: 50px;
   /* background-color: #7E3FE5; */
 }
@@ -535,7 +535,7 @@ div span.titoletto {
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #tasto_nazioni {
@@ -577,6 +577,10 @@ div#tasto_popolazioni p {
   font-style: normal;
   font-weight: var(--regular);
   font-size: 12px;
+}
+
+.tab-trattato-wrapper svg {
+  margin-top: 15px;
 }
 
 #intro-firmatari {
@@ -630,7 +634,7 @@ div#tasto_popolazioni p {
 .trattato-wrapper {
   position: relative;
   height: 556px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .tab-trattato#popolazioni {
@@ -960,7 +964,7 @@ div#tasto_popolazioni p {
   font-size: 195px;
   color: var(--corallo);
   text-align: center;
-  margin: 50px 50px;
+  margin: 50px 50px -20px 50px;
 }
 
 /* CONTAINER FOOTER */
@@ -973,6 +977,7 @@ div#tasto_popolazioni p {
   align-items: flex-start;
   justify-content: center;
   padding-top: 35px;
+  margin-top: 50px;
 }
 
 .logo_unirsm {
