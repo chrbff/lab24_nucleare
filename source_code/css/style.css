@@ -29,6 +29,13 @@ body {
   color: var(--bianco);
 }
 
+.fonti{
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 11px;
+  color: var(--bianco);
+}
 
 /* TOP-BAR */
 
@@ -122,7 +129,6 @@ div span.titolo {
   color: var(--grigio-scuro);
 }
 
-
 /* CONTAINER */
 
 .container {
@@ -131,16 +137,11 @@ div span.titolo {
   margin: auto;
 }
 
-
 /* CONTAINER ARSENALI */
 
 .container-arsenali {
   flex-direction: column;
 }
-
-/* #titoli-arsenali{
-
-} */
 
 h2 {
   margin: auto;
