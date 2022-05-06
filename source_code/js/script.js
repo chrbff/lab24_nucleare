@@ -440,20 +440,26 @@ $(document).ready(function() {
   // unicredit
   $('#Uc_container').click(
     function() {
-      $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
+
+      $("#data4 svg path").css("fill", "#4A4A4A");
+      $("#data4 svg text").css("fill", "#1c1c1c");
+      $(this.st0).css("fill", "#fc4646");
       $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
-      $("#data4 svg #Uc_details").css("opacity", "1");
 
-      $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Isp_details").css("opacity", "0");
-
-      $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Bpm_tooltip").removeClass("visible");
-
-      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
+      // $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
+      // $("#data4 svg #Uc_details").css("opacity", "1");
+      //
+      // $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Isp_details").css("opacity", "0");
+      //
+      // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Bpm_tooltip").removeClass("visible");
+      //
+      // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Uc_container').hover(
     function() {
@@ -463,20 +469,26 @@ $(document).ready(function() {
   // intesa san paolo
   $('#Isp_container').click(
     function() {
-      $("#data4 svg #Isp_container .st0").css("fill", "#fc4646");
+
+      $("#data4 svg path").css("fill", "#4A4A4A");
+      $("#data4 svg text").css("fill", "#1c1c1c");
+      $(this.st0).css("fill", "#fc4646");
       $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
-      $("#data4 svg #Isp_details").css("opacity", "1");
 
-      $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Uc_details").css("opacity", "0");
-
-      $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Bpm_tooltip").removeClass("visible");
-
-      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Isp_container .st0").css("fill", "#fc4646");
+      // $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
+      // $("#data4 svg #Isp_details").css("opacity", "1");
+      //
+      // $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Uc_details").css("opacity", "0");
+      //
+      // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+      // $("#data4 svg #Bpm_tooltip").removeClass("visible");
+      //
+      // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+      // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Isp_container').hover(
     function() {
@@ -552,158 +564,158 @@ $(document).ready(function() {
       $("#Cdp_tooltip_close").css("cursor", "pointer");
     });
 
-    //Mb
-    $('#Mb_container').click(
-      function() {
-        $("#data4 svg #Mb_container .st0").css("fill", "#fc4646");
-        $("#data4 svg #Mb_grande .st1").css("fill", "#ededef");
-        $("#data4 svg #Mb_tooltip").addClass("visible");
-      });
-    $('#Mb_container').hover(
-      function() {
-        $("#Mb_container").css("cursor", "pointer");
-      });
+  //Mb
+  $('#Mb_container').click(
+    function() {
+      $("#data4 svg #Mb_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #Mb_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #Mb_tooltip").addClass("visible");
+    });
+  $('#Mb_container').hover(
+    function() {
+      $("#Mb_container").css("cursor", "pointer");
+    });
 
-    $('#Mb_tooltip_close').click(
-      function() {
-        $("#data4 svg #Mb_container .st0").css("fill", "#4A4A4A");
-        $("#data4 svg #Mb_grande .st1").css("fill", "#1C1C1C");
-        $("#data4 svg #Mb_tooltip").removeClass("visible");
-      });
-    $('#Mb_tooltip_close').hover(
-      function() {
-        $("#Mb_tooltip_close").css("cursor", "pointer");
-      });
+  $('#Mb_tooltip_close').click(
+    function() {
+      $("#data4 svg #Mb_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Mb_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #Mb_tooltip").removeClass("visible");
+    });
+  $('#Mb_tooltip_close').hover(
+    function() {
+      $("#Mb_tooltip_close").css("cursor", "pointer");
+    });
 
-      //Bps
-      $('#Bps_container').click(
-        function() {
-          $("#data4 svg #Bps_container .st0").css("fill", "#fc4646");
-          $("#data4 svg #Bps_grande .st1").css("fill", "#ededef");
-          $("#data4 svg #Bps_tooltip").addClass("visible");
-        });
-      $('#Bps_container').hover(
-        function() {
-          $("#Bps_container").css("cursor", "pointer");
-        });
+  //Bps
+  $('#Bps_container').click(
+    function() {
+      $("#data4 svg #Bps_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #Bps_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #Bps_tooltip").addClass("visible");
+    });
+  $('#Bps_container').hover(
+    function() {
+      $("#Bps_container").css("cursor", "pointer");
+    });
 
-      $('#Bps_tooltip_close').click(
-        function() {
-          $("#data4 svg #Bps_container .st0").css("fill", "#4A4A4A");
-          $("#data4 svg #Bps_grande .st1").css("fill", "#1C1C1C");
-          $("#data4 svg #Bps_tooltip").removeClass("visible");
-        });
-      $('#Bps_tooltip_close').hover(
-        function() {
-          $("#Bps_tooltip_close").css("cursor", "pointer");
-        });
+  $('#Bps_tooltip_close').click(
+    function() {
+      $("#data4 svg #Bps_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Bps_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #Bps_tooltip").removeClass("visible");
+    });
+  $('#Bps_tooltip_close').hover(
+    function() {
+      $("#Bps_tooltip_close").css("cursor", "pointer");
+    });
 
-        //Cv
-        $('#Cv_container').click(
-          function() {
-            $("#data4 svg #Cv_container .st0").css("fill", "#fc4646");
-            $("#data4 svg #Cv_grande .st1").css("fill", "#ededef");
-            $("#data4 svg #Cv_tooltip").addClass("visible");
-          });
-        $('#Cv_container').hover(
-          function() {
-            $("#Cv_container").css("cursor", "pointer");
-          });
+  //Cv
+  $('#Cv_container').click(
+    function() {
+      $("#data4 svg #Cv_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #Cv_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #Cv_tooltip").addClass("visible");
+    });
+  $('#Cv_container').hover(
+    function() {
+      $("#Cv_container").css("cursor", "pointer");
+    });
 
-        $('#Cv_tooltip_close').click(
-          function() {
-            $("#data4 svg #Cv_container .st0").css("fill", "#4A4A4A");
-            $("#data4 svg #Cv_grande .st1").css("fill", "#1C1C1C");
-            $("#data4 svg #Cv_tooltip").removeClass("visible");
-          });
-        $('#Cv_tooltip_close').hover(
-          function() {
-            $("#Cv_tooltip_close").css("cursor", "pointer");
-          });
+  $('#Cv_tooltip_close').click(
+    function() {
+      $("#data4 svg #Cv_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Cv_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #Cv_tooltip").removeClass("visible");
+    });
+  $('#Cv_tooltip_close').hover(
+    function() {
+      $("#Cv_tooltip_close").css("cursor", "pointer");
+    });
 
-          //An
-          $('#An_container').click(
-            function() {
-              $("#data4 svg #An_container .st0").css("fill", "#fc4646");
-              $("#data4 svg #An_grande .st1").css("fill", "#ededef");
-              $("#data4 svg #An_tooltip").addClass("visible");
-            });
-          $('#An_container').hover(
-            function() {
-              $("#An_container").css("cursor", "pointer");
-            });
+  //An
+  $('#An_container').click(
+    function() {
+      $("#data4 svg #An_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #An_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #An_tooltip").addClass("visible");
+    });
+  $('#An_container').hover(
+    function() {
+      $("#An_container").css("cursor", "pointer");
+    });
 
-          $('#An_tooltip_close').click(
-            function() {
-              $("#data4 svg #An_container .st0").css("fill", "#4A4A4A");
-              $("#data4 svg #An_grande .st1").css("fill", "#1C1C1C");
-              $("#data4 svg #An_tooltip").removeClass("visible");
-            });
-          $('#An_tooltip_close').hover(
-            function() {
-              $("#An_tooltip_close").css("cursor", "pointer");
-            });
+  $('#An_tooltip_close').click(
+    function() {
+      $("#data4 svg #An_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #An_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #An_tooltip").removeClass("visible");
+    });
+  $('#An_tooltip_close').hover(
+    function() {
+      $("#An_tooltip_close").css("cursor", "pointer");
+    });
 
-            //Bi
-            $('#Bi_container').click(
-              function() {
-                $("#data4 svg #Bi_container .st0").css("fill", "#fc4646");
-                $("#data4 svg #Bi_grande .st1").css("fill", "#ededef");
-                $("#data4 svg #Bi_tooltip").addClass("visible");
-              });
-            $('#Bi_container').hover(
-              function() {
-                $("#Bi_container").css("cursor", "pointer");
-              });
+  //Bi
+  $('#Bi_container').click(
+    function() {
+      $("#data4 svg #Bi_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #Bi_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #Bi_tooltip").addClass("visible");
+    });
+  $('#Bi_container').hover(
+    function() {
+      $("#Bi_container").css("cursor", "pointer");
+    });
 
-            $('#Bi_tooltip_close').click(
-              function() {
-                $("#data4 svg #Bi_container .st0").css("fill", "#4A4A4A");
-                $("#data4 svg #Bi_grande .st1").css("fill", "#1C1C1C");
-                $("#data4 svg #Bi_tooltip").removeClass("visible");
-              });
-            $('#Bi_tooltip_close').hover(
-              function() {
-                $("#Bi_tooltip_close").css("cursor", "pointer");
-              });
+  $('#Bi_tooltip_close').click(
+    function() {
+      $("#data4 svg #Bi_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Bi_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #Bi_tooltip").removeClass("visible");
+    });
+  $('#Bi_tooltip_close').hover(
+    function() {
+      $("#Bi_tooltip_close").css("cursor", "pointer");
+    });
 
-              //Bper
-              $('#Bper_container').click(
-                function() {
-                  $("#data4 svg #Bper_container .st0").css("fill", "#fc4646");
-                  $("#data4 svg #Bper_grande .st1").css("fill", "#ededef");
-                  $("#data4 svg #Bper_tooltip").addClass("visible");
-                });
-              $('#Bper_container').hover(
-                function() {
-                  $("#Bper_container").css("cursor", "pointer");
-                });
+  //Bper
+  $('#Bper_container').click(
+    function() {
+      $("#data4 svg #Bper_container .st0").css("fill", "#fc4646");
+      $("#data4 svg #Bper_grande .st1").css("fill", "#ededef");
+      $("#data4 svg #Bper_tooltip").addClass("visible");
+    });
+  $('#Bper_container').hover(
+    function() {
+      $("#Bper_container").css("cursor", "pointer");
+    });
 
-              $('#Bper_tooltip_close').click(
-                function() {
-                  $("#data4 svg #Bper_container .st0").css("fill", "#4A4A4A");
-                  $("#data4 svg #Bper_grande .st1").css("fill", "#1C1C1C");
-                  $("#data4 svg #Bper_tooltip").removeClass("visible");
-                });
-              $('#Bper_tooltip_close').hover(
-                function() {
-                  $("#Bper_tooltip_close").css("cursor", "pointer");
-                });
+  $('#Bper_tooltip_close').click(
+    function() {
+      $("#data4 svg #Bper_container .st0").css("fill", "#4A4A4A");
+      $("#data4 svg #Bper_grande .st1").css("fill", "#1C1C1C");
+      $("#data4 svg #Bper_tooltip").removeClass("visible");
+    });
+  $('#Bper_tooltip_close').hover(
+    function() {
+      $("#Bper_tooltip_close").css("cursor", "pointer");
+    });
 
-    /////// conteggio spese al minuto (timer) /////////
+  /////// conteggio spese al minuto (timer) /////////
 
-    window.setInterval((function() {
-      var start = Date.now();
-      var textNode = document.createTextNode('0');
-      document.getElementById('soldi-spesi').appendChild(textNode);
-      return function() {
-        textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
-          'it-IT', // leave undefined to use the visitor's browser
-          // locale or a string like 'en-US' to override it.
-          {
-            minimumFractionDigits: 0
-          }
-        );
-      };
-    }()), 1000);
+  window.setInterval((function() {
+    var start = Date.now();
+    var textNode = document.createTextNode('0');
+    document.getElementById('soldi-spesi').appendChild(textNode);
+    return function() {
+      textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
+        'it-IT', // leave undefined to use the visitor's browser
+        // locale or a string like 'en-US' to override it.
+        {
+          minimumFractionDigits: 0
+        }
+      );
+    };
+  }()), 1000);
 });
