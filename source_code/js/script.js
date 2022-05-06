@@ -435,31 +435,35 @@ $(document).ready(function() {
     offset: '91%'
   });
 
+
   /////// interazione banche /////////
+
+        // $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
+        // $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
+        // $("#data4 svg #Uc_details").css("opacity", "1");
+        //
+        // $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
+        // $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
+        // $("#data4 svg #Isp_details").css("opacity", "0");
+        //
+        // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
+        // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
+        // $("#data4 svg #Bpm_tooltip").removeClass("visible");
+        //
+        // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
+        // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
 
   // unicredit
   $('#Uc_container').click(
     function() {
 
+      $("#data4 svg #Uc_details").css("opacity", "1");
       $("#data4 svg path").css("fill", "#4A4A4A");
       $("#data4 svg text").css("fill", "#1c1c1c");
-      $(this.st0).css("fill", "#fc4646");
       $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
+      $(this).css("fill", "#fc4646");
+      $("#data4 .tooltip").css("opacity", "0");
 
-      // $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
-      // $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
-      // $("#data4 svg #Uc_details").css("opacity", "1");
-      //
-      // $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
-      // $("#data4 svg #Isp_details").css("opacity", "0");
-      //
-      // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-      // $("#data4 svg #Bpm_tooltip").removeClass("visible");
-      //
-      // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Uc_container').hover(
     function() {
@@ -469,26 +473,10 @@ $(document).ready(function() {
   // intesa san paolo
   $('#Isp_container').click(
     function() {
-
       $("#data4 svg path").css("fill", "#4A4A4A");
       $("#data4 svg text").css("fill", "#1c1c1c");
-      $(this.st0).css("fill", "#fc4646");
       $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
-
-      // $("#data4 svg #Isp_container .st0").css("fill", "#fc4646");
-      // $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
-      // $("#data4 svg #Isp_details").css("opacity", "1");
-      //
-      // $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
-      // $("#data4 svg #Uc_details").css("opacity", "0");
-      //
-      // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-      // $("#data4 svg #Bpm_tooltip").removeClass("visible");
-      //
-      // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-      // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
+      $(this).css("fill", "#fc4646");
     });
   $('#Isp_container').hover(
     function() {
@@ -498,20 +486,12 @@ $(document).ready(function() {
   // bpm
   $('#Bpm_container').click(
     function() {
-      $("#data4 svg #Bpm_container .st0").css("fill", "#fc4646");
+
+      $(this).css("fill", "#fc4646");
+      $("#data4 svg path").css("fill", "#4A4A4A");
+      $("#data4 svg text").css("fill", "#1c1c1c");
       $("#data4 svg #Bpm_grande .st1").css("fill", "#ededef");
-      $("#data4 svg #Bpm_tooltip").addClass("visible");
 
-      $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Uc_details").css("opacity", "0");
-
-      $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Isp_details").css("opacity", "0");
-
-      $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
     });
   $('#Bpm_container').hover(
     function() {
@@ -532,21 +512,13 @@ $(document).ready(function() {
   //Cdp
   $('#Cdp_container').click(
     function() {
-      $("#data4 svg #Cdp_container .st0").css("fill", "#fc4646");
+
+      $(this).css("fill", "#fc4646");
+      $("#data4 svg path").css("fill", "#4A4A4A");
+      $("#data4 svg text").css("fill", "#1c1c1c");
       $("#data4 svg #Cdp_grande .st1").css("fill", "#ededef");
-      $("#data4 svg #Cdp_tooltip").addClass("visible");
+      $("#data4 .tooltip").css("opacity", "1");
 
-      $("#data4 svg #Uc_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Uc_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Uc_details").css("opacity", "0");
-
-      $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Isp_details").css("opacity", "0");
-
-      $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-      $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-      $("#data4 svg #Bpm_tooltip").removeClass("visible");
     });
   $('#Cdp_container').hover(
     function() {
@@ -567,9 +539,12 @@ $(document).ready(function() {
   //Mb
   $('#Mb_container').click(
     function() {
-      $("#data4 svg #Mb_container .st0").css("fill", "#fc4646");
-      $("#data4 svg #Mb_grande .st1").css("fill", "#ededef");
-      $("#data4 svg #Mb_tooltip").addClass("visible");
+
+      $(this).css("fill", "#fc4646");
+      $("#data4 svg path").css("fill", "#4A4A4A");
+      $("#data4 svg text").css("fill", "#1c1c1c");
+      $("#data4 svg #Isp_grande .st1").css("fill", "#ededef");
+
     });
   $('#Mb_container').hover(
     function() {
