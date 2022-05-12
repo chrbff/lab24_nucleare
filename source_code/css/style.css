@@ -769,6 +769,10 @@ div#tasto_popolazioni p {
   font-size: 14px;
 }
 
+.container-spese{
+  overflow-x:hidden;
+}
+
 .PALLA_USA,
 .PALLA_CINA,
 .PALLA_RUSSIA,
@@ -929,12 +933,13 @@ div#tasto_popolazioni p {
 
 .footer {
   width: 100%;
-  height: 150px;
+  height: auto;
   background-color: black;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   padding-top: 35px;
+  padding-bottom: 35px;
   margin-top: 50px;
 }
 
