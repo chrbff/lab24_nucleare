@@ -600,34 +600,6 @@ div#tasto_popolazioni p {
   color: var(--ciano);
 }
 
-/*
-#popolazioni {
-  width: 360px;
-  height: 556px;
-  margin: auto;
-  display: none;
-
-  opacity: 1;
-  transition: 0.35s linear;
-}
-
-#nazioni {
-  width: 478px;
-  margin: auto;
-  font-family: 'SoleSans';
-  font-style: normal;
-  font-weight: var(--regular);
-  font-size: 14px;
-  line-height: 17px;
-  text-align: justify;
-  text-transform: uppercase;
-  color: var(--corallo);
-
-  opacity: 1;
-  transition: 0.35s linear;
-}
-*/
-
 #nazioni span {
   color: var(--ciano);
 }
@@ -679,19 +651,26 @@ div#tasto_popolazioni p {
   opacity: 1;
 }
 
-/* CONTAINER SPESE */
-
-
-/* VIZ3 */
-#popolazioni .st0 {
+#firmatari .st0 {
   fill: #83F9F3;
 }
 
-#popolazioni .st1 {
+#non-firmatari .st3 {
   fill: #FC4646;
 }
 
+#firmatari, #non-firmatari .st1 {
+  font-family:'SoleSans';
+  font-size:10px;
+  color: var(--grigio-scuro);
+};
 
+#firmatari, #non-firmatari .st2 {
+  font-family:'SoleSans';
+  font-size:10px;
+};
+
+/* VIZ3 */
 #data3 {
   width: 100%;
   position: relative;
