@@ -310,8 +310,25 @@ $(document).ready(function () {
       $("#Base_permanente #Pallini_altri_stati").css("cursor", "pointer");
     });
 
+  //Se ri-clicco sui tasti mi scompaiono Russia, USA e Altri Stati
 
+  // $("body").click(
+  //   function () {
+  //     $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 0);
+  //     $("#data2 svg #Base_permanente #Pallino_RU .st22").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
 
+  //     $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 0);
+  //     $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#1c1c1c"); //Il pallino USA torna spento
+
+  //     $("#data2 svg #Altri_stati .st1, #data2 svg #Altri_stati .st3, #data2 svg #Altri_stati .st4, #data2 svg #Altri_stati .st6, #data2 svg #Altri_stati .st7, #data2 svg #Altri_stati .st8, #data2 svg #Altri_stati .st14, #data2 svg #Altri_stati .st15, #data2 svg #Altri_stati .st16").css("opacity", 0);
+  //     $("#data2 svg #Base_permanente #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
+
+  //     $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 1); //Ricompare il titolo "Testate nucleari globali"
+
+  //   });
+  
+
+  ////// TRATTATO ////////
 
   /////// slider trattato nazioni/popolazioni /////////
 
