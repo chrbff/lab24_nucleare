@@ -225,8 +225,10 @@ $(document).ready(function () {
 
   $("#data2 svg #Base_permanente #Pallino_USA").click(
     function () {
+      if ("") {
       $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 1);
       $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#83f9f3");
+      $("#data2 svg #Base_permanente #Pallino_USA .st21").data("click");
       $("#data2 svg #Base_permanente #Pallino_USA #USA.st7").css("fill", "#1c1c1c");
 
       //Se clicco USA mi scompaiono Russia e Altri Stati
@@ -242,6 +244,11 @@ $(document).ready(function () {
 
       //Se clicco Altri Stati mi ricompare 40.000
       $("#data2 svg #Base_permanente #quarantamila").css("opacity", 1);
+     }else{
+      
+
+
+     }
     });
 
   //Trasformazione del cursore al click
@@ -281,7 +288,7 @@ $(document).ready(function () {
     });
 
 
-  /////// interazione ALtri Stati /////////
+  /////// interazione Altri Stati /////////
 
   $("#data2 svg #Base_permanente #Pallini_altri_stati").click(
     function () {
@@ -325,6 +332,28 @@ $(document).ready(function () {
 
   //     $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 1); //Ricompare il titolo "Testate nucleari globali"
 
+  //   });
+
+
+  
+  //   $(".chart-container .countries a").on("click touchstart", function(){
+  //  console.log("tmpCountry >",tmpCountry, "data >",$(this).data("country"));
+  //         //Se non è selezionato nulla, seleziona la bolla corrispondente
+  //         if((tmpCountry=="") || (tmpCountry!=$(this).data("country"))){
+  //               tmpCountry=$(this).data("country");
+  //               tmpValue=$(this).data("value");
+  //               tmpCountryLabel=$(this).text();
+  //               $(".chart-container svg circle").css("opacity",.1);
+  //               $(".chart-container svg #"+tmpCountry).css("opacity",1);
+  //               $(".chart-container h1").html(tmpCountryLabel+": "+tmpValue);
+  //         } else
+  //         {
+  //             tmpCountry="";
+  //             tmpValue="";
+  //             tmpCountryLabel="";
+  //             $(".chart-container svg circle").css("opacity",1);
+  //             $(".chart-container h1").html("Hello World!");
+  //         }
   //   });
   
 

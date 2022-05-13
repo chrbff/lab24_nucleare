@@ -11,6 +11,10 @@
   --viola: #7E3FE5;
 }
 
+div {
+  border:0px solid blue;
+}
+
 body {
   background-color: var(--grigio-scuro);
   margin: 0;
@@ -29,7 +33,7 @@ body {
   color: var(--bianco);
 }
 
-.fonti{
+.fonti {
   font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--regular);
@@ -89,9 +93,12 @@ body {
 #container-copertina {
   background-color: var(--corallo);
   height: auto;
+  margin: auto;
+  width: auto;
 }
 
 #copertina {
+  background-color: var(--corallo);
   width: 974px;
   margin: auto;
 }
@@ -696,24 +703,23 @@ div#tasto_popolazioni p {
   fill: #FC4646;
 }
 
-#firmatari, #non-firmatari .st1 {
-  font-family:'SoleSans';
-  font-size:10px;
+#firmatari,
+#non-firmatari .st1 {
+  font-family: 'SoleSans';
+  font-size: 10px;
   color: var(--grigio-scuro);
-};
+}
 
-#firmatari, #non-firmatari .st2 {
-  font-family:'SoleSans';
-  font-size:10px;
-};
+#firmatari,
+#non-firmatari .st2 {
+  font-family: 'SoleSans';
+  font-size: 10px;
+}
 
 /* VIZ3 */
 #data3 {
-  width: 100%;
   position: relative;
-  margin-top: -20vw;
-  margin-left: 16vw;
-  z-index: -1;
+  margin-top: -200px;
 }
 
 #data3 .st0 {
@@ -838,7 +844,7 @@ div#tasto_popolazioni p {
   stroke-width: 1px;
 }
 
-  /* CONTAINER BANCHE */
+/* CONTAINER BANCHE */
 
 #data4 .st0 {
   fill: #4A4A4A;
@@ -968,10 +974,17 @@ div#tasto_popolazioni p {
 
 /* CONTAINER FOOTER */
 
-.footer {
-  width: 100%;
-  height: auto;
+#container-footer {
   background-color: black;
+  height: auto;
+  margin: auto;
+  width: auto;
+}
+
+#footer {
+  background-color: black;
+  width: 974px;
+  margin: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -986,7 +999,7 @@ div#tasto_popolazioni p {
 }
 
 .column-footer {
-  width: 30%;
+  width: 45%;
 }
 
 .text-footer {
