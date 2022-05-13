@@ -37,6 +37,16 @@ body {
   color: var(--bianco);
 }
 
+.istruzioni{
+  font-family: 'SoleSans';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 14px;
+  color: var(--corallo);
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
 /* TOP-BAR */
 
 .top-bar {
