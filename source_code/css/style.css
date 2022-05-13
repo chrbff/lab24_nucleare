@@ -11,6 +11,10 @@
   --viola: #7E3FE5;
 }
 
+div {
+  border:0px solid blue;
+}
+
 body {
   background-color: var(--grigio-scuro);
   margin: 0;
@@ -79,9 +83,12 @@ body {
 #container-copertina {
   background-color: var(--corallo);
   height: auto;
+  margin: auto;
+  width: auto;
 }
 
 #copertina {
+  background-color: var(--corallo);
   width: 974px;
   margin: auto;
 }
@@ -957,10 +964,17 @@ div#tasto_popolazioni p {
 
 /* CONTAINER FOOTER */
 
-.footer {
-  width: 100%;
-  height: auto;
+#container-footer {
   background-color: black;
+  height: auto;
+  margin: auto;
+  width: auto;
+}
+
+#footer {
+  background-color: black;
+  width: 974px;
+  margin: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -975,7 +989,7 @@ div#tasto_popolazioni p {
 }
 
 .column-footer {
-  width: 30%;
+  width: 45%;
 }
 
 .text-footer {
