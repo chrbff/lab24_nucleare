@@ -29,7 +29,7 @@ body {
   color: var(--bianco);
 }
 
-.fonti{
+.fonti {
   font-family: 'SoleSans';
   font-style: normal;
   font-weight: var(--regular);
@@ -686,6 +686,7 @@ div#tasto_popolazioni p {
   fill: #FC4646;
 }
 
+<<<<<<< Updated upstream
 #firmatari, #non-firmatari .st1 {
   font-family:'SoleSans';
   color: var(--grigio-scuro);
@@ -694,12 +695,25 @@ div#tasto_popolazioni p {
 };
 
 /* CONTAINER SPESE */
+=======
+#firmatari,
+#non-firmatari .st1 {
+  font-family: 'SoleSans';
+  font-size: 10px;
+  color: var(--grigio-scuro);
+}
+
+#firmatari,
+#non-firmatari .st2 {
+  font-family: 'SoleSans';
+  font-size: 10px;
+}
+
+/* VIZ3 */
+>>>>>>> Stashed changes
 #data3 {
-  width: 100%;
   position: relative;
-  margin-top: -20vw;
-  margin-left: 16vw;
-  z-index: -1;
+  margin-top: -200px;
 }
 
 #data3 .st0 {
@@ -792,9 +806,9 @@ div#tasto_popolazioni p {
   font-size: 14px;
 }
 
-/*.container-spese{
+.container-spese{
   overflow-x:hidden;
-}*/
+}
 
 .PALLA_USA,
 .PALLA_CINA,
@@ -824,7 +838,7 @@ div#tasto_popolazioni p {
   stroke-width: 1px;
 }
 
-  /* CONTAINER BANCHE */
+/* CONTAINER BANCHE */
 
 #data4 .st0 {
   fill: #4A4A4A;
