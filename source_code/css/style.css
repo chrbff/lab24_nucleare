@@ -686,16 +686,6 @@ div#tasto_popolazioni p {
   fill: #FC4646;
 }
 
-<<<<<<< Updated upstream
-#firmatari, #non-firmatari .st1 {
-  font-family:'SoleSans';
-  color: var(--grigio-scuro);
-  font-size: 8px;
-  text-align: center;
-};
-
-/* CONTAINER SPESE */
-=======
 #firmatari,
 #non-firmatari .st1 {
   font-family: 'SoleSans';
@@ -710,7 +700,6 @@ div#tasto_popolazioni p {
 }
 
 /* VIZ3 */
->>>>>>> Stashed changes
 #data3 {
   position: relative;
   margin-top: -200px;
