@@ -326,7 +326,7 @@ $(document).ready(function () {
   //     $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 1); //Ricompare il titolo "Testate nucleari globali"
 
   //   });
-  
+
 
   ////// TRATTATO ////////
 
