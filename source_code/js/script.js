@@ -225,7 +225,6 @@ $(document).ready(function () {
 
   $("#data2 svg #Base_permanente #Pallino_USA").click(
     function () {
-      if ("") {
       $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 1);
       $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#83f9f3");
       $("#data2 svg #Base_permanente #Pallino_USA .st21").data("click");
@@ -244,11 +243,6 @@ $(document).ready(function () {
 
       //Se clicco Altri Stati mi ricompare 40.000
       $("#data2 svg #Base_permanente #quarantamila").css("opacity", 1);
-     }else{
-      
-
-
-     }
     });
 
   //Trasformazione del cursore al click
