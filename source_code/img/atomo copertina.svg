@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1785.6 1785.6">
+<defs>
+<style>.cls-1{fill:#1c1c1c;}.cls-10,.cls-11,.cls-12,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:none;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{stroke:#ededef;stroke-miterlimit:10;}.cls-3{opacity:0.91;}.cls-4{opacity:0.82;}.cls-5{opacity:0.73;}.cls-6{opacity:0.64;}.cls-7{opacity:0.55;}.cls-8{opacity:0.46;}.cls-9{opacity:0.37;}.cls-10{opacity:0.28;}.cls-11{opacity:0.19;}.cls-12{opacity:0.1;}.cls-13{fill:#fc4646;}.cls-14{fill:#83f9f3;}.cls-15{fill:#7e3fe5;}</style>
+</defs>
+    <g id="Livello_2" data-name="Livello 2">
+        <g id="Livello_1-2" data-name="Livello 1">
+
+            <circle id="cerchio_centrale" data-name="cerchio centrale" class="cls-1" cx="892.8" cy="892.8" r="96.09"/>
+
+            <g id="linee_esterne" data-name="linee esterne">
+                <circle class="cls-2" cx="892.8" cy="892.8" r="510.15"/>
+                <circle class="cls-3" cx="892.8" cy="892.8" r="548.37"/>
+                <circle class="cls-4" cx="892.8" cy="892.8" r="586.58"/>
+                <circle class="cls-5" cx="892.8" cy="892.8" r="624.8"/>
+                <circle class="cls-6" cx="892.8" cy="892.8" r="663.01"/>
+                <circle class="cls-7" cx="892.8" cy="892.8" r="701.23"/>
+                <circle class="cls-8" cx="892.8" cy="892.8" r="739.44"/>
+                <circle class="cls-9" cx="892.8" cy="892.8" r="777.66"/>
+                <circle class="cls-10" cx="892.8" cy="892.8" r="815.87"/>
+                <circle class="cls-11" cx="892.8" cy="892.8" r="854.09"/>
+                <circle class="cls-12" cx="892.8" cy="892.8" r="892.3"/>
+            </g>
+                
+            <g id="anello_rosso" data-name="anello rosso">
+                <circle class="cls-2" cx="892.8" cy="892.8" r="187.86"/>
+                <circle class="cls-13" cx="704.95" cy="877.14" r="40.22"/>
+            </g>
+            
+            <g id="anello_ciano" data-name="anello ciano">
+                <circle class="cls-2" cx="892.8" cy="892.8" r="409.71"/>
+                <circle class="cls-14" cx="531.07" cy="1080.66" r="55.58"/>
+            </g>
+
+            <g id="anello_viola" data-name="anello viola">
+                <circle class="cls-2" cx="892.8" cy="892.8" r="289.71"/>
+                <circle class="cls-15" cx="769.68" cy="1154.04" r="25.17"/>
+            </g>
+
+        </g>
+    </g>
+</svg>

@@ -41,16 +41,6 @@ body {
   color: var(--bianco);
 }
 
-.istruzioni{
-  font-family: 'SoleSans';
-  font-style: normal;
-  font-weight: var(--regular);
-  font-size: 14px;
-  color: var(--corallo);
-  margin-top: 30px;
-  margin-bottom: 0px;
-}
-
 /* TOP-BAR */
 
 .top-bar {
@@ -90,17 +80,25 @@ body {
 
 /* COPERTINA */
 
+#atomo_copertina {
+    z-index: 1;
+    position: absolute;
+    top : -690px;
+} 
+
 #container-copertina {
   background-color: var(--corallo);
   height: auto;
   margin: auto;
   width: auto;
+
 }
 
 #copertina {
-  background-color: var(--corallo);
+
   width: 974px;
   margin: auto;
+  z-index: 8;
 }
 
 .titolo {
@@ -227,9 +225,25 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
+#data1 svg #gruppo_rus .st1, #data1 svg #gruppo_rus .st2 {
+  fill: none;
+  stroke: #fc4646;
+  stroke-miterlimit: 10;
+  transition: all 0.35s linear;
+}
+
 #data1 .st2 {
   fill: none;
   stroke: #EDEDEF;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  transition: all 0.35s linear;
+}
+
+#data1 svg #asta_1_sottile .st2, #data1 svg #asta_2_sottile .st2 {
+  fill: none;
+  stroke: #fc4646;
   stroke-width: 0.5;
   stroke-linecap: round;
   stroke-miterlimit: 10;
@@ -277,8 +291,21 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
+#data1 svg #asta_1_sottile .st10, #data1 svg #asta_2_sottile .st10 {
+  fill: #1C1C1C;
+  stroke: #fc4646;
+  stroke-width: 0.5;
+  transition: all 0.35s linear;
+}
+
 #data1 .st11 {
   fill: #EDEDEF;
+  stroke: #1C1C1C;
+  transition: all 0.35s linear;
+}
+
+#data1 svg #asta_1 .st11, #data1 svg #asta_2 .st11 {
+  fill: #fc4646;
   stroke: #1C1C1C;
   transition: all 0.35s linear;
 }
@@ -286,6 +313,13 @@ div span.titoletto {
 #data1 .st12 {
   fill: none;
   stroke: #EDEDEF;
+  stroke-miterlimit: 10;
+  transition: all 0.35s linear;
+}
+
+#data1 svg #asta_1 .st12, #data1 svg #asta_2 .st12 {
+  fill: none;
+  stroke: #fc4646;
   stroke-miterlimit: 10;
   transition: all 0.35s linear;
 }
@@ -313,7 +347,7 @@ div span.titoletto {
 }
 
 #nome_rus {
-  display: none;
+  display: block;
   transition: all 0.35s linear;
 
 }
@@ -336,6 +370,21 @@ div span.titoletto {
   padding-left: 20px;
   padding-right: 20px;
   background-color: var(--grigio-scuro);
+  transition: all 0.35s linear;
+}
+
+.voce_tabella_russia {
+  height: 60px;
+  font-size: 16px;
+  line-height: 18.46px;
+  color: #ededef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--corallo);
   transition: all 0.35s linear;
 }
 
