@@ -90,11 +90,15 @@ body {
   height: auto;
   margin: auto;
   width: auto;
-
+  background-image: url('../img/atomo_copertina_giusto.svg');
+  /* background-attachment: fixed; */
+  background-position: -115% 50%;
+  background-repeat: no-repeat;
+  background-size: 130%;
 }
 
 #copertina {
-  background-color: var(--corallo);
+  /* background-color: var(--corallo); */
   width: 976px;
   margin: auto;
 }
