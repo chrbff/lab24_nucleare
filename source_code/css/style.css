@@ -497,7 +497,7 @@ div span.titoletto {
 }
 
 #data2 .st9 {
-  fill: #6FD0CB;
+  /* fill: #6FD0CB; */
   opacity: 0;
   transition: all 0.35s linear;
 }
@@ -509,7 +509,7 @@ div span.titoletto {
 }
 
 #data2 .st11 {
-  fill: #FF514B;
+  /* fill: #FF514B; */
   opacity: 0;
   transition: all 0.35s linear;
 
@@ -526,7 +526,11 @@ div span.titoletto {
 
 #data2 .st13 {
   fill: none;
+<<<<<<< Updated upstream
   stroke: #7E3FE6;
+=======
+  stroke: #7E3FE5;
+>>>>>>> Stashed changes
   opacity: 1;
   transition: all 0.35s linear;
 }
