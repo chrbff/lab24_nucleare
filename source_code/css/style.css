@@ -548,12 +548,12 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data2 #Base_permanente .st1,
-#data2 #Base_permanente .st3,
-#data2 #Base_permanente .st4,
-#data2 #Base_permanente .st6,
-#data2 #Base_permanente .st7,
-#data2 #Base_permanente .st10 {
+#data2 #Base_permanente .st1,2
+#data2 #Base_permanente .st3,3
+#data2 #Base_permanente .st4,5
+#data2 #Base_permanente .st6,6
+#data2 #Base_permanente .st7,7
+#data2 #Base_permanente .st10 9{
   opacity: 1;
   transition: all 0.35s linear;
 }
