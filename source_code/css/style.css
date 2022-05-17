@@ -81,9 +81,8 @@ body {
 /* COPERTINA */
 
 #atomo_copertina {
-    z-index: 1;
     position: absolute;
-    top : -690px;
+    top: -690px;
 } 
 
 #container-copertina {
@@ -95,14 +94,15 @@ body {
 }
 
 #copertina {
-
-  width: 974px;
+  background-color: var(--corallo);
+  width: 976px;
   margin: auto;
-  z-index: 8;
 }
 
 .titolo {
   height: auto;
+  position: relative;
+  z-index: 3;
 }
 
 h1 {
