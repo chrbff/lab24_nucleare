@@ -222,12 +222,12 @@ $(document).ready(function () {
 
   /////// interazione USA /////////
 
-  $("#data2 svg #Base_permanente #Pallino_USA").click(
+  $("#data2 svg #Base_permanente #Pallini #Pallino_USA").click(
     function () {
-      $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 1);
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#83f9f3");
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").data("click");
-      $("#data2 svg #Base_permanente #Pallino_USA #USA.st7").css("fill", "#1c1c1c");
+      $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9").css("opacity", 1);
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st20").css("fill", "#83f9f3");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st20").data("click");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA #USA.st7").css("fill", "#1c1c1c");
 
       //Se clicco USA mi scompaiono Russia e Altri Stati
       $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 0);
