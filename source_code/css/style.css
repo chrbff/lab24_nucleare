@@ -152,7 +152,7 @@ div span.titolo {
 /* CONTAINER */
 
 .container {
-  width: 974px;
+  width: 65%;
   flex-direction: column;
   margin: auto;
 }
@@ -486,7 +486,7 @@ div span.titoletto {
   font-style: normal;
   opacity: 0;
   color: #ededef;
-  fill: #ededef;
+  /* fill: #ededef; */
   transition: all 0.35s linear;
 }
 
@@ -526,15 +526,16 @@ div span.titoletto {
 
 #data2 .st13 {
   fill: none;
-  stroke: #FF514B;
-  opacity: 0;
+  stroke: #7E3FE6;
+  opacity: 1;
   transition: all 0.35s linear;
 }
 
 #data2 .st14 {
-  fill: none;
-  stroke: #7E3FE6;
-  opacity: 0;
+  fill:none;
+  stroke:#7E3FE6;
+  stroke-width:2;
+  opacity: 1;
   transition: all 0.35s linear;
 }
 
@@ -561,6 +562,10 @@ div span.titoletto {
   opacity: 1;
   transition: all 0.35s linear;
 }
+#data2 #Altri_stati #Didascalia_Altri_Stati .st13 {
+  opacity: 0;
+  transition: all 0.35s linear;
+} 
 
 #data2 .st17 {
   opacity: 0.2;
@@ -773,6 +778,7 @@ div#tasto_popolazioni p {
 #data3 {
   position: relative;
   margin-top: -200px;
+  z-index: -1;
 }
 
 #data3 .st0 {
@@ -1019,7 +1025,7 @@ div#tasto_popolazioni p {
   font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--regular);
-  font-size: 195px;
+  font-size: 155px;
   color: var(--corallo);
   text-align: center;
   margin: 50px 50px -20px 50px;
@@ -1036,7 +1042,7 @@ div#tasto_popolazioni p {
 
 #footer {
   background-color: black;
-  width: 974px;
+  width: 65%;
   margin: auto;
   display: flex;
   align-items: flex-start;

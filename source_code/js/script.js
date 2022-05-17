@@ -222,50 +222,51 @@ $(document).ready(function () {
 
   /////// interazione USA /////////
 
-  $("#data2 svg #Base_permanente #Pallino_USA").click(
+  $("#data2 svg #Base_permanente #Pallini #Pallino_USA").click(
     function () {
-      $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 1);
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#83f9f3");
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").data("click");
-      $("#data2 svg #Base_permanente #Pallino_USA #USA.st7").css("fill", "#1c1c1c");
+      $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9").css("opacity", 1);
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st20").css("fill", "#83f9f3");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st20").data("click");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA #USA.st7").css("fill", "#1c1c1c");
+      $("#data2 svg #USA #trentunomila .st7").css("color", "#83F9F3");
 
       //Se clicco USA mi scompaiono Russia e Altri Stati
       $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 0);
       $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 0); //Scompare il titolo "Testate nucleari globali"
-      $("#data2 svg #Base_permanente #Pallino_RU .st22").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st21").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
 
       $("#data2 svg #Altri_stati .st1, #data2 svg #Altri_stati .st3, #data2 svg #Altri_stati .st4, #data2 svg #Altri_stati .st6, #data2 svg #Altri_stati .st7, #data2 svg #Altri_stati .st8, #data2 svg #Altri_stati .st14, #data2 svg #Altri_stati .st15, #data2 svg #Altri_stati .st16").css("opacity", 0);
-      $("#data2 svg #Base_permanente #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
 
       //Se clicco USA mi scompare 30.000
-      $("#data2 svg #Base_permanente #trentamila").css("opacity", 0);
+      $("#data2 svg #Base_permanente #Numero_Testate #trentamila").css("opacity", 0);
 
       //Se clicco Altri Stati mi ricompare 40.000
-      $("#data2 svg #Base_permanente #quarantamila").css("opacity", 1);
+      $("#data2 svg #Base_permanente #Numero_Testate #quarantamila").css("opacity", 1);
     });
 
   //Trasformazione del cursore al click
-  $("#Base_permanente #Pallino_USA").hover(
+  $("#Base_permanente #Pallini #Pallino_USA").hover(
     function () {
-      $("#Base_permanente #Pallino_USA").css("cursor", "pointer");
+      $("#Base_permanente #Pallini #Pallino_USA").css("cursor", "pointer");
     });
 
 
   /////// interazione RUSSIA /////////
 
-  $("#data2 svg #Base_permanente #Pallino_RU").click(
+  $("#data2 svg #Base_permanente #Pallini #Pallino_RU").click(
     function () {
       $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 1);
-      $("#data2 svg #Base_permanente #Pallino_RU .st22").css("fill", "#fc4646");
-      $("#data2 svg #Base_permanente #Pallino_USA #USA.st7").css("fill", "#EDEDEF");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st21").css("fill", "#fc4646");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA #USA.st7").css("fill", "#EDEDEF");
 
       //Se clicco Russia mi scompaiono USA e Altri Stati
       $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 0);
       $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 0); //Scompare il titolo "Testate nucleari globali"
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#1c1c1c"); //Il pallino USA torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st20").css("fill", "#1c1c1c"); //Il pallino USA torna spento
 
       $("#data2 svg #Altri_stati .st1, #data2 svg #Altri_stati .st3, #data2 svg #Altri_stati .st4, #data2 svg #Altri_stati .st6, #data2 svg #Altri_stati .st7, #data2 svg #Altri_stati .st8, #data2 svg #Altri_stati .st14, #data2 svg #Altri_stati .st15, #data2 svg #Altri_stati .st16").css("opacity", 0);
-      $("#data2 svg #Base_permanente #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
 
       //Se clicco Russia mi ricompare 30.000
       $("#data2 svg #Base_permanente #trentamila").css("opacity", 1);
@@ -275,27 +276,27 @@ $(document).ready(function () {
     });
 
   //Trasformazione del cursore al click
-  $("#Base_permanente #Pallino_RU").hover(
+  $("#Base_permanente #Pallini #Pallino_RU").hover(
     function () {
-      $("#Base_permanente #Pallino_RU").css("cursor", "pointer");
+      $("#Base_permanente #Pallini #Pallino_RU").css("cursor", "pointer");
     });
 
 
   /////// interazione Altri Stati /////////
 
-  $("#data2 svg #Base_permanente #Pallini_altri_stati").click(
+  $("#data2 svg #Base_permanente #Pallini #Pallini_altri_stati").click(
     function () {
       $("#data2 svg #Altri_stati .st1, #data2 svg #Altri_stati .st3, #data2 svg #Altri_stati .st4, #data2 svg #Altri_stati .st6, #data2 svg #Altri_stati .st7, #data2 svg #Altri_stati .st8, #data2 svg #Altri_stati .st14, #data2 svg #Altri_stati .st15, #data2 svg #Altri_stati .st16").css("opacity", 1);
-      $("#data2 svg #Base_permanente #Pallini_altri_stati .st23").css("fill", "#7E3FE5");
-      $("#data2 svg #Base_permanente #Pallino_USA #USA.st7").css("fill", "#EDEDEF");
+      $("#data2 svg #Base_permanente #Pallini #Pallini_altri_stati .st23").css("fill", "#7E3FE5");
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA #USA.st7").css("fill", "#EDEDEF");
 
       //Se clicco Altri stati mi scompaiono Russia e USA
       $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 0);
       $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4, #data2 svg #Base_permanente .st18").css("opacity", 0); //Scompare il titolo "Testate nucleari globali"
-      $("#data2 svg #Base_permanente #Pallino_RU .st22").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st22").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
 
       $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 0);
-      $("#data2 svg #Base_permanente #Pallino_USA .st21").css("fill", "#1c1c1c"); //Il pallino USA torna spento
+      $("#data2 svg #Base_permanente #Pallini #Pallino_USA .st21").css("fill", "#1c1c1c"); //Il pallino USA torna spento
 
       //Se clicco Altri Stati mi ricompare 30.000
       $("#data2 svg #Base_permanente #trentamila").css("opacity", 1);
@@ -305,9 +306,9 @@ $(document).ready(function () {
     });
 
   //Trasformazione del cursore al click
-  $("#Base_permanente #Pallini_altri_stati").hover(
+  $("#Base_permanente #Pallini #Pallini_altri_stati").hover(
     function () {
-      $("#Base_permanente #Pallini_altri_stati").css("cursor", "pointer");
+      $("#Base_permanente #Pallini #Pallini_altri_stati").css("cursor", "pointer");
     });
 
   //Se ri-clicco sui tasti mi scompaiono Russia, USA e Altri Stati
