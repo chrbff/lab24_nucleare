@@ -13,7 +13,6 @@ $(document).ready(function () {
       $("#tabella .voce_tabella_usa").css("color", "#1c1c1c");
       $("#data1 #cerchio_pallina .st8").css("display", "block");
 
-
       $("#data1 svg #gruppo_rus .st1").css("stroke", "#4a4a4a");
       $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
       $("#data1 svg #asta_1 .st12").css("stroke", "#ededef");
@@ -328,29 +327,6 @@ $(document).ready(function () {
 
   //   });
 
-
-  
-  //   $(".chart-container .countries a").on("click touchstart", function(){
-  //  console.log("tmpCountry >",tmpCountry, "data >",$(this).data("country"));
-  //         //Se non è selezionato nulla, seleziona la bolla corrispondente
-  //         if((tmpCountry=="") || (tmpCountry!=$(this).data("country"))){
-  //               tmpCountry=$(this).data("country");
-  //               tmpValue=$(this).data("value");
-  //               tmpCountryLabel=$(this).text();
-  //               $(".chart-container svg circle").css("opacity",.1);
-  //               $(".chart-container svg #"+tmpCountry).css("opacity",1);
-  //               $(".chart-container h1").html(tmpCountryLabel+": "+tmpValue);
-  //         } else
-  //         {
-  //             tmpCountry="";
-  //             tmpValue="";
-  //             tmpCountryLabel="";
-  //             $(".chart-container svg circle").css("opacity",1);
-  //             $(".chart-container h1").html("Hello World!");
-  //         }
-  //   });
-  
-
   ////// TRATTATO ////////
 
   /////// slider trattato nazioni/popolazioni /////////
@@ -397,8 +373,6 @@ $(document).ready(function () {
     function () {
       $("#tasto_nazioni").css("cursor", "pointer");
     });
-
-
 
 
   /////// apparizione sfere spese per armi nucleari /////////
@@ -476,22 +450,7 @@ $(document).ready(function () {
   });
 
 
-  /////// interazione banche /////////
-
-  // $("#data4 svg #Uc_container .st0").css("fill", "#fc4646");
-  // $("#data4 svg #Uc_grande .st1").css("fill", "#ededef");
-  // $("#data4 svg #Uc_details").css("opacity", "1");
-  //
-  // $("#data4 svg #Isp_container .st0").css("fill", "#4A4A4A");
-  // $("#data4 svg #Isp_grande .st1").css("fill", "#1C1C1C");
-  // $("#data4 svg #Isp_details").css("opacity", "0");
-  //
-  // $("#data4 svg #Bpm_container .st0").css("fill", "#4A4A4A");
-  // $("#data4 svg #Bpm_grande .st1").css("fill", "#1C1C1C");
-  // $("#data4 svg #Bpm_tooltip").removeClass("visible");
-  //
-  // $("#data4 svg #Cdp_container .st0").css("fill", "#4A4A4A");
-  // $("#data4 svg #Cdp_grande .st1").css("fill", "#1C1C1C");
+  ////////// BANCHE //////////
 
   // unicredit
   $('#Uc_container').click(
