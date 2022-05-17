@@ -95,7 +95,7 @@ body {
 
 #copertina {
   background-color: var(--corallo);
-  width: 976px;
+  width: 65%;
   margin: auto;
 }
 
@@ -148,7 +148,7 @@ div span.titolo {
 /* CONTAINER */
 
 .container {
-  width: 974px;
+  width: 65%;
   flex-direction: column;
   margin: auto;
 }
@@ -777,6 +777,7 @@ div#tasto_popolazioni p {
 #data3 {
   position: relative;
   margin-top: -200px;
+  z-index: -1;
 }
 
 #data3 .st0 {
@@ -1023,7 +1024,7 @@ div#tasto_popolazioni p {
   font-family: 'sole_display';
   font-style: normal;
   font-weight: var(--regular);
-  font-size: 195px;
+  font-size: 155px;
   color: var(--corallo);
   text-align: center;
   margin: 50px 50px -20px 50px;
@@ -1040,7 +1041,7 @@ div#tasto_popolazioni p {
 
 #footer {
   background-color: black;
-  width: 974px;
+  width: 65%;
   margin: auto;
   display: flex;
   align-items: flex-start;
