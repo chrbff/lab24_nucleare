@@ -80,16 +80,11 @@ body {
 
 /* COPERTINA */
 
-#atomo_copertina {
-    position: absolute;
-    top : -690px;
-}
-
 #container-copertina {
   background-color: var(--corallo);
   height: auto;
   margin: auto;
-  width: auto;
+  /*width: auto;*/
   background-image: url('../img/atomo_copertina_giusto.svg');
   /* background-attachment: fixed; */
   background-position: -115% 50%;
@@ -97,9 +92,15 @@ body {
   background-size: 130%;
 }
 
+#atomo_copertina {
+  position: absolute;
+  top : -690px;
+}
+
+
 #copertina {
   /* background-color: var(--corallo); */
-  width: 976px;
+  width: 65%;
   margin: auto;
 }
 
@@ -526,11 +527,7 @@ div span.titoletto {
 
 #data2 .st13 {
   fill: none;
-<<<<<<< Updated upstream
-  stroke: #7E3FE6;
-=======
   stroke: #7E3FE5;
->>>>>>> Stashed changes
   opacity: 1;
   transition: all 0.35s linear;
 }
