@@ -1,0 +1,244 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 351 625" style="enable-background:new 0 0 351 625;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4A4A4A;}
+	.st1{fill:#1C1C1C;}
+	.st2{font-family:'Sole24Sans-Regular';}
+	.st3{font-size:15.6106px;}
+	.st4{font-size:13.9208px;}
+	.st5{font-size:200px;}
+	.st6{fill:#EDEDEF;}
+	.st7{font-size:40px;}
+	.st8{font-size:20px;}
+	.st9{font-size:24px;}
+	.st10{font-size:14px;}
+	.st11{font-size:100px;}
+	.st12{font-size:30px;}
+	.st13{font-size:22.076px;}
+	.st14{font-size:15.9669px;}
+	.st15{font-size:20.2273px;}
+	.st16{font-size:20.0786px;}
+	.st17{font-size:16.0016px;}
+	.st18{fill:#FC4646;}
+	.st19{font-size:10.3328px;}
+	.st20{font-size:38.1056px;}
+	.st21{font-size:10.4604px;}
+	.st22{font-size:20.9207px;}
+	.st23{font-size:10.3076px;}
+	.st24{font-size:38.0128px;}
+	.st25{font-size:10.4349px;}
+	.st26{font-size:20.8698px;}
+</style>
+<g id="Bps_container">
+	<path class="st0" d="M317,571.2h32.9v-53.8H317V571.2z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 319.9854 549.0015)" class="st1 st2 st3">Bps</text>
+	</g>
+</g>
+<g id="Cv_container">
+	<path class="st0" d="M325,625h24.9v-18.9H325V625z"/>
+	<text transform="matrix(1 0 0 1 329.7902 620.0826)" class="st1 st2 st4">Cv</text>
+</g>
+<g id="Uc_container">
+	<path class="st0" d="M0,440h349.9V0.4L0,0.4L0,440z"/>
+</g>
+<g id="Uc_centrale">
+	<g>
+		<text transform="matrix(1 0 0 1 60.1048 286.4758)" class="st1 st2 st5">Uc</text>
+	</g>
+</g>
+<g id="Uc_details">
+	<g>
+		<text transform="matrix(1 0 0 1 15.2372 423.9999)" class="st6 st2 st7">1</text>
+	</g>
+	<g id="Uc_cifra_dollari">
+		<text transform="matrix(1 0 0 1 258.2281 424.0001)" class="st6 st2 st8">$5.713 M</text>
+	</g>
+	<g id="Uc_piccolo">
+		<text transform="matrix(1 0 0 1 15.2371 29.756)" class="st6 st2 st8">UniCredit</text>
+	</g>
+</g>
+<g id="Isp_container">
+	<path class="st0" d="M223,442H0v183h223V442z"/>
+</g>
+<g id="Isp_details">
+	<g>
+		<text transform="matrix(1 0 0 1 15.2373 614.0333)" class="st6 st2 st9">2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 15.2375 463.467)" class="st6 st2 st10">Intesa San Paolo</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 158.2027 613.0557)" class="st6 st2 st10">$ 1.523 M</text>
+	</g>
+</g>
+<g id="Isp_centrale">
+	<text transform="matrix(1 0 0 1 49.0242 563.8538)" class="st1 st2 st11">Isp</text>
+</g>
+<g id="Bpm_container">
+	<path class="st0" d="M225,515h124.9v-73H225V515z"/>
+	<text id="Bpm_grande" transform="matrix(1 0 0 1 257.1017 489)" class="st1 st2 st12">Bpm</text>
+</g>
+<g id="Cdp_container">
+	<path class="st0" d="M225,625h52.1V517.3H225V625z"/>
+	<text id="Cdp_grande" transform="matrix(1 0 0 1 231.2227 578.4017)" class="st1 st2 st13">Cdp</text>
+</g>
+<g id="Bper_container">
+	<path class="st0" d="M279.1,571.2H315v-53.8h-35.9V571.2z"/>
+	<text id="Bper_grande" transform="matrix(1 0 0 1 280.4769 549.3424)" class="st1 st2 st14">Bper</text>
+</g>
+<g id="Mb_container">
+	<path class="st0" d="M279.1,601.1H323v-27.9h-43.9V601.1z"/>
+	<text id="Mb_grande" transform="matrix(1 0 0 1 287.2911 594.423)" class="st1 st2 st15">Mb</text>
+</g>
+<g id="Bi_container">
+	<path class="st0" d="M279.1,625H323v-21.9h-43.9V625z"/>
+	<text id="Bi_grande" transform="matrix(1 0 0 1 292.3755 621.0002)" class="st1 st2 st16">Bi</text>
+</g>
+<g id="An_container">
+	<path class="st0" d="M325,604.1h24.9v-30.9H325V604.1z"/>
+	<text id="An_grande" transform="matrix(1 0 0 1 328.2236 594.0824)" class="st1 st2 st17">An</text>
+</g>
+<g id="Bpm_tooltip">
+	<polygon class="st6" points="350.6,260 194.2,260 194.2,426.4 331.1,426.4 350.6,442 350.6,426.4 350.6,426.4 	"/>
+	<text transform="matrix(1.0123 0 0 1 201.6172 274.7758)" class="st18 st2 st19">Banco BPM</text>
+	<text transform="matrix(1 0 0 1 233.9961 359.1332)" class="st18 st2 st20">Bpm</text>
+	<g>
+		<text transform="matrix(1 0 0 1 308.8711 411.1439)" class="st18 st2 st21">$357 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 201.6162 411.1439)" class="st18 st2 st22">3</text>
+	</g>
+	<g id="Bpm_tooltip_X_close_00000106126603844148370710000013535854377702631040_">
+		<path id="Bpm_tooltip_X_close" class="st1" d="M340.9,268.7c-0.1-0.1-0.4-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2
+			l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.4-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6
+			l-3.6,3.6c-0.1,0.1-0.2,0.4-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.4,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6
+			c0.1,0.1,0.4,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.4,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6
+			c0.1-0.1,0.2-0.4,0.2-0.6C341.2,269.1,341.1,268.9,340.9,268.7L340.9,268.7z"/>
+	</g>
+</g>
+<g id="Cdp_tooltip">
+	<polygon class="st6" points="277.1,335.8 121.1,335.8 121.1,501.8 257.7,501.8 277.1,517.3 277.1,501.8 277.1,501.8 	"/>
+	<text transform="matrix(1.0123 0 0 1 129.3858 352.1334)" class="st18 st2 st23">Cassa Depositi e Prestiti</text>
+	<text transform="matrix(1 0 0 1 165.4873 436.2858)" class="st18 st2 st24">Cdp</text>
+	<g>
+		<text transform="matrix(1 0 0 1 237.9004 488.1691)" class="st18 st2 st25">$221 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 129.3848 488.1696)" class="st18 st2 st26">4</text>
+	</g>
+	<g id="Cdp_tooltip_X_close_00000025404798559041039290000002613259066405331084_">
+		<path id="Cdp_tooltip_X_close" class="st1" d="M268.4,346.1c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2
+			l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6
+			l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6
+			c0.1,0.1,0.4,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6
+			c0.1-0.1,0.2-0.3,0.2-0.6C268.6,346.4,268.5,346.2,268.4,346.1L268.4,346.1z"/>
+	</g>
+</g>
+<g id="Bper_tooltip">
+	<polygon class="st6" points="315,335.8 159,335.8 159,501.8 295.5,501.8 315,517.3 315,501.8 315,501.8 	"/>
+	<text transform="matrix(1 0 0 1 167.2688 352.0939)" class="st18 st2 st25">BBPER Banca</text>
+	<text transform="matrix(1 0 0 1 197.9729 436.2858)" class="st18 st2 st24">Bper</text>
+	<g>
+		<text transform="matrix(1 0 0 1 279.7805 488.1696)" class="st18 st2 st25">$79 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 167.2688 488.17)" class="st18 st2 st26">5</text>
+	</g>
+	<g id="Bper_tooltip_X_close_00000132806005301114581490000014303853111075605180_">
+		<path id="Bper_tooltip_X_close" class="st1" d="M306.2,346.1c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2
+			l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6
+			l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6
+			c0.1,0.1,0.4,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6
+			c0.1-0.1,0.2-0.3,0.2-0.6C306.5,346.4,306.4,346.2,306.2,346.1L306.2,346.1z"/>
+	</g>
+</g>
+<g id="Bps_tooltip_00000040542915472667765000000017640735029326007449_">
+	<polygon class="st6" points="349.9,335.8 193.9,335.8 193.9,501.8 330.4,501.8 349.9,517.3 349.9,501.8 349.9,501.8 	"/>
+	<text transform="matrix(1 0 0 1 202.1557 352.0939)" class="st18 st2 st25">Banca Popolare di Sondrio</text>
+	<text transform="matrix(1 0 0 1 239.854 436.2858)" class="st18 st2 st24">Bps</text>
+	<g>
+		<text transform="matrix(1 0 0 1 314.6675 488.1696)" class="st18 st2 st25">$71 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 202.1557 488.17)" class="st18 st2 st26">6</text>
+	</g>
+	<g id="Bps_tooltip_X_close_00000067219640988802457760000017136265785387613863_">
+		<path class="st1" d="M341.1,346.1c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2
+			c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6
+			c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6c0.1,0.1,0.4,0.2,0.6,0.2
+			c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6c0.1-0.1,0.2-0.3,0.2-0.6
+			C341.4,346.4,341.3,346.2,341.1,346.1L341.1,346.1z"/>
+	</g>
+</g>
+<g id="Mb_tooltip">
+	<polygon class="st6" points="323,391.2 167,391.2 167,557.2 303.5,557.2 323,572.7 323,557.2 323,557.2 	"/>
+	<text transform="matrix(1 0 0 1 175.2422 407.4711)"><tspan x="0" y="0" class="st18 st2 st25">Mediobanca</tspan><tspan x="0" y="12.5" class="st18 st2 st25">Banca di Credito Finanziario</tspan></text>
+	<text transform="matrix(1 0 0 1 219.3633 491.6644)" class="st18 st2 st24">Mb</text>
+	<g>
+		<text transform="matrix(1 0 0 1 287.7529 543.5472)" class="st18 st2 st25">$51 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 175.2412 543.5472)" class="st18 st2 st26">7</text>
+	</g>
+	<path id="Mb_tooltip_X_close" class="st1" d="M314.2,401.5c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2l-3.6,3.6
+		l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6l-3.6,3.6
+		c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6
+		c0.1,0.1,0.4,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6
+		c0.1-0.1,0.2-0.3,0.2-0.6C314.4,401.8,314.4,401.6,314.2,401.5L314.2,401.5z"/>
+</g>
+<g id="Bi_tooltip">
+	<polygon class="st6" points="323,421.5 167,421.5 167,587.5 303.5,587.5 323,603.1 323,587.5 323,587.5 	"/>
+	<text transform="matrix(1 0 0 1 175.2417 437.8189)" class="st18 st2 st25">Banca d’Italia</text>
+	<text transform="matrix(1 0 0 1 228.6392 514.2325)" class="st18 st2 st24">Bi</text>
+	<g>
+		<text transform="matrix(1 0 0 1 287.7535 573.8946)" class="st18 st2 st25">$39 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 175.2417 573.8946)" class="st18 st2 st26">8</text>
+	</g>
+	<g id="Bi_tooltip_X_close">
+		<path class="st1" d="M314.2,431.8c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2
+			c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6
+			c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6c0.1,0.1,0.4,0.2,0.6,0.2
+			c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6c0.1-0.1,0.2-0.3,0.2-0.6
+			C314.4,432.2,314.4,432,314.2,431.8L314.2,431.8z"/>
+	</g>
+</g>
+<g id="An_tooltip">
+	<polygon class="st6" points="349.9,391.6 193.9,391.6 193.9,557.6 330.4,557.6 349.9,573.2 349.9,557.6 349.9,557.6 	"/>
+	<text transform="matrix(1 0 0 1 202.1557 407.9149)" class="st18 st2 st25">Anima</text>
+	<text transform="matrix(1 0 0 1 251.0102 492.1068)" class="st18 st2 st24">An</text>
+	<g>
+		<text transform="matrix(1 0 0 1 314.6675 543.9906)" class="st18 st2 st25">$33 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 202.1557 543.9911)" class="st18 st2 st26">9</text>
+	</g>
+	<g id="An_tooltip_X_close">
+		<path class="st1" d="M341.1,401.9c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2
+			c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6
+			c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6c0.1,0.1,0.4,0.2,0.6,0.2
+			c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6c0.1-0.1,0.2-0.3,0.2-0.6
+			C341.4,402.3,341.3,402.1,341.1,401.9L341.1,401.9z"/>
+	</g>
+</g>
+<g id="Cv_tooltip">
+	<polygon class="st6" points="349.9,424.5 193.9,424.5 193.9,590.5 330.4,590.5 349.9,606.1 349.9,590.5 349.9,590.5 	"/>
+	<text transform="matrix(1 0 0 1 202.1557 440.8099)" class="st18 st2 st25">Credito Valtellinese</text>
+	<text transform="matrix(1 0 0 1 251.0102 525.0018)" class="st18 st2 st24">Cv</text>
+	<g>
+		<text transform="matrix(1 0 0 1 314.6675 576.8856)" class="st18 st2 st25">$20 M</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 202.1557 576.886)" class="st18 st2 st26">10</text>
+	</g>
+	<g id="Cv_tooltip_X_close">
+		<path class="st1" d="M341.1,434.8c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.6,0.2l-3.6,3.6l-3.6-3.6c-0.1-0.1-0.4-0.2-0.6-0.2
+			c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0.1-0.2,0.3-0.2,0.6c0,0.2,0.1,0.4,0.2,0.6l3.6,3.6l-3.6,3.6c-0.1,0.1-0.2,0.3-0.2,0.6
+			c0,0.2,0.1,0.4,0.2,0.6c0.1,0.1,0.3,0.2,0.6,0.2c0.2,0,0.4-0.1,0.6-0.2l3.6-3.6l3.6,3.6c0.1,0.1,0.4,0.2,0.6,0.2
+			c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6l-3.6-3.6l3.6-3.6c0.1-0.1,0.2-0.3,0.2-0.6
+			C341.4,435.2,341.3,435,341.1,434.8L341.1,434.8z"/>
+	</g>
+</g>
+</svg>
