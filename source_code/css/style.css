@@ -363,6 +363,8 @@ div span.titoletto {
 
 #tabella {
   width: 248px;
+  display: flex;
+  flex-direction: column;
 }
 
 .voce_tabella_russia,
@@ -1281,5 +1283,16 @@ div span.bold-footer {
 
   #tabella, .linea_tabella, .linea_spessa_tabella {
     width: 100%;
+  }
+
+  #tabella {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .voce_tabella_russia,
+  .voce_tabella_usa,
+  .voce_tabella_altri {
+  width:40%;
   }
 }
