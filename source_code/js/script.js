@@ -236,7 +236,7 @@ $(document).ready(function () {
       $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st21").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
 
       $("#data2 svg #Altri_stati .st1, #data2 svg #Altri_stati .st3, #data2 svg #Altri_stati .st4, #data2 svg #Altri_stati .st6, #data2 svg #Altri_stati .st7, #data2 svg #Altri_stati .st8, #data2 svg #Altri_stati .st13, #data2 svg #Altri_stati .st14, #data2 svg #Altri_stati .st15, #data2 svg #Altri_stati .st16").css("opacity", 0);
-      $("#data2 svg #Base_permanente #Pallini #Pallini_altri_stati .st23").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
+      $("#data2 #Base_permanente #Pallini #Pallini_altri_stati .st13").css("fill", "#1c1c1c"); //I pallini di Altri stati torna spento
 
       //Se clicco USA mi scompare 30.000
       $("#data2 svg #Base_permanente #Numero_Testate #trentamila").css("opacity", 0);
