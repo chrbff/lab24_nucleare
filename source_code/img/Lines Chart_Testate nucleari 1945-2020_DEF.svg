@@ -19,12 +19,12 @@
 	.st13{fill:none;stroke:#7E3FE6;}
 	.st14{fill:none;stroke:#7E3FE6;stroke-width:2;}
 	.st15{fill:#7E3FE6;}
-	.st16{enable-background:new    ;}
-	.st17{opacity:0.2;fill:none;stroke:#EDEDEF;enable-background:new    ;}
-	.st18{opacity:0.2;fill:none;stroke:#EDEDEF;stroke-width:1.5;enable-background:new    ;}
+	.st16{enable-background:new;}
+	.st17{opacity:0.2;fill:none;stroke:#EDEDEF;enable-background:new;}
+	.st18{opacity:0.2;fill:none;stroke:#EDEDEF;stroke-width:1.5;enable-background:new;}
 	.st19{fill:none;stroke:#EDEDEF;stroke-width:0.5;}
 	.st20{fill:none;stroke:#83F9F3;stroke-miterlimit:10;}
-	.st21{opacity:0.7;fill:none;stroke:#FC4646;enable-background:new    ;}
+	.st21{opacity:0.7;fill:none;stroke:#FC4646;enable-background:new;}
 </style> -->
 <g id="USA">
 	<path id="Grafico_USA" class="st0" d="M82.3,583.5c3.5,0,6.8,0,10.3,0s7.1,0,10.6,0s7.1-0.1,10.6-0.3c3.5-0.2,7.1-0.7,10.6-1
@@ -197,7 +197,7 @@
 		</g>
 	</g>
 	</g>
-	
+
 	<g id="Numero_Testate">
 		<text transform="matrix(1 0 0 1 856.7789 44.2192)" class="st6 st7 st9">63.000</text>
 		<text transform="matrix(1 0 0 1 856.6109 144.3073)" class="st6 st7 st9">50.000</text>

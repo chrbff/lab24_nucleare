@@ -919,14 +919,14 @@ div#tasto_popolazioni p {
 #firmatari,
 #non-firmatari .st1 {
   font-family: 'SoleSans';
-  font-size: 10px;
+  font-size:8px;
   color: var(--grigio-scuro);
 }
 
 #firmatari,
 #non-firmatari .st2 {
   font-family: 'SoleSans';
-  font-size: 10px;
+  font-size:8px;
 }
 
 /* VIZ3 */
