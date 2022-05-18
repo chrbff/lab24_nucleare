@@ -441,47 +441,66 @@ div span.titoletto {
   stroke:#83F9F3;
   stroke-width:1.5;
   stroke-miterlimit:10;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st1{
   fill:#83F9F3;
+  transition: all 0.35s linear;
 }
 
 #data2 .st2{
   font-family:'sole_display';
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st3{
   font-size:24px;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st4{
   fill:none;
   stroke:#83F9F3;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st5{
   fill:none;
+  transition: all 0.35s linear;
 }
 
 #data2 .st6{
   fill:#EDEDEF;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st7{
   font-family:'SoleSans';
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st8{
   font-size:16px;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st9{
   font-size:14px;
+  transition: all 0.35s linear;
 }
 
 #data2 .st10{
   fill:#FF514B;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st11{
@@ -489,30 +508,40 @@ div span.titoletto {
   stroke:#FF514B;
   stroke-width:1.5;
   stroke-miterlimit:10;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st12{
   fill:none;
   stroke:#FF514B;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st13{
   fill:none;
   stroke:#7E3FE6;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st14{
   fill:none;
   stroke:#7E3FE6;
   stroke-width:2;
+  transition: all 0.35s linear;
 }
 
 #data2 .st15{
   fill:#7E3FE6;
+  transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st16{
   enable-background:new;
+  transition: all 0.35s linear;
 }
 
 #data2 .st17{
@@ -520,6 +549,7 @@ div span.titoletto {
   fill:none;
   stroke:#EDEDEF;
   enable-background:new;
+  transition: all 0.35s linear;
 }
 
 #data2 .st18{
@@ -528,18 +558,21 @@ div span.titoletto {
   stroke:#EDEDEF;
   stroke-width:1.5;
   enable-background:new;
+  transition: all 0.35s linear;
 }
 
 #data2 .st19{
   fill:none;
   stroke:#EDEDEF;
   stroke-width:0.5;
+  transition: all 0.35s linear;
 }
 
 #data2 .st20{
   fill:none;
   stroke:#83F9F3;
   stroke-miterlimit:10;
+  transition: all 0.35s linear;
 }
 
 #data2 .st21{
@@ -547,6 +580,12 @@ div span.titoletto {
   fill:none;
   stroke:#FC4646;
   enable-background:new;
+  transition: all 0.35s linear;
+}
+
+#data2 #Base_permanente #Pallini #Pallini_altri_stati .st13 {
+  opacity: 1;
+  transition: all 0.35s linear;
 }
 
 #data2 #Base_permanente .st1,
