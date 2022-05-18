@@ -1,6 +1,6 @@
 /* qui mettere le variabili che potrebbero cambiare */
 :root {
-  --font-paragrafi: 21px;
+  --font-paragrafi-mobile: 20px;
   --regular: 400;
   --bold: 700;
   --corallo: #fc4646;
@@ -23,12 +23,13 @@ body {
 }
 
 .paragrafo-bianco {
+  width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'sole_text';
   font-style: normal;
   font-weight: 300;
-  font-size: var(--font-paragrafi);
+  font-size: var(--font-paragrafi-mobile);
   line-height: 140.4%;
   color: var(--bianco);
 }
@@ -141,12 +142,13 @@ div span.titolo {
 }
 
 #paragrafo-nero {
+  width: 100%;
   margin-top: 100px;
   padding-bottom: 50px;
   font-family: 'sole_text';
   font-style: normal;
   font-weight: 400;
-  font-size: var(--font-paragrafi);
+  font-size: var(--font-paragrafi-mobile);
   line-height: 140.4%;
   color: var(--grigio-scuro);
 }
@@ -213,9 +215,10 @@ div span.titoletto {
 }
 
 #data1 {
-  width: 601px;
+  width: 60%;
   height: auto;
   margin-top: 50px;
+  margin-bottom: 40px;
   /* background-color: #7E3FE5; */
 }
 
@@ -1191,4 +1194,52 @@ div span.bold-footer {
   font-style: normal;
   font-weight: var(--bold);
   font-size: 14px;
+}
+
+/* MEDIA QUERY SITO RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+  .container, #copertina {
+    width: 90%;
+  }
+
+  .paragrafo-bianco, #paragrafo-nero, #info {
+    font-size: var(--font-paragrafi-mobile);
+  }
+
+  h1 {
+    font-size: 78px;
+    padding-top: 400px;
+  }
+
+  div span.titolo {
+    font-size: 78px;
+  }
+
+  #soldi-spesi {
+    font-size: 70px;
+  }
+
+  #container-copertina {
+    background-position: 0% 0%;
+    background-size: 200%;
+  }
+
+  #paragrafo-nero {
+    margin-top: 30px;
+  }
+
+  #data1-tabella {
+
+    flex-direction: column;
+
+  }
+
+  #data1 {
+    width:100%;
+  }
+
+  #tabella, .linea_tabella, .linea_spessa_tabella {
+    width: 100%;
+  }
 }
