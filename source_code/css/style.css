@@ -531,6 +531,7 @@ div span.titoletto {
   stroke:#7E3FE6;
   stroke-width:2;
   transition: all 0.35s linear;
+  opacity:0;
 }
 
 #data2 .st15{
