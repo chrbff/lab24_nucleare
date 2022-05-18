@@ -435,7 +435,130 @@ div span.titoletto {
 
 /* CONTAINER TIMELINE */
 
-#data2 .st0 {
+#data2 .st0{
+  fill:none;
+  stroke:#83F9F3;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+}
+
+#data2 .st1{
+  fill:#83F9F3;
+}
+
+#data2 .st2{
+  font-family:'sole_display';
+}
+
+#data2 .st3{
+  font-size:24px;
+}
+
+#data2 .st4{
+  fill:none;
+  stroke:#83F9F3;
+}
+
+#data2 .st5{
+  fill:none;
+}
+
+#data2 .st6{
+  fill:#EDEDEF;
+}
+
+#data2 .st7{
+  font-family:'SoleSans';
+}
+
+#data2 .st8{
+  font-size:16px;
+}
+
+#data2 .st9{
+  font-size:14px;
+}
+
+#data2 .st10{
+  fill:#FF514B;
+}
+
+#data2 .st11{
+  fill:none;
+  stroke:#FF514B;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+}
+
+#data2 .st12{
+  fill:none;
+  stroke:#FF514B;
+}
+
+#data2 .st13{
+  fill:none;
+  stroke:#7E3FE6;
+}
+
+#data2 .st14{
+  fill:none;
+  stroke:#7E3FE6;
+  stroke-width:2;
+}
+
+#data2 .st15{
+  fill:#7E3FE6;
+}
+
+#data2 .st16{
+  enable-background:new;
+}
+
+#data2 .st17{
+  opacity:0.2;
+  fill:none;
+  stroke:#EDEDEF;
+  enable-background:new;
+}
+
+#data2 .st18{
+  opacity:0.2;
+  fill:none;
+  stroke:#EDEDEF;
+  stroke-width:1.5;
+  enable-background:new;
+}
+
+#data2 .st19{
+  fill:none;
+  stroke:#EDEDEF;
+  stroke-width:0.5;
+}
+
+#data2 .st20{
+  fill:none;
+  stroke:#83F9F3;
+  stroke-miterlimit:10;
+}
+
+#data2 .st21{
+  opacity:0.7;
+  fill:none;
+  stroke:#FC4646;
+  enable-background:new;
+}
+
+#data2 #Base_permanente .st1,
+#data2 #Base_permanente .st3,
+#data2 #Base_permanente .st4,
+#data2 #Base_permanente .st6,
+#data2 #Base_permanente .st7,
+#data2 #Base_permanente .st10 {
+  opacity: 1;
+  transition: all 0.35s linear;
+}
+
+/* #data2 .st0 {
   fill: none;
   stroke: #83F9F3;
   stroke-width: 1.5;
@@ -487,7 +610,7 @@ div span.titoletto {
   font-style: normal;
   opacity: 0;
   color: #ededef;
-  /* fill: #ededef; */
+  fill: #ededef;
   transition: all 0.35s linear;
 }
 
@@ -498,7 +621,7 @@ div span.titoletto {
 }
 
 #data2 .st9 {
-  /* fill: #6FD0CB; */
+  fill: #6FD0CB;
   opacity: 0;
   transition: all 0.35s linear;
 }
@@ -510,7 +633,7 @@ div span.titoletto {
 }
 
 #data2 .st11 {
-  /* fill: #FF514B; */
+  fill: #FF514B;
   opacity: 0;
   transition: all 0.35s linear;
 
@@ -554,19 +677,10 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data2 #Base_permanente .st1,
-#data2 #Base_permanente .st3,
-#data2 #Base_permanente .st4,
-#data2 #Base_permanente .st6,
-#data2 #Base_permanente .st7,
-#data2 #Base_permanente .st10 {
-  opacity: 1;
-  transition: all 0.35s linear;
-}
 #data2 #Altri_stati #Didascalia_Altri_Stati .st13 {
   opacity: 0;
   transition: all 0.35s linear;
-} 
+}
 
 #data2 .st17 {
   opacity: 0.2;
@@ -612,7 +726,7 @@ div span.titoletto {
   fill: var(--grigio-scuro);
   stroke: #7E3FE6;
   transition: all 0.35s linear;
-}
+} */
 
 #data2 #Base_permanente #trentamila {
   opacity: 1;
