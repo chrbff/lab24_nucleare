@@ -1071,6 +1071,7 @@ div span.bold-footer {
 /* MEDIA QUERY SITO RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
+
   .container, #copertina {
     width: 90%;
   }
@@ -1124,5 +1125,19 @@ div span.bold-footer {
   .voce_tabella_usa,
   .voce_tabella_altri {
   width:40%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .tab-trattato#nazioni{
+    font-size: 2.8vw;
+  }
+  h1{
+    padding-top: 190px;
+  }
+  .voce_tabella_russia, .voce_tabella_usa, .voce_tabella_altri{
+    width: 80%;
+  }
+  #data3{
+    margin-top: -80px;
   }
 }
