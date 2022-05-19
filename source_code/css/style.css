@@ -1156,6 +1156,7 @@ div span.bold-footer {
 
   #footer {
     background-color: black;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: flex-start;
