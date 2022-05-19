@@ -207,7 +207,7 @@ $(document).ready(function () {
       $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
-      ß
+    
     });
 
   $("#tabella .voce_tabella_altri").hover(
