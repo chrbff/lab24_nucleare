@@ -1031,8 +1031,8 @@ div#tasto_popolazioni p {
   font-weight: var(--regular);
   font-size: 155px;
   color: var(--corallo);
-  text-align: center;
-  margin: 50px 50px -20px 50px;
+  text-align: left;
+  margin: 50px 0px -20px 0px;
 }
 
 /* CONTAINER FOOTER */
@@ -1106,10 +1106,6 @@ div span.bold-footer {
     font-size: 78px;
   }
 
-  #soldi-spesi {
-    font-size: 70px;
-  }
-
   #container-copertina {
     background-position: 0% 0%;
     background-size: 200%;
@@ -1177,6 +1173,11 @@ div span.bold-footer {
 
   .column-footer {
     width: 72%;
+  }
+
+  #soldi-spesi {
+    font-size: 70px;
+    margin: 30px 0px -20px 0px;
   }
 
 }
