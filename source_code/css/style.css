@@ -787,55 +787,55 @@ div#tasto_popolazioni p {
 
 #data3 .st0 {
   fill: none;
-  stroke: url(#SVGID_1_);
+  stroke: url(SVGID_1_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st1 {
   fill: none;
-  stroke: url(#SVGID_00000054259048619618156310000005072338110409748615_);
+  stroke: url(#SVGID_00000041266281477113381590000011510230433098332585_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st2 {
   fill: none;
-  stroke: url(#SVGID_00000135650738634981711710000013858857288053896364_);
+  stroke: url(#SVGID_00000049916040298643551640000001777650155798394252_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st3 {
   fill: none;
-  stroke: url(#SVGID_00000159447822027784838820000018242590816636742816_);
+  stroke: url(#SVGID_00000055680450480395328630000000335684768372973970_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st4 {
   fill: none;
-  stroke: url(#SVGID_00000141436354782944714090000009271273959409223829_);
+  stroke: url(#SVGID_00000148657475230842674220000003597964753495554729_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st5 {
   fill: none;
-  stroke: url(#SVGID_00000058557606988844574190000007670943251292381856_);
+  stroke: url(#SVGID_00000112619336458891249550000009535212955587612594_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st6 {
   fill: none;
-  stroke: url(#SVGID_00000111184157269642070340000000055047912759310478_);
+  stroke: url(#SVGID_00000137817132258331697740000005103896937774731392_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st7 {
   fill: none;
-  stroke: url(#SVGID_00000118369438724818908530000002167172241378134971_);
+  stroke: url(#SVGID_00000088123400330730441200000009561682835097095828_);
   stroke-miterlimit: 10;
 }
 
 #data3 .st8 {
   fill: none;
-  stroke: url(#SVGID_00000158722399084636049540000003918210764567957392_);
+  stroke: url(#SVGID_00000119090136421020394160000017858520407200943493_);
   stroke-miterlimit: 10;
 }
 
@@ -879,28 +879,56 @@ div#tasto_popolazioni p {
   overflow-x: hidden;
 }
 
-.PALLA_USA,
-.PALLA_CINA,
-.PALLA_RUSSIA,
-.PALLA_GRANBRETAGNA,
-.PALLA_FRANCIA,
-.PALLA_INDIA,
-.PALLA_ISRAELE,
-.PALLA_PAKISTAN,
-.PALLA_COREANORD {
+#data3 .data3-desktop svg .USA .PALLA_USA,
+#data3 .data3-desktop svg .CINA .PALLA_CINA,
+#data3 .data3-desktop svg .RUSSIA .PALLA_RUSSIA,
+#data3 .data3-desktop svg .GRANBRETAGNA .PALLA_GRANBRETAGNA,
+#data3 .data3-desktop svg .FRANCIA .PALLA_FRANCIA,
+#data3 .data3-desktop svg .INDIA .PALLA_INDIA,
+#data3 .data3-desktop svg .ISRAELE .PALLA_ISRAELE,
+#data3 .data3-desktop svg .PAKISTAN .PALLA_PAKISTAN,
+#data3 .data3-desktop svg .COREANORD .PALLA_COREANORD {
   transition: all 0.35s linear;
   opacity: 0;
 }
 
-.LINEA_USA,
-.LINEA_CINA,
-.LINEA_RUSSIA,
-.LINEA_GRANBRETAGNA,
-.LINEA_FRANCIA,
-.LINEA_INDIA,
-.LINEA_ISRAELE,
-.LINEA_PAKISTAN,
-.LINEA_COREANORD {
+#data3 .data3-desktop svg .USA .LINEA_USA,
+#data3 .data3-desktop svg .CINA .LINEA_CINA,
+#data3 .data3-desktop svg .RUSSIA .LINEA_RUSSIA,
+#data3 .data3-desktop svg .GRANBRETAGNA .LINEA_GRANBRETAGNA,
+#data3 .data3-desktop svg .FRANCIA .LINEA_FRANCIA,
+#data3 .data3-desktop svg .INDIA .LINEA_INDIA,
+#data3 .data3-desktop svg .ISRAELE .LINEA_ISRAELE,
+#data3 .data3-desktop svg .PAKISTAN .LINEA_PAKISTAN,
+#data3 .data3-desktop svg .COREANORD .LINEA_COREANORD {
+  fill: none;
+  transition: all 0.35s linear;
+  stroke: #6D6D6C;
+  stroke-width: 5px;
+}
+
+#data3 .data3-mobile svg .USA .PALLA_USA,
+#data3 .data3-mobile svg .CINA .PALLA_CINA,
+#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA,
+#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA,
+#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA,
+#data3 .data3-mobile svg .INDIA .PALLA_INDIA,
+#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE,
+#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN,
+#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD {
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data3 .data3-mobile svg .USA .LINEA_USA,
+#data3 .data3-mobile svg .CINA .LINEA_CINA,
+#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA,
+#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA,
+#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA,
+#data3 .data3-mobile svg .INDIA .LINEA_INDIA,
+#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE,
+#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN,
+#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD {
   fill: none;
   transition: all 0.35s linear;
   stroke: #6D6D6C;
