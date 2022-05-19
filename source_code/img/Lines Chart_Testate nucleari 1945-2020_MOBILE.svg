@@ -30,99 +30,100 @@
 	<g id="Base_Permanente">
 		<g id="Numero_Testate">
 			
-				<text id="10.000" transform="matrix(1 0 0 1 858.1585 764.8599)" class="st12 st13 st14">10.000</text>
-				<text id="20.000" transform="matrix(1 0 0 1 856.9124 620.829)" class="st12 st13 st14">20.000</text>
-				<text id="40.000" transform="matrix(1 0 0 1 856.8284 337.0335)" class="st12 st13 st14">40.000</text>
-				<text id="30.000" transform="matrix(1 0 0 1 856.7726 470.6491)" class="st12 st13 st14">30.000</text>
-				<text id="50.000" transform="matrix(1 0 0 1 856.503 191.8171)" class="st12 st13 st14">50.000</text>
-				<text id="63.000" transform="matrix(1 0 0 1 856.6708 52.8415)" class="st12 st13 st14">63.000</text>
+				<text id="10.000" transform="matrix(1 0 0 1 858.1585 764.8599)" class="st6 st7 st9">10.000</text>
+				<text id="20.000" transform="matrix(1 0 0 1 856.9124 620.829)" class="st6 st7 st9">20.000</text>
+				<text id="40.000" transform="matrix(1 0 0 1 856.8284 337.0335)" class="st6 st7 st9">40.000</text>
+				<text id="30.000" transform="matrix(1 0 0 1 856.7726 470.6491)" class="st6 st7 st9">30.000</text>
+				<text id="50.000" transform="matrix(1 0 0 1 856.503 191.8171)" class="st6 st7 st9">50.000</text>
+				<text id="63.000" transform="matrix(1 0 0 1 856.6708 52.8415)" class="st6 st7 st9">63.000</text>
 		</g>
-		<g id="Didascalia_x5F_Testate_x5F_Globali_00000119110591077663570690000006090717024395976870_">
-			<text id="Testate_nucleari_globali" transform="matrix(1 0 0 1 685.5325 25.0002)" class="st15"><tspan x="0" y="0" class="st12 st13 st16">Testate</tspan><tspan x="0" y="19.2" class="st12 st13 st16">nucleari</tspan><tspan x="0" y="38.4" class="st12 st13 st16">globali</tspan></text>
-			<path id="Linea_x5F_didascalia_x5F_Globali_00000096034782472361823300000000666591827142221238_" class="st17" d="M492.8,14.8
+		<g id="Didascalia_Testate_Globali_">
+			<text id="Testate_nucleari_globali" transform="matrix(1 0 0 1 685.5325 25.0002)" class="st16"><tspan x="0" y="0" class="st6 st7 st8">Testate</tspan><tspan x="0" y="19.2" class="st6 st7 st8">nucleari</tspan><tspan x="0" y="38.4" class="st6 st7 st8">globali</tspan></text>
+			<path id="Linea_didascalia_Globali" class="st17" d="M492.8,14.8
 				H674"/>
 		</g>
 
 		<g id="Pallini">
 			<g id="Pallino_USA">
 				
-				<circle id="Cerchio_USA" class="st10" cx="131.5" cy="1051.1" r="39.5"/>
-				<rect x="92.5" y="1046.7" class="st2" width="78" height="10"/>
+				<circle id="Cerchio_USA" class="st20" cx="131.5" cy="1051.1" r="39.5"/>
+				<!-- <rect x="92.5" y="1046.7" class="st2" width="78" height="10"/> -->
 				
-					<text id="USA" transform="matrix(1 0 0 1 118.3747 1056.6013)" class="st12 st13 st14">USA</text>
+					<text id="USA" transform="matrix(1 0 0 1 118.3747 1056.6013)" class="st6 st7 st9">USA</text>
 			</g>
 			<g id="Pallino_RU">
-				<circle id="Cerchio_RU" class="st11" cx="223.5" cy="1051.1" r="39"/>
-				<rect x="184.5" y="1045.8" class="st2" width="78" height="10"/>
+				<circle id="Cerchio_RU" class="st21" cx="223.5" cy="1051.1" r="39"/>
+				<!-- <rect x="184.5" y="1045.8" class="st2" width="78" height="10"/> -->
 				
-					<text id="RU" transform="matrix(1 0 0 1 214.5402 1055.6793)" class="st12 st13 st14">RU</text>
+					<text id="RU" transform="matrix(1 0 0 1 214.5402 1055.6793)" class="st6 st7 st9">RU</text>
 			</g>
 			<g id="Pallini_atri_stati">
 				<g>
-					<path id="Pallino_Altri_Stati7" class="st5" d="M353.4,1051.1
+					<path id="Pallino_Altri_Stati7" class="st13" d="M353.4,1051.1
 						c0,21.6-17,39-37.9,39s-37.9-17.4-37.9-39s17-39,37.9-39S353.4,1029.5,353.4,1051.1z"/>
-					<rect x="278" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="278" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="CI" transform="matrix(1 0 0 1 309.894 1055.8806)" class="st12 st13 st14">CI</text>
+						<text id="CI" transform="matrix(1 0 0 1 309.894 1055.8806)" class="st6 st7 st9">CI</text>
 				</g>
 				<g>
-					<path id="Pallino_Altri_Stati6" class="st5" d="M447.5,1051.1
+					<path id="Pallino_Altri_Stati6" class="st13" d="M447.5,1051.1
 						c0,21.6-17.2,39-38.5,39c-21.2,0-38.5-17.4-38.5-39c0-21.5,17.2-39,38.5-39S447.5,1029.6,447.5,1051.1z"/>
-					<rect x="370.9" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="370.9" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="GB" transform="matrix(1 0 0 1 399.913 1055.8806)" class="st12 st13 st14">GB</text>
+						<text id="GB" transform="matrix(1 0 0 1 399.913 1055.8806)" class="st6 st7 st9">GB</text>
 				</g>
 				<g>
-					<path id="Pallino_Altri_Stati5" class="st5" d="M539.5,1051.1
+					<path id="Pallino_Altri_Stati5" class="st13" d="M539.5,1051.1
 						c0,21.6-17.2,39-38.5,39c-21.2,0-38.5-17.4-38.5-39c0-21.5,17.2-39,38.5-39S539.5,1029.6,539.5,1051.1z"/>
-					<rect x="462.9" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="462.9" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="FR" transform="matrix(1 0 0 1 493.0191 1055.8806)" class="st12 st13 st14">FR</text>
+						<text id="FR" transform="matrix(1 0 0 1 493.0191 1055.8806)" class="st6 st7 st9">FR</text>
 				</g>
 				<g>
-					<path id="Pallino_Altri_Stati4" class="st5" d="M635.8,1051.1
+					<path id="Pallino_Altri_Stati4" class="st13" d="M635.8,1051.1
 						c0,21.5-17.7,39-39.5,39s-39.5-17.5-39.5-39s17.7-39,39.5-39S635.8,1029.6,635.8,1051.1z"/>
-					<rect x="558.1" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="558.1" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="IN" transform="matrix(1 0 0 1 589.5681 1055.8806)" class="st12 st13 st14">IN</text>
+						<text id="IN" transform="matrix(1 0 0 1 589.5681 1055.8806)" class="st6 st7 st9">IN</text>
 				</g>
 				<g>
 					<path id="Pallino_Altri_Stati3" class="st5" d="M726.7,1051.1
 						c0,21.6-17.2,39-38.5,39c-21.2,0-38.5-17.4-38.5-39c0-21.5,17.2-39,38.5-39S726.7,1029.6,726.7,1051.1z"/>
-					<rect x="650.1" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="650.1" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="IL" transform="matrix(1 0 0 1 682.7025 1055.8806)" class="st12 st13 st14">IL</text>
+						<text id="IL" transform="matrix(1 0 0 1 682.7025 1055.8806)" class="st6 st7 st9">IL</text>
 				</g>
 				<g>
-					<path id="Pallino_Altri_Stati2" class="st5" d="M818.7,1051.1
+					<path id="Pallino_Altri_Stati2" class="st13" d="M818.7,1051.1
 						c0,21.6-17.2,39-38.5,39s-38.5-17.4-38.5-39c0-21.5,17.2-39,38.5-39S818.7,1029.6,818.7,1051.1z"/>
-					<rect x="742.9" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="742.9" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="PK" transform="matrix(1 0 0 1 772.8281 1055.8806)" class="st12 st13 st14">PK</text>
+						<text id="PK" transform="matrix(1 0 0 1 772.8281 1055.8806)" class="st6 st7 st9">PK</text>
 				</g>
 				<g>
-					<path id="Pallino_Altri_Stati1" class="st5" d="M910.7,1051.1
+					<path id="Pallino_Altri_Stati1" class="st13" d="M910.7,1051.1
 						c0,21.6-17.2,39-38.5,39c-21.2,0-38.5-17.4-38.5-39c0-21.5,17.2-39,38.5-39S910.7,1029.6,910.7,1051.1z"/>
-					<rect x="834.3" y="1046" class="st2" width="76.4" height="10"/>
+					<!-- <rect x="834.3" y="1046" class="st2" width="76.4" height="10"/> -->
 					
-						<text id="KP" transform="matrix(1 0 0 1 864.2825 1055.8806)" class="st12 st13 st14">KP</text>
+						<text id="KP" transform="matrix(1 0 0 1 864.2825 1055.8806)" class="st6 st7 st9">KP</text>
 				</g>
 			</g>
 		</g>
 		
-			<text id="_x32_020_00000168111932383146206830000017076465292187829175_" transform="matrix(1 0 0 1 873.3279 958.7501)" class="st12 st13 st18">2020</text>
-		<path id="Linea_di_base" class="st9" d="M82.3,913.8h817.8"/>
+			<text id="_x32_020_00000168111932383146206830000017076465292187829175_" transform="matrix(1 0 0 1 873.3279 958.7501)" class="st6 st7 st9">2020</text>
+		<path id="Linea_di_base" class="st19" d="M82.3,913.8h817.8"/>
 		
-			<text id="_x31_945_00000079465917269427193730000011098564830134690951_" transform="matrix(1 0 0 1 81.9841 958.7501)" class="st12 st13 st18">1945</text>
-		<path id="Grafico_Totale" class="st8" d="M85,910.6
+			<text id="_x31_945_00000079465917269427193730000011098564830134690951_" transform="matrix(1 0 0 1 81.9841 958.7501)" class="st6 st7 st9">1945</text>
+		<path id="Grafico_Totale" class="st18" d="M85,910.6
 			c26.4,0,23.9,0,42.7-4.2c26.4,0,26.4-32.6,52.8-32.6s26.4-248.2,52.8-248.2s26.4-241,52.8-241s26.4-9.1,52.8-9.1
 			s26.4-131.6,52.8-131.6s26.4-113.5,52.8-113.5S470.7,30,497.1,30s26.4,103.8,52.8,103.8s26.4,355.4,52.8,355.4
 			c26.4,0,26.4,87.7,52.8,87.7s26.4,104.4,52.8,104.4s26.4,71.2,52.8,71.2c26.4,0,26.4,15.8,52.8,15.8c26.4,0,60.3,14.6,86.7,14.6"
 			/>
 	</g>
+
 	<g id="RUSSIA">
-		<text transform="matrix(1 0 0 1 4.7614 68.31)" class="st19 st20 st21">Russia</text>
-		<path id="Grafico_RU" class="st3" d="M122.8,913.7c3.5,0,7.1,0,10.6,0
+		<text transform="matrix(1 0 0 1 4.7614 68.31)" class="st10 st2 st3">Russia</text>
+		<path id="Grafico_RU" class="st11" d="M122.8,913.7c3.5,0,7.1,0,10.6,0
 			s7.1-0.2,10.6-0.3s7.1-0.1,10.7-0.3c3.6-0.2,7.1-0.8,10.7-1c3.5-0.2,7.1-0.2,10.7-0.4c3.5-0.2,7.1-0.2,10.6-0.7
 			c3.6-0.8,7.2-1.9,10.6-3.2c3.6-1.1,7.1-2.3,10.7-3.3c3.6-1,7-2,10.7-2.9s7.1-0.9,10.6-2.6c3.9-2.2,7.5-4.9,10.7-8.2
 			c3.5-3.4,7.1-8.2,10.7-12.2c3.5-4.1,7.1-7.9,10.7-12c3.5-4.2,7.1-8.4,10.6-12.8c3.5-4.4,7.1-9.4,10.6-13.9
@@ -137,13 +138,13 @@
 			c3.6,3.3,7.1,3.4,10.6,5l10.6,5c3.5,1.7,7.1,3.2,10.6,5s7.1,4,10.7,5.7c3.5,1.7,7.1,2.8,10.6,4.4c3.5,1.6,7.1,4,10.7,5
 			c3.5,0.8,7.1,1.3,10.6,1.5c3.6,0.5,7.1,1.1,10.7,1.4c3.6,0.3,7.1,0.3,10.6,0.7s7.1,1.3,10.6,1.4c3.5,0.1,7.1,0,10.6,0.1
 			s7.1,2.7,10.7,2.7c3.5,0,7.1-0.7,10.7-0.7s7.1,0.2,10.6,0.3s7.1,0.3,10.6,0.3s7.1-3,10.5-3s7.1,0.1,10.6,0.3"/>
-		<text id="_x33_8.000" transform="matrix(1 0 0 1 857.1365 352.3535)" class="st19 st13 st14">38.000</text>
+		<text id="38.000" transform="matrix(1 0 0 1 857.1365 352.3535)" class="st10 st7 st9">38.000</text>
 		<g id="Didascalia_RU">
-			<rect x="249.1" y="311.4" class="st2" width="95.7" height="76.5"/>
-			<text transform="matrix(1 0 0 1 249.0559 322.7281)" class="st12 st13 st16">1986</text>
-			<text transform="matrix(1 0 0 1 249.0559 361.1281)" class="st12 st13 st16">La catastrofe</text>
-			<text transform="matrix(1 0 0 1 249.0559 380.3281)" class="st12 st13 st16">di Chernobyl</text>
-			<path id="Linea_didascalia_RU" class="st4" d="M249.1,338.5h268"/>
+			<!-- <rect x="249.1" y="311.4" class="st2" width="95.7" height="76.5"/> -->
+			<text transform="matrix(1 0 0 1 249.0559 322.7281)" class="st6 st7 st8">1986</text>
+			<text transform="matrix(1 0 0 1 249.0559 361.1281)" class="st6 st7 st8">La catastrofe</text>
+			<text transform="matrix(1 0 0 1 249.0559 380.3281)" class="st6 st7 st8">di Chernobyl</text>
+			<path id="Linea_didascalia_RU" class="st12" d="M249.1,338.5h268"/>
 		</g>
 	</g>
 	
@@ -165,75 +166,76 @@
 			c3.5,0.4,7.1,2.2,10.6,2.4c3.5,0.1,7.1,0,10.6,0.2s7.1,0.7,10.6,1.1c3.6,0.4,7.1,0.7,10.6,1.2c3.6,0.3,7.2,1,10.6,2.1
 			c3.5,1.4,7.1,6,10.6,7.8c3.3,1.6,7,2.5,10.6,2.8c3.5,0.3,7.1,0.5,10.6,0.5s7.1-0.3,10.6-0.3s7.1,0.6,10.6,0.8s7.1,0.6,10.6,0.6
 			h10.6"/>
-		<text id="Titolo_USA" transform="matrix(1 0 0 1 5.0444 68.3095)" class="st22 st20 st21">USA</text>
+
+		<text id="Titolo_USA" transform="matrix(1 0 0 1 5.0444 68.3095)" class="st1 st2 st3">USA</text>
 		<g id="Didascalia_USA">
-			<path id="Linea_didascalia_USA" class="st1" d="M75.5,462.6h240"/>
-			<rect x="75.5" y="437.2" class="st2" width="181.9" height="95.8"/>
-			<text transform="matrix(1 0 0 1 75.4649 448.4518)" class="st12 st13 st16">1967</text>
-			<text transform="matrix(1 0 0 1 75.4649 486.8518)" class="st12 st13 st16">L’accordo per disciplinare</text>
-			<text transform="matrix(1 0 0 1 75.4649 506.0518)" class="st12 st13 st16">l’uso di armamenti</text>
-			<text transform="matrix(1 0 0 1 75.4649 525.2518)" class="st12 st13 st16">nucleari</text>
+			<path id="Linea_didascalia_USA" class="st4" d="M75.5,462.6h240"/>
+			<!-- <rect x="75.5" y="437.2" class="st2" width="181.9" height="95.8"/> -->
+			<text transform="matrix(1 0 0 1 75.4649 448.4518)" class="st6 st7 st8">1967</text>
+			<text transform="matrix(1 0 0 1 75.4649 486.8518)" class="st6 st7 st8">L’accordo per disciplinare</text>
+			<text transform="matrix(1 0 0 1 75.4649 506.0518)" class="st6 st7 st8">l’uso di armamenti</text>
+			<text transform="matrix(1 0 0 1 75.4649 525.2518)" class="st6 st7 st8">nucleari</text>
 		</g>
 		
-			<text id="trentunomila" transform="matrix(1 0 0 1 858.6629 460.7928)" class="st23 st13 st14">31.000</text>
+			<text id="trentunomila" transform="matrix(1 0 0 1 858.6629 460.7928)" class="st1 st7 st9">31.000</text>
 	</g>
 
 	<g id="Altri_stati">
 		<g id="Didascalia_Altri_Stati">
-			<path class="st5" d="M851.3,906V730"/>
-			<path class="st5" d="M851.3,730.6l-15.4,0.1l-15.4,0.1l-15.4,0.1l-15.4,0.1c-5.1,0-10.3,0.2-15.4,0.2c-5.1,0-10.3-0.3-15.5-0.3
+			<path class="st13" d="M851.3,906V730"/>
+			<path class="st13" d="M851.3,730.6l-15.4,0.1l-15.4,0.1l-15.4,0.1l-15.4,0.1c-5.1,0-10.3,0.2-15.4,0.2c-5.1,0-10.3-0.3-15.5-0.3
 				h-15.4"/>
-			<path class="st5" d="M156.6,515v396"/>
-			<path class="st5" d="M274.6,717v194"/>
-			<rect x="171.6" y="515" class="st2" width="207.6" height="95.9"/>
-			<text transform="matrix(1 0 0 1 171.6146 526.323)" class="st12 st13 st16">Regno Unito - Anni ‘50</text>
-			<text transform="matrix(1 0 0 1 171.6146 564.723)" class="st12 st13 st16">La Guerra Fredda</text>
-			<text transform="matrix(1 0 0 1 171.6146 583.923)" class="st12 st13 st16">e le strategie</text>
-			<text transform="matrix(1 0 0 1 171.6146 603.123)" class="st12 st13 st16">di deterrenza nucleari</text>
-			<rect x="289.4" y="717.8" class="st2" width="233.7" height="54.5"/>
-			<text transform="matrix(1 0 0 1 289.3758 729.1021)" class="st12 st13 st16">Francia - Anni ‘60</text>
-			<text transform="matrix(1 0 0 1 289.3758 767.5021)" class="st12 st13 st16">Lo sviluppo della triade nucleare</text>
-			<rect x="580.3" y="707.1" class="st2" width="180.5" height="115.5"/>
-			<text transform="matrix(1 0 0 1 580.295 718.3849)" class="st12 st13 st16">Corea del Nord - 2012</text>
-			<text transform="matrix(1 0 0 1 580.295 756.7849)" class="st12 st13 st16">Kim Jong-un consolida</text>
-			<text transform="matrix(1 0 0 1 580.295 775.9849)" class="st12 st13 st16">la sua posizione</text>
-			<text transform="matrix(1 0 0 1 580.295 795.1849)" class="st12 st13 st16">di comandante supremo</text>
-			<text transform="matrix(1 0 0 1 580.295 814.3849)" class="st12 st13 st16">delle forze armate</text>
+			<path class="st13" d="M156.6,515v396"/>
+			<path class="st13" d="M274.6,717v194"/>
+			<!-- <rect x="171.6" y="515" class="st2" width="207.6" height="95.9"/> -->
+			<text transform="matrix(1 0 0 1 171.6146 526.323)" class="st6 st7 st8">Regno Unito - Anni ‘50</text>
+			<text transform="matrix(1 0 0 1 171.6146 564.723)" class="st6 st7 st8">La Guerra Fredda</text>
+			<text transform="matrix(1 0 0 1 171.6146 583.923)" class="st6 st7 st8">e le strategie</text>
+			<text transform="matrix(1 0 0 1 171.6146 603.123)" class="st6 st7 st8">di deterrenza nucleari</text>
+			<!-- <rect x="289.4" y="717.8" class="st2" width="233.7" height="54.5"/> -->
+			<text transform="matrix(1 0 0 1 289.3758 729.1021)" class="st6 st7 st8">Francia - Anni ‘60</text>
+			<text transform="matrix(1 0 0 1 289.3758 767.5021)" class="st6 st7 st8">Lo sviluppo della triade nucleare</text>
+			<!-- <rect x="580.3" y="707.1" class="st2" width="180.5" height="115.5"/> -->
+			<text transform="matrix(1 0 0 1 580.295 718.3849)" class="st6 st7 st8">Corea del Nord - 2012</text>
+			<text transform="matrix(1 0 0 1 580.295 756.7849)" class="st6 st7 st8">Kim Jong-un consolida</text>
+			<text transform="matrix(1 0 0 1 580.295 775.9849)" class="st6 st7 st8">la sua posizione</text>
+			<text transform="matrix(1 0 0 1 580.295 795.1849)" class="st6 st7 st8">di comandante supremo</text>
+			<text transform="matrix(1 0 0 1 580.295 814.3849)" class="st6 st7 st8">delle forze armate</text>
 		</g>
 
 		<g id="Grafico_Altri_Stati">
-			<path class="st6" d="M274.6,910.6c3.6,0,7.2,0,10.8,0c3.6,0,7.2-0.2,10.8-0.2c3.6,0,7.2,0,10.8-0.1c3.6-0.1,7.2-0.1,10.8-0.1
+			<path class="st14" d="M274.6,910.6c3.6,0,7.2,0,10.8,0c3.6,0,7.2-0.2,10.8-0.2c3.6,0,7.2,0,10.8-0.1c3.6-0.1,7.2-0.1,10.8-0.1
 				c3.6-0.1,7.2-0.1,10.8-0.2c3.6-0.1,7.2-0.2,10.8-0.4l10.8-0.3c3.6-0.1,7.2-0.3,10.8-0.4c3.6-0.1,7.2-0.2,10.8-0.3
 				c3.6-0.1,7.2-0.2,10.8-0.3c3.6-0.1,7.2-0.1,10.8-0.1H415c3.6,0,7.2-0.1,10.8-0.1l10.8-0.1c3.6,0,7.2-0.1,10.8-0.1l10.8-0.1
 				c3.6,0,7.2-0.1,10.8-0.1h10.8h10.8h10.8h10.8H523h10.8h10.8H555h10.8h53.9c3.6,0,7.2,0,10.8,0h32.3c3.6,0,7.2,0,10.8,0h75.5
 				c3.6,0,7.2-0.1,10.8-0.1h32.3c3.6,0,7.2-0.1,10.8-0.1h10.7c3.6,0,7.2-0.1,10.8-0.1h10.8c3.6,0,7.2-0.1,10.8-0.1l10.8-0.1
 				c3.6,0,7.2,0,10.8-0.1s7.2-0.8,10.8-0.8H900"/>
-			<path class="st6" d="M274.6,910.6c3.6-0.2,7.2-0.4,10.8-0.4c3.6,0,7.2-0.1,10.8-0.1h43.1c3.6,0,7.2,0,10.8-0.1
+			<path class="st14" d="M274.6,910.6c3.6-0.2,7.2-0.4,10.8-0.4c3.6,0,7.2-0.1,10.8-0.1h43.1c3.6,0,7.2,0,10.8-0.1
 				c3.6-0.1,7.2-0.2,10.8-0.3c3.6-0.2,7.2-0.5,10.8-0.7c3.6-0.2,7.2-0.2,10.8-0.4c3.6-0.2,7.2-0.5,10.8-0.6
 				c3.6-0.2,7.2-0.2,10.8-0.3c3.6-0.1,7.2-0.2,10.8-0.2c3.6,0,7.2-0.1,10.8-0.1h10.7c3.6,0,7.2-0.1,10.8-0.2
 				c3.6-0.1,7.2-0.3,10.8-0.3h10.8c3.6,0,7.2-0.1,10.8-0.1h10.8c3.6,0,7.2-1.1,10.8-1.1c3.6,0,7.2,0.1,10.8,0.1s7.2-0.9,10.8-0.9
 				s7.2,0.1,10.8,0.1h10.8c3.6,0,7.2-1,10.8-1.3s7.2-0.5,10.8-0.5h10.8c3.6,0,7.2,0.1,10.8,0.2c3.6,0.1,7.2,0.1,10.8,0.2
 				c3.6,0.1,7.2,0,10.8,0.1s7.2,0.7,10.8,0.7h32c3.6,0,7.2-0.3,10.8-0.3s7.2,1.7,10.8,1.7h64.7c3.6,0,7.2,0.7,10.8,0.7h118.6
 				c3.6,0,7.2,0.1,10.8,0.1H900"/>
-			<path class="st6" d="M156.1,910.6h10.8c3.6,0,7.2,0,10.8-0.1s7.2-0.5,10.8-0.6s7.2-0.1,10.8-0.1H210c3.6,0,7.2-0.1,10.8-0.3
+			<path class="st14" d="M156.1,910.6h10.8c3.6,0,7.2,0,10.8-0.1s7.2-0.5,10.8-0.6s7.2-0.1,10.8-0.1H210c3.6,0,7.2-0.1,10.8-0.3
 				c3.6-0.1,7.2-0.2,10.8-0.4s7.2-0.5,10.8-0.7s7.2-0.6,10.8-0.8s7.2-0.5,10.8-0.6c3.6-0.1,7.2-0.2,10.8-0.2h10.8
 				c3.6,0,7.2,0,10.8-0.1c3.6-0.1,7.2-1,10.8-1c3.6,0,7.2,0.4,10.8,0.5c3.6,0.1,7.2,0.2,10.8,0.2c3.6,0,7.2-0.7,10.8-1
 				c3.6-0.3,7.2-0.4,10.8-0.5c3.6-0.1,7.2,0,10.8-0.2c3.6-0.2,7.2-1.1,10.8-1.1h86c3.6,0,7.2,1.6,10.8,1.6c3.6,0,7.2,0,10.8,0.1
 				c3.6,0.1,7.2,0.4,10.8,0.4h75.5c3.6,0,7.2,1.4,10.8,1.4h21.6c3.6,0,7.2,0.1,10.8,0.2c3.6,0.1,7.2,0.4,10.8,0.4h10.8
 				c3.6,0,7.2-0.5,10.8-0.5H652c3.6,0,7.2-0.6,10.8-0.6h53.9c3.6,0,7.2,0.8,10.8,0.8H803c3.6,0,7.2,0.1,10.8,0.1s7.2,0.1,10.8,0.1
 				h21.6c3.6,0,7.2,0,10.8,0.1l10.8,0.1l10.8,0.1c3.6,0,7.2,0.2,10.8,0.2h10.8"/>
-			<path class="st5" d="M641.3,910.6l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1
+			<path class="st13" d="M641.3,910.6l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1
 				l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1c3.6,0,7.2-0.1,10.8-0.1s7.2-0.1,10.8-0.1h10.8
 				c3.6,0,7.2-0.1,10.8-0.1s7.2-0.1,10.8-0.1H900"/>
-			<path class="st5" d="M641.3,910.6l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1
+			<path class="st13" d="M641.3,910.6l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1
 				l10.8-0.1l10.8-0.1l10.8-0.1l10.8-0.1c3.6,0,7.2-0.1,10.8-0.1s7.2,0.1,10.8,0.1s7.2-0.1,10.8-0.1l10.8-0.1l10.8-0.1
 				c3.6,0,7.2-0.1,10.8-0.1h10.8c3.6,0,7.2-0.1,10.8-0.1s7.2-0.1,10.8-0.1H900"/>
-			<path class="st6" d="M307,910.6h10.8h10.8h10.8h10.8H361h10.8h10.8h10.8H404h10.8h10.8h10.8h10.8H458h10.8h10.8h10.8h10.8H512
+			<path class="st14" d="M307,910.6h10.8h10.8h10.8h10.8H361h10.8h10.8h10.8H404h10.8h10.8h10.8h10.8H458h10.8h10.8h10.8h10.8H512
 				h10.8h10.8h10.8H555h10.8h10.8h10.8h10.8H609h10.8h10.8h10.8H652h10.8h10.8h10.8h10.8H706h161.7c3.6,0,7.2-0.1,10.8-0.1H900"/>
-			<path class="st6" d="M468.7,910.6h75.5c3.6,0,7.2,0.1,10.8,0.1h345"/>
+			<path class="st14" d="M468.7,910.6h75.5c3.6,0,7.2,0.1,10.8,0.1h345"/>
 		</g>
 
-		<rect x="5.6" y="51.3" class="st2" width="67.1" height="21.4"/>
-		<text id="Titolo_Altri" transform="matrix(1 0 0 1 5.6443 68.31)" class="st24 st20 st21">Altri</text>
+		<!-- <rect x="5.6" y="51.3" class="st2" width="67.1" height="21.4"/> -->
+		<text id="Titolo_Altri" transform="matrix(1 0 0 1 5.6443 68.31)" class="st15 st2 st3">Altri</text>
 	</g>
 </svg>
