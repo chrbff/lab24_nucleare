@@ -772,6 +772,14 @@ div#tasto_popolazioni p {
   z-index: -1;
 }
 
+.data3-desktop {
+  display: block;
+}
+
+.data3-mobile {
+  display: none;
+}
+
 #data3 .st0 {
   fill: none;
   stroke: url(#SVGID_1_);
@@ -1126,8 +1134,20 @@ div span.bold-footer {
   .voce_tabella_altri {
   width:40%;
   }
+
+  /**************************MEDIA QUERY DATA-3**************************/
+
+  .data3-desktop {
+    display: none;
+  }
+  
+  .data3-mobile {
+    display: block;
+  }
+
 }
-@media only screen and (max-width: 375px) {
+
+/* @media only screen and (max-width: 375px) {
   .tab-trattato#nazioni{
     font-size: 2.8vw;
   }
@@ -1140,4 +1160,4 @@ div span.bold-footer {
   #data3{
     margin-top: -80px;
   }
-}
+} */
