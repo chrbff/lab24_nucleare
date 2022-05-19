@@ -12,7 +12,7 @@
 }
 
 div {
-  border:0px solid blue;
+  border: 0px solid blue;
 }
 
 body {
@@ -96,7 +96,7 @@ body {
 
 #atomo_copertina {
   position: absolute;
-  top : -690px;
+  top: -690px;
 }
 
 
@@ -234,7 +234,8 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data1 svg #gruppo_rus .st1, #data1 svg #gruppo_rus .st2 {
+#data1 svg #gruppo_rus .st1,
+#data1 svg #gruppo_rus .st2 {
   fill: none;
   stroke: #fc4646;
   stroke-miterlimit: 10;
@@ -250,7 +251,8 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data1 svg #asta_1_sottile .st2, #data1 svg #asta_2_sottile .st2 {
+#data1 svg #asta_1_sottile .st2,
+#data1 svg #asta_2_sottile .st2 {
   fill: none;
   stroke: #fc4646;
   stroke-width: 0.5;
@@ -300,7 +302,8 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data1 svg #asta_1_sottile .st10, #data1 svg #asta_2_sottile .st10 {
+#data1 svg #asta_1_sottile .st10,
+#data1 svg #asta_2_sottile .st10 {
   fill: #1C1C1C;
   stroke: #fc4646;
   stroke-width: 0.5;
@@ -313,7 +316,8 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data1 svg #asta_1 .st11, #data1 svg #asta_2 .st11 {
+#data1 svg #asta_1 .st11,
+#data1 svg #asta_2 .st11 {
   fill: #fc4646;
   stroke: #1C1C1C;
   transition: all 0.35s linear;
@@ -326,7 +330,8 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
-#data1 svg #asta_1 .st12, #data1 svg #asta_2 .st12 {
+#data1 svg #asta_1 .st12,
+#data1 svg #asta_2 .st12 {
   fill: none;
   stroke: #fc4646;
   stroke-miterlimit: 10;
@@ -441,151 +446,151 @@ div span.titoletto {
 
 /* CONTAINER TIMELINE */
 
-#data2 .st0{
-  fill:none;
-  stroke:#83F9F3;
-  stroke-width:1.5;
-  stroke-miterlimit:10;
+#data2 .st0 {
+  fill: none;
+  stroke: #83F9F3;
+  stroke-width: 1.5;
+  stroke-miterlimit: 10;
   transition: all 0.35s linear;
-  opacity:0;
+  opacity: 0;
 }
 
-#data2 .st1{
-  fill:#83F9F3;
-  transition: all 0.35s linear;
-}
-
-#data2 .st2{
-  font-family:'sole_display';
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st3{
-  font-size:24px;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st4{
-  fill:none;
-  stroke:#83F9F3;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st5{
-  fill:none;
+#data2 .st1 {
+  fill: #83F9F3;
   transition: all 0.35s linear;
 }
 
-#data2 .st6{
-  fill:#EDEDEF;
+#data2 .st2 {
+  font-family: 'sole_display';
   transition: all 0.35s linear;
-  opacity:0;
+  opacity: 0;
 }
 
-#data2 .st7{
-  font-family:'SoleSans';
+#data2 .st3 {
+  font-size: 24px;
   transition: all 0.35s linear;
-  opacity:0;
+  opacity: 0;
 }
 
-#data2 .st8{
-  font-size:16px;
+#data2 .st4 {
+  fill: none;
+  stroke: #83F9F3;
   transition: all 0.35s linear;
-  opacity:0;
+  opacity: 0;
 }
 
-#data2 .st9{
-  font-size:14px;
-  transition: all 0.35s linear;
-}
-
-#data2 .st10{
-  fill:#FF514B;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st11{
-  fill:none;
-  stroke:#FF514B;
-  stroke-width:1.5;
-  stroke-miterlimit:10;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st12{
-  fill:none;
-  stroke:#FF514B;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st13{
-  fill:none;
-  stroke:#7E3FE6;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st14{
-  fill:none;
-  stroke:#7E3FE6;
-  stroke-width:2;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st15{
-  fill:#7E3FE6;
-  transition: all 0.35s linear;
-  opacity:0;
-}
-
-#data2 .st16{
-  enable-background:new;
+#data2 .st5 {
+  fill: none;
   transition: all 0.35s linear;
 }
 
-#data2 .st17{
-  opacity:0.2;
-  fill:none;
-  stroke:#EDEDEF;
-  enable-background:new;
+#data2 .st6 {
+  fill: #EDEDEF;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st7 {
+  font-family: 'SoleSans';
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st8 {
+  font-size: 16px;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st9 {
+  font-size: 14px;
   transition: all 0.35s linear;
 }
 
-#data2 .st18{
-  opacity:0.2;
-  fill:none;
-  stroke:#EDEDEF;
-  stroke-width:1.5;
-  enable-background:new;
+#data2 .st10 {
+  fill: #FF514B;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st11 {
+  fill: none;
+  stroke: #FF514B;
+  stroke-width: 1.5;
+  stroke-miterlimit: 10;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st12 {
+  fill: none;
+  stroke: #FF514B;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st13 {
+  fill: none;
+  stroke: #7E3FE6;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st14 {
+  fill: none;
+  stroke: #7E3FE6;
+  stroke-width: 2;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st15 {
+  fill: #7E3FE6;
+  transition: all 0.35s linear;
+  opacity: 0;
+}
+
+#data2 .st16 {
+  enable-background: new;
   transition: all 0.35s linear;
 }
 
-#data2 .st19{
-  fill:none;
-  stroke:#EDEDEF;
-  stroke-width:0.5;
+#data2 .st17 {
+  opacity: 0.2;
+  fill: none;
+  stroke: #EDEDEF;
+  enable-background: new;
   transition: all 0.35s linear;
 }
 
-#data2 .st20{
-  fill:none;
-  stroke:#83F9F3;
-  stroke-miterlimit:10;
+#data2 .st18 {
+  opacity: 0.2;
+  fill: none;
+  stroke: #EDEDEF;
+  stroke-width: 1.5;
+  enable-background: new;
   transition: all 0.35s linear;
 }
 
-#data2 .st21{
-  opacity:0.7;
-  fill:none;
-  stroke:#FC4646;
-  enable-background:new;
+#data2 .st19 {
+  fill: none;
+  stroke: #EDEDEF;
+  stroke-width: 0.5;
+  transition: all 0.35s linear;
+}
+
+#data2 .st20 {
+  fill: none;
+  stroke: #83F9F3;
+  stroke-miterlimit: 10;
+  transition: all 0.35s linear;
+}
+
+#data2 .st21 {
+  opacity: 0.7;
+  fill: none;
+  stroke: #FC4646;
+  enable-background: new;
   transition: all 0.35s linear;
 }
 
@@ -755,14 +760,14 @@ div#tasto_popolazioni p {
 #firmatari,
 #non-firmatari .st1 {
   font-family: 'SoleSans';
-  font-size:8px;
+  font-size: 8px;
   color: var(--grigio-scuro);
 }
 
 #firmatari,
 #non-firmatari .st2 {
   font-family: 'SoleSans';
-  font-size:8px;
+  font-size: 8px;
 }
 
 /* VIZ3 */
@@ -870,8 +875,8 @@ div#tasto_popolazioni p {
   font-size: 14px;
 }
 
-.container-spese{
-  overflow-x:hidden;
+.container-spese {
+  overflow-x: hidden;
 }
 
 .PALLA_USA,
@@ -1054,6 +1059,7 @@ div#tasto_popolazioni p {
 .logo_unirsm {
   width: 70px;
   padding-right: 40px;
+  padding-top: 3px;
 }
 
 .column-footer {
@@ -1080,11 +1086,14 @@ div span.bold-footer {
 
 @media only screen and (max-width: 600px) {
 
-  .container, #copertina {
+  .container,
+  #copertina {
     width: 90%;
   }
 
-  .paragrafo-bianco, #paragrafo-nero, #info {
+  .paragrafo-bianco,
+  #paragrafo-nero,
+  #info {
     font-size: var(--font-paragrafi-mobile);
   }
 
@@ -1117,10 +1126,12 @@ div span.bold-footer {
   }
 
   #data1 {
-    width:100%;
+    width: 100%;
   }
 
-  #tabella, .linea_tabella, .linea_spessa_tabella {
+  #tabella,
+  .linea_tabella,
+  .linea_spessa_tabella {
     width: 100%;
   }
 
@@ -1132,7 +1143,7 @@ div span.bold-footer {
   .voce_tabella_russia,
   .voce_tabella_usa,
   .voce_tabella_altri {
-  width:40%;
+    width: 40%;
   }
 
   /**************************MEDIA QUERY DATA-3**************************/
@@ -1140,9 +1151,32 @@ div span.bold-footer {
   .data3-desktop {
     display: none;
   }
-  
+
   .data3-mobile {
     display: block;
+  }
+
+  /**************************FOOTER**************************/
+
+  #footer {
+    background-color: black;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 50px;
+  }
+
+  .logo_unirsm {
+    width: 50px;
+    padding-right: 15px;
+    padding-top: 3px;
+  }
+
+  .column-footer {
+    width: 72%;
   }
 
 }
