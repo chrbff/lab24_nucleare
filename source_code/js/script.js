@@ -20,6 +20,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10").css("stroke", "#ededef");
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_russia").css("color", "#ededef");
 
       $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
       $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
@@ -56,6 +57,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10").css("stroke", "#ededef");
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_russia").css("color", "#ededef");
 
       $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
       $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
@@ -80,7 +82,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_1 .st11, #data1 svg #asta_2 .st11").css("fill", "#fc4646");
       $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10, #data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10").css("stroke", "#fc4646");
       $("#tabella .voce_tabella_russia").css("background-color", "#fc4646");
-      $("#tabella .voce_tabella_usa").css("color", "#ededef");
+      $("#tabella .voce_tabella_russia").css("color", "#1c1c1c");
       $("#data1 #cerchio_pallina .st8").css("display", "block");
 
       $("#data1 svg #gruppo_usa .st1").css("stroke", "#4a4a4a");
@@ -117,7 +119,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_1 .st11, #data1 svg #asta_2 .st11").css("fill", "#fc4646");
       $("#data1 svg #asta_1_sottile .st2, #data1 svg #asta_1_sottile .st10, #data1 svg #asta_2_sottile .st2, #data1 svg #asta_2_sottile .st10").css("stroke", "#fc4646");
       $("#tabella .voce_tabella_russia").css("background-color", "#fc4646");
-      $("#tabella .voce_tabella_usa").css("color", "#ededef");
+      $("#tabella .voce_tabella_russia").css("color", "#1c1c1c");
       $("#data1 #cerchio_pallina .st8").css("display", "block");
 
       $("#data1 svg #gruppo_usa .st1").css("stroke", "#4a4a4a");
@@ -172,6 +174,7 @@ $(document).ready(function () {
       $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_russia").css("color", "#ededef");
 
     });
 
@@ -207,6 +210,7 @@ $(document).ready(function () {
       $("#data1 svg #gruppo_rus .st2").css("stroke", "#ededef");
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_russia").css("color", "#ededef");
     
     });
 

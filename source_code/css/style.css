@@ -393,7 +393,7 @@ div span.titoletto {
   height: 60px;
   font-size: 16px;
   line-height: 18.46px;
-  color: #ededef;
+  color: var(--grigio-scuro);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -406,15 +406,19 @@ div span.titoletto {
 
 .testo_tabella {
   margin: 0;
-  height: 16px;
+  font-size: 16px;
   font-family: 'sole_display';
   font-style: normal;
   font-weight: 400;
 }
 
+#testoCorea {
+  width: 80px;
+}
+
 .cifra_tabella {
   margin: 0;
-  height: 16px;
+  height: 14px;
   font-family: 'sole_text';
   font-style: normal;
   font-weight: lighter;
@@ -431,7 +435,6 @@ div span.titoletto {
   margin: 0;
   width: 248px;
   border: 1px solid var(--bianco);
-  display: none;
 }
 
 /* #paesi, #num-testate {
@@ -1211,17 +1214,15 @@ div span.bold-footer {
   }
 
 }
-
-@media only screen and (max-width: 375px) {
+/* media query prof aggiustata (poi vediamo per schermi più piccoli) */
+@media only screen and (max-width: 600px) {
   .tab-trattato#nazioni{
     font-size: 2.8vw;
   }
   h1{
     padding-top: 190px;
   }
-  .voce_tabella_russia, .voce_tabella_usa, .voce_tabella_altri{
-    width: 80%;
-  }
+
   #data3{
     margin-top: -80px;
   }
@@ -1230,13 +1231,13 @@ div span.bold-footer {
   .voce_tabella_usa,
   .voce_tabella_altri {
     width: 38%;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid var(--grigio-chiaro);
   }
   
-  .linea_tabella,
-  .linea_spessa_tabella{
+  .linea_tabella {
     display: none;
   }
+
 
 
 }
