@@ -905,7 +905,7 @@ div#tasto_popolazioni p {
   fill: none;
   transition: all 0.35s linear;
   stroke: #6D6D6C;
-  stroke-width: 5px;
+  stroke-width: 1px;
 }
 
 #data3 .data3-mobile svg .USA .PALLA_USA,
