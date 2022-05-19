@@ -377,79 +377,153 @@ $(document).ready(function () {
     });
 
 
-  /////// apparizione sfere spese per armi nucleari /////////
+  /////// apparizione sfere spese per armi nucleari DESKTOP /////////
 
-  $('.USA').waypoint(function () {
-    $('.PALLA_USA').css("opacity", "1");
-    $('.LINEA_USA').css("stroke-width", "3px");
-    $('.LINEA_USA').css("stroke", "#83F9F3");
+  $('#data3 .data3-desktop svg .USA').waypoint(function () {
+    $('#data3 .data3-desktop svg .USA .PALLA_USA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .USA .LINEA_USA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .USA .LINEA_USA').css("stroke", "#83F9F3");
   }, {
     offset: '60%'
   });
 
-  $('.CINA').waypoint(function () {
-    $('.PALLA_CINA').css("opacity", "1");
-    $('.LINEA_CINA').css("stroke-width", "3px");
-    $('.LINEA_CINA').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .CINA').waypoint(function () {
+    $('#data3 .data3-desktop svg .CINA .PALLA_CINA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .CINA .LINEA_CINA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .CINA .LINEA_CINA').css("stroke", "#7E3FE5");
   }, {
     offset: '89%'
   });
 
-  $('.RUSSIA').waypoint(function () {
-    $('.PALLA_RUSSIA').css("opacity", "1");
-    $('.LINEA_RUSSIA').css("stroke-width", "3px");
-    $('.LINEA_RUSSIA').css("stroke", "#FF514B");
+  $('#data3 .data3-desktop svg .RUSSIA').waypoint(function () {
+    $('#data3 .data3-desktop svg .RUSSIA .PALLA_RUSSIA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#FF514B");
   }, {
     offset: '90%'
   });
 
-  $('.GRANBRETAGNA').waypoint(function () {
-    $('.PALLA_GRANBRETAGNA').css("opacity", "1");
-    $('.LINEA_GRANBRETAGNA').css("stroke-width", "3px");
-    $('.LINEA_GRANBRETAGNA').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .GRANBRETAGNA').waypoint(function () {
+    $('#data3 .data3-desktop svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#7E3FE5");
   }, {
     offset: '89%'
   });
 
-  $('.FRANCIA').waypoint(function () {
-    $('.PALLA_FRANCIA').css("opacity", "1");
-    $('.LINEA_FRANCIA').css("stroke-width", "3px");
-    $('.LINEA_FRANCIA').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .FRANCIA').waypoint(function () {
+    $('#data3 .data3-desktop svg .FRANCIA .PALLA_FRANCIA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#7E3FE5");
   }, {
     offset: '86%'
   });
 
-  $('.INDIA').waypoint(function () {
-    $('.PALLA_INDIA').css("opacity", "1");
-    $('.LINEA_INDIA').css("stroke-width", "3px");
-    $('.LINEA_INDIA').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .INDIA').waypoint(function () {
+    $('#data3 .data3-desktop svg .INDIA .PALLA_INDIA').css("opacity", "1");
+    $('#data3 .data3-desktop svg .INDIA .LINEA_INDIA').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .INDIA .LINEA_INDIA').css("stroke", "#7E3FE5");
   }, {
     offset: '90%'
   });
 
-  $('.ISRAELE').waypoint(function () {
-    $('.PALLA_ISRAELE').css("opacity", "1");
-    $('.LINEA_ISRAELE').css("stroke-width", "3px");
-    $('.LINEA_ISRAELE').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .ISRAELE').waypoint(function () {
+    $('#data3 .data3-desktop svg .ISRAELE .PALLA_ISRAELE').css("opacity", "1");
+    $('#data3 .data3-desktop svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#7E3FE5");
   }, {
     offset: '91%'
   });
 
-  $('.PAKISTAN').waypoint(function () {
-    $('.PALLA_PAKISTAN').css("opacity", "1");
-    $('.LINEA_PAKISTAN').css("stroke-width", "3px");
-    $('.LINEA_PAKISTAN').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .PAKISTAN').waypoint(function () {
+    $('#data3 .data3-desktop svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "1");
+    $('#data3 .data3-desktop svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#7E3FE5");
   }, {
     offset: '91%'
   });
 
-  $('.COREANORD').waypoint(function () {
-    $('.PALLA_COREANORD').css("opacity", "1");
-    $('.LINEA_COREANORD').css("stroke-width", "3px");
-    $('.LINEA_COREANORD').css("stroke", "#7E3FE5");
+  $('#data3 .data3-desktop svg .COREANORD').waypoint(function () {
+    $('#data3 .data3-desktop svg .COREANORD .PALLA_COREANORD').css("opacity", "1");
+    $('#data3 .data3-desktop svg .COREANORD .LINEA_COREANORD').css("stroke-width", "3px");
+    $('#data3 .data3-desktop svg .COREANORD .LINEA_COREANORD').css("stroke", "#7E3FE5");
   }, {
     offset: '91%'
   });
+
+    /////// apparizione sfere spese per armi nucleari MOBILE /////////
+
+    $('#data3 .data3-mobile svg .USA').waypoint(function () {
+      $('#data3 .data3-mobile svg .USA .PALLA_USA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke", "#83F9F3");
+    }, {
+      offset: '60%'
+    });
+  
+    $('#data3 .data3-mobile svg .CINA').waypoint(function () {
+      $('#data3 .data3-mobile svg .CINA .PALLA_CINA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke", "#7E3FE5");
+    }, {
+      offset: '89%'
+    });
+  
+    $('#data3 .data3-mobile svg .RUSSIA').waypoint(function () {
+      $('#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#FF514B");
+    }, {
+      offset: '90%'
+    });
+  
+    $('#data3 .data3-mobile svg .GRANBRETAGNA').waypoint(function () {
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#7E3FE5");
+    }, {
+      offset: '89%'
+    });
+  
+    $('#data3 .data3-mobile svg .FRANCIA').waypoint(function () {
+      $('#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#7E3FE5");
+    }, {
+      offset: '86%'
+    });
+  
+    $('#data3 .data3-mobile svg .INDIA').waypoint(function () {
+      $('#data3 .data3-mobile svg .INDIA .PALLA_INDIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke", "#7E3FE5");
+    }, {
+      offset: '90%'
+    });
+  
+    $('#data3 .data3-mobile svg .ISRAELE').waypoint(function () {
+      $('#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE').css("opacity", "1");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#7E3FE5");
+    }, {
+      offset: '91%'
+    });
+  
+    $('#data3 .data3-mobile svg .PAKISTAN').waypoint(function () {
+      $('#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "1");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#7E3FE5");
+    }, {
+      offset: '91%'
+    });
+  
+    $('#data3 .data3-mobile svg .COREANORD').waypoint(function () {
+      $('#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD').css("opacity", "1");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke", "#7E3FE5");
+    }, {
+      offset: '91%'
+    });
 
 
   ////////// BANCHE //////////
