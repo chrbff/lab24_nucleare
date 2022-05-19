@@ -424,13 +424,14 @@ div span.titoletto {
   margin: 0;
   width: 248px;
   border: 0.5px solid var(--grigio-chiaro);
+
 }
 
 .linea_spessa_tabella {
   margin: 0;
   width: 248px;
   border: 1px solid var(--bianco);
-
+  display: none;
 }
 
 /* #paesi, #num-testate {
@@ -1211,7 +1212,7 @@ div span.bold-footer {
 
 }
 
-/* @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .tab-trattato#nazioni{
     font-size: 2.8vw;
   }
@@ -1224,4 +1225,18 @@ div span.bold-footer {
   #data3{
     margin-top: -80px;
   }
-} */
+
+  .voce_tabella_russia,
+  .voce_tabella_usa,
+  .voce_tabella_altri {
+    width: 38%;
+    border-bottom: 1px solid silver;
+  }
+  
+  .linea_tabella,
+  .linea_spessa_tabella{
+    display: none;
+  }
+
+
+}
