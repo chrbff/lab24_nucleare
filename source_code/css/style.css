@@ -1043,10 +1043,18 @@ div#tasto_popolazioni p {
   transition: opacity 0.35s linear;
 }
 
-#Uc_details,
-#Isp_details {
+.Uc_details,
+.Isp_details {
   opacity: 0;
   transition: 0.35s linear;
+}
+
+.data4_desktop {
+  display: block;
+}
+
+.data4_mobile {
+  display: none;
 }
 
 /* CONTAINER TIMER */
@@ -1185,7 +1193,8 @@ div span.bold-footer {
   .data3-mobile {
     display: block;
   }
-
+ 
+  /**************************MEDIA QUERY DATA-4**************************/
 
   .data4_desktop {
     display: none;
