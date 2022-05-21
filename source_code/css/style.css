@@ -102,7 +102,8 @@ body {
 
 #copertina {
   /* background-color: var(--corallo); */
-  width: 65%;
+  max-width: 800px;
+  padding: 0px 150px 0px 150px;
   margin: auto;
 }
 
@@ -156,7 +157,8 @@ div span.titolo {
 /* CONTAINER */
 
 .container {
-  width: 65%;
+  max-width: 800px;
+  padding: 0px 150px 0px 150px;
   flex-direction: column;
   margin: auto;
 }
@@ -1188,7 +1190,8 @@ div span.bold-footer {
 
   #footer {
     background-color: black;
-    width: 100%;
+    max-width: 1000px;
+    padding: 0px 150px 0px 150px;
     margin: auto;
     display: flex;
     align-items: flex-start;
