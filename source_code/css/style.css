@@ -625,6 +625,14 @@ div span.titoletto {
   transition: all 0.35s linear;
 }
 
+.data2_desktop {
+  display: block;
+}
+
+.data2_mobile {
+  display: none;
+}
+
 
 /* CONTAINER TRATTATO */
 
@@ -1184,7 +1192,18 @@ div span.bold-footer {
     width: 40%;
   }
 
-  /**************************MEDIA QUERY DATA-3**************************/
+
+  /************************** MEDIA QUERY DATA-2 **************************/
+
+  .data2_desktop {
+    display: none;
+  }
+
+  .data2_mobile {
+    display: block;
+  }
+
+  /************************** MEDIA QUERY DATA-3 **************************/
 
   .data3-desktop {
     display: none;
