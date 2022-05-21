@@ -1184,6 +1184,15 @@ div span.bold-footer {
     display: block;
   }
 
+
+  .data4_desktop {
+    display: none;
+  }
+
+  .data4_mobile {
+    display: block;
+  }
+
   /**************************FOOTER**************************/
 
   #footer {
