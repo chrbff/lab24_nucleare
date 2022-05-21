@@ -1212,7 +1212,7 @@ div span.bold-footer {
   .data3-mobile {
     display: block;
   }
- 
+
   /**************************MEDIA QUERY DATA-4**************************/
 
   .data4_desktop {
@@ -1254,16 +1254,18 @@ div span.bold-footer {
   }
 
 }
+
 /* media query prof aggiustata (poi vediamo per schermi più piccoli) */
 @media only screen and (max-width: 600px) {
-  .tab-trattato#nazioni{
+  .tab-trattato#nazioni {
     font-size: 2.8vw;
   }
-  h1{
+
+  h1 {
     padding-top: 190px;
   }
 
-  #data3{
+  #data3 {
     margin-top: -80px;
   }
 
@@ -1273,7 +1275,7 @@ div span.bold-footer {
     width: 38%;
     border-bottom: 1px solid var(--grigio-chiaro);
   }
-  
+
   .linea_tabella {
     display: none;
   }

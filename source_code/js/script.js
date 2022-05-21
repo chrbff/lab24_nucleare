@@ -211,7 +211,7 @@ $(document).ready(function () {
       $("#data1 svg #nome_rus").css("display", "none");
       $("#tabella .voce_tabella_russia").css("background-color", "#1c1c1c");
       $("#tabella .voce_tabella_russia").css("color", "#ededef");
-    
+
     });
 
   $("#tabella .voce_tabella_altri").hover(
@@ -497,445 +497,445 @@ $(document).ready(function () {
   }, { offset: '91%' });
 
 
-/////// apparizione sfere spese per armi nucleari MOBILE /////////
+  /////// apparizione sfere spese per armi nucleari MOBILE /////////
 
-$('#data3 .data3-mobile svg .USA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .USA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .USA .PALLA_USA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke", "#83F9F3");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .USA .PALLA_USA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .USA .PALLA_USA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke", "#83F9F3");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .USA .PALLA_USA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .USA .LINEA_USA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '60%' });
+  }, { offset: '60%' });
 
-$('#data3 .data3-mobile svg .CINA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .CINA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .CINA .PALLA_CINA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .CINA .PALLA_CINA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .CINA .PALLA_CINA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .CINA .PALLA_CINA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .CINA .LINEA_CINA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '89%' });
+  }, { offset: '89%' });
 
-$('#data3 .data3-mobile svg .RUSSIA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .RUSSIA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#FF514B");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#FF514B");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .RUSSIA .PALLA_RUSSIA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .RUSSIA .LINEA_RUSSIA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '90%' });
+  }, { offset: '90%' });
 
-$('#data3 .data3-mobile svg .GRANBRETAGNA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .GRANBRETAGNA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .PALLA_GRANBRETAGNA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .GRANBRETAGNA .LINEA_GRANBRETAGNA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '89%' });
+  }, { offset: '89%' });
 
-$('#data3 .data3-mobile svg .FRANCIA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .FRANCIA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .FRANCIA .PALLA_FRANCIA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .FRANCIA .LINEA_FRANCIA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '86%' });
+  }, { offset: '86%' });
 
-$('#data3 .data3-mobile svg .INDIA').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .INDIA').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .INDIA .PALLA_INDIA').css("opacity", "1");
-    $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .INDIA .PALLA_INDIA').css("opacity", "0");
-    $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .INDIA .PALLA_INDIA').css("opacity", "1");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .INDIA .PALLA_INDIA').css("opacity", "0");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .INDIA .LINEA_INDIA').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '90%' });
+  }, { offset: '90%' });
 
-$('#data3 .data3-mobile svg .ISRAELE').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .ISRAELE').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE').css("opacity", "1");
-    $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE').css("opacity", "0");
-    $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE').css("opacity", "1");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .ISRAELE .PALLA_ISRAELE').css("opacity", "0");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .ISRAELE .LINEA_ISRAELE').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '91%' });
+  }, { offset: '91%' });
 
-$('#data3 .data3-mobile svg .PAKISTAN').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .PAKISTAN').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "1");
-    $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "0");
-    $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "1");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .PAKISTAN .PALLA_PAKISTAN').css("opacity", "0");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .PAKISTAN .LINEA_PAKISTAN').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '91%' });
+  }, { offset: '91%' });
 
-$('#data3 .data3-mobile svg .COREANORD').waypoint(function (direction) {
+  $('#data3 .data3-mobile svg .COREANORD').waypoint(function (direction) {
 
-  if (direction === 'down') {
-    $('#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD').css("opacity", "1");
-    $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke-width", "3px");
-    $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke", "#7E3FE5");
-  } else if (direction === 'up') {
-    $('#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD').css("opacity", "0");
-    $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke-width", "1px");
-    $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke", "#6D6D6C");
-  }
+    if (direction === 'down') {
+      $('#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD').css("opacity", "1");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke-width", "3px");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke", "#7E3FE5");
+    } else if (direction === 'up') {
+      $('#data3 .data3-mobile svg .COREANORD .PALLA_COREANORD').css("opacity", "0");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke-width", "1px");
+      $('#data3 .data3-mobile svg .COREANORD .LINEA_COREANORD').css("stroke", "#6D6D6C");
+    }
 
-}, { offset: '91%' });
+  }, { offset: '91%' });
 
 
-////////// BANCHE //////////
+  ////////// BANCHE //////////
 
-// unicredit
-$('.Uc_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  // unicredit
+  $('.Uc_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Uc_details").css("opacity", "1");
-    $("#data4 svg .Uc_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Uc_container .st0").css("fill", "#fc4646");
-    //$("#data4 .tooltip").css("opacity", "0");
+      $("#data4 svg .Uc_details").css("opacity", "1");
+      $("#data4 svg .Uc_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Uc_container .st0").css("fill", "#fc4646");
+      //$("#data4 .tooltip").css("opacity", "0");
 
-  });
-$('.Uc_container').hover(
-  function () {
-    $(".Uc_container").css("cursor", "pointer");
-  });
+    });
+  $('.Uc_container').hover(
+    function () {
+      $(".Uc_container").css("cursor", "pointer");
+    });
 
-// intesa san paolo
-$('.Isp_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  // intesa san paolo
+  $('.Isp_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Isp_details").css("opacity", "1");
-    $("#data4 svg .Isp_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Isp_container .st0").css("fill", "#fc4646");
-  });
-$('.Isp_container').hover(
-  function () {
-    $(".Isp_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Isp_details").css("opacity", "1");
+      $("#data4 svg .Isp_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Isp_container .st0").css("fill", "#fc4646");
+    });
+  $('.Isp_container').hover(
+    function () {
+      $(".Isp_container").css("cursor", "pointer");
+    });
 
-// bpm
-$('.Bpm_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  // bpm
+  $('.Bpm_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Bpm_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Bpm_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Bpm_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Bpm_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Bpm_container').hover(
-  function () {
-    $(".Bpm_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Bpm_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Bpm_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Bpm_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Bpm_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Bpm_container').hover(
+    function () {
+      $(".Bpm_container").css("cursor", "pointer");
+    });
 
-$('.Bpm_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Bpm_tooltip_close').hover(
-  function () {
-    $(".Bpm_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Bpm_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Bpm_tooltip_close').hover(
+    function () {
+      $(".Bpm_tooltip_close").css("cursor", "pointer");
+    });
 
-//Cdp
-$('.Cdp_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Cdp
+  $('.Cdp_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Cdp_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Cdp_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Cdp_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Cdp_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Cdp_container').hover(
-  function () {
-    $(".Cdp_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Cdp_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Cdp_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Cdp_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Cdp_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Cdp_container').hover(
+    function () {
+      $(".Cdp_container").css("cursor", "pointer");
+    });
 
-$('.Cdp_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Cdp_tooltip_close').hover(
-  function () {
-    $(".Cdp_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Cdp_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Cdp_tooltip_close').hover(
+    function () {
+      $(".Cdp_tooltip_close").css("cursor", "pointer");
+    });
 
-//Mb
-$('.Mb_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Mb
+  $('.Mb_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Mb_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Mb_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Mb_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Mb_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Mb_container').hover(
-  function () {
-    $(".Mb_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Mb_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Mb_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Mb_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Mb_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Mb_container').hover(
+    function () {
+      $(".Mb_container").css("cursor", "pointer");
+    });
 
-$('.Mb_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Mb_tooltip_close').hover(
-  function () {
-    $(".Mb_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Mb_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Mb_tooltip_close').hover(
+    function () {
+      $(".Mb_tooltip_close").css("cursor", "pointer");
+    });
 
-//Bps
-$('.Bps_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Bps
+  $('.Bps_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Bps_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Bps_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Bps_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Bps_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Bps_container').hover(
-  function () {
-    $(".Bps_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Bps_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Bps_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Bps_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Bps_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Bps_container').hover(
+    function () {
+      $(".Bps_container").css("cursor", "pointer");
+    });
 
-$('.Bps_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Bps_tooltip_close').hover(
-  function () {
-    $(".Bps_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Bps_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Bps_tooltip_close').hover(
+    function () {
+      $(".Bps_tooltip_close").css("cursor", "pointer");
+    });
 
-//Cv
-$('.Cv_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Cv
+  $('.Cv_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Cv_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Cv_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Cv_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Cv_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Cv_container').hover(
-  function () {
-    $(".Cv_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Cv_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Cv_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Cv_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Cv_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Cv_container').hover(
+    function () {
+      $(".Cv_container").css("cursor", "pointer");
+    });
 
-$('.Cv_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Cv_tooltip_close').hover(
-  function () {
-    $(".Cv_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Cv_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Cv_tooltip_close').hover(
+    function () {
+      $(".Cv_tooltip_close").css("cursor", "pointer");
+    });
 
-//An
-$('.An_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //An
+  $('.An_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .An_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .An_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .An_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .An_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.An_container').hover(
-  function () {
-    $(".An_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .An_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .An_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .An_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .An_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.An_container').hover(
+    function () {
+      $(".An_container").css("cursor", "pointer");
+    });
 
-$('.An_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.An_tooltip_close').hover(
-  function () {
-    $(".An_tooltip_close").css("cursor", "pointer");
-  });
+  $('.An_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.An_tooltip_close').hover(
+    function () {
+      $(".An_tooltip_close").css("cursor", "pointer");
+    });
 
-//Bi
-$('.Bi_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Bi
+  $('.Bi_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Bi_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Bi_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Bi_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Bi_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Bi_container').hover(
-  function () {
-    $(".Bi_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Bi_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Bi_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Bi_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Bi_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Bi_container').hover(
+    function () {
+      $(".Bi_container").css("cursor", "pointer");
+    });
 
-$('.Bi_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Bi_tooltip_close').hover(
-  function () {
-    $(".Bi_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Bi_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Bi_tooltip_close').hover(
+    function () {
+      $(".Bi_tooltip_close").css("cursor", "pointer");
+    });
 
-//Bper
-$('.Bper_container').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
+  //Bper
+  $('.Bper_container').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
 
-    $("#data4 svg .Bper_grande .st1").css("fill", "#ededef");
-    $("#data4 svg .Bper_container .st0").css("fill", "#fc4646");
-    $("#data4 svg .Bper_tooltip.tooltip").css("opacity", "1");
-    $("#data4 svg .Bper_tooltip.tooltip").css("visibility", "visible");
-  });
-$('.Bper_container').hover(
-  function () {
-    $(".Bper_container").css("cursor", "pointer");
-  });
+      $("#data4 svg .Bper_grande .st1").css("fill", "#ededef");
+      $("#data4 svg .Bper_container .st0").css("fill", "#fc4646");
+      $("#data4 svg .Bper_tooltip.tooltip").css("opacity", "1");
+      $("#data4 svg .Bper_tooltip.tooltip").css("visibility", "visible");
+    });
+  $('.Bper_container').hover(
+    function () {
+      $(".Bper_container").css("cursor", "pointer");
+    });
 
-$('.Bper_tooltip_close').click(
-  function () {
-    $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
-    $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
-    $("#data4 svg .riquadro .dettagli").css("opacity", "0");
-    $("#data4 svg .tooltip").css("opacity", "0");
-    $("#data4 svg .tooltip").css("visibility", "hidden");
-  });
-$('.Bper_tooltip_close').hover(
-  function () {
-    $(".Bper_tooltip_close").css("cursor", "pointer");
-  });
+  $('.Bper_tooltip_close').click(
+    function () {
+      $("#data4 svg .riquadro .st0").css("fill", "#4A4A4A");
+      $("#data4 svg .riquadro .sigla .st1").css("fill", "#1C1C1C");
+      $("#data4 svg .riquadro .dettagli").css("opacity", "0");
+      $("#data4 svg .tooltip").css("opacity", "0");
+      $("#data4 svg .tooltip").css("visibility", "hidden");
+    });
+  $('.Bper_tooltip_close').hover(
+    function () {
+      $(".Bper_tooltip_close").css("cursor", "pointer");
+    });
 
-/////// conteggio spese al minuto (timer) /////////
+  /////// conteggio spese al minuto (timer) /////////
 
-window.setInterval((function () {
-  var start = Date.now();
-  var textNode = document.createTextNode('0');
-  document.getElementById('soldi-spesi').appendChild(textNode);
-  return function () {
-    textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
-      'it-IT', // leave undefined to use the visitor's browser
-      // locale or a string like 'en-US' to override it.
-      {
-        minimumFractionDigits: 0
-      }
-    );
-  };
-}()), 1000);
+  window.setInterval((function () {
+    var start = Date.now();
+    var textNode = document.createTextNode('0');
+    document.getElementById('soldi-spesi').appendChild(textNode);
+    return function () {
+      textNode.data = Math.floor(((Date.now() - start) / 1000) * 2294.43333).toLocaleString(
+        'it-IT', // leave undefined to use the visitor's browser
+        // locale or a string like 'en-US' to override it.
+        {
+          minimumFractionDigits: 0
+        }
+      );
+    };
+  }()), 1000);
 });
