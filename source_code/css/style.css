@@ -963,7 +963,6 @@ div#tasto_popolazioni p {
 }
 
 /* CONTAINER BANCHE */
-
 #data4 .st0 {
   fill: #4A4A4A;
   transition: all 0.35s linear;
@@ -1249,6 +1248,112 @@ div span.bold-footer {
 
   /**************************MEDIA QUERY DATA-4**************************/
 
+  #data4 .st0 {
+    fill: #4A4A4A;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st1 {
+    fill: #1C1C1C;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st2 {
+    font-family: SoleSans;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st3 {
+    font-size: 200px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st4 {
+    fill: #EDEDEF;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st5 {
+    font-size: 40px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st6 {
+    font-size: 20px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st7 {
+    font-size: 100px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st8 {
+    font-size: 24px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st9 {
+    font-size: 14px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st10 {
+    font-size: 30px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st11 {
+    font-size: 16px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st12 {
+    font-size: 25px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st13 {
+    font-size: 15px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st14 {
+    fill: #FC4646;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st15 {
+    font-size: 51px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st16 {
+    font-size: 28px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .st17 {
+    font-size: 13.8293px;
+    transition: all 0.35s linear;
+  }
+  
+  #data4 .riquadro {
+    transition: all 0.35s linear;
+  }
+  
+  .tooltip {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s linear;
+  }
+  
+  .Uc_details,
+  .Isp_details {
+    opacity: 0;
+    transition: 0.35s linear;
+  }
+  
   .data4_desktop {
     display: none;
   }
