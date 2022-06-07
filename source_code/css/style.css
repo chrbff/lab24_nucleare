@@ -1652,21 +1652,21 @@ div span.bold-footer {
   /************************** MEDIA QUERY DATA-3 **************************/
 
   .data3-desktop {
-    display: none;
+    display: block;
   }
 
   .data3-mobile {
-    display: block;
+    display: none;
   }
 
   /**************************MEDIA QUERY DATA-4**************************/
 
   .data4_desktop {
-    display: none;
+    display: block;
   }
 
   .data4_mobile {
-    display: block;
+    display: none;
   }
 
   /**************************FOOTER**************************/
