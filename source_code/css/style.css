@@ -36,6 +36,7 @@ body {
   font-weight: var(--regular);
   font-size: 11px;
   color: var(--bianco);
+  padding-top: 20px;
 }
 
 .citazione {
@@ -398,6 +399,7 @@ div span.titoletto {
   padding-right: 20px;
   background-color: var(--grigio-scuro);
   transition: all 0.35s linear;
+  border-bottom: 1px solid var(--grigio-chiaro);
 }
 
 .voce_tabella_russia {
@@ -413,6 +415,7 @@ div span.titoletto {
   padding-right: 20px;
   background-color: var(--corallo);
   transition: all 0.35s linear;
+  border-top: 2px solid var(--bianco);
 }
 
 .testo_tabella {
@@ -444,7 +447,7 @@ div span.titoletto {
 
 .linea_spessa_tabella {
   margin: 0;
-  width: 248px;
+  width: 100%;
   border: 1px solid var(--bianco);
 }
 
@@ -1190,12 +1193,9 @@ div span.bold-footer {
     width: 100%;
   }
 
-  #tabella,
-  .linea_tabella,
-  .linea_spessa_tabella {
+  #tabella {
     width: 100%;
   }
-
   #tabella {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1205,12 +1205,14 @@ div span.bold-footer {
   .voce_tabella_usa,
   .voce_tabella_altri {
     width: 38%;
-    border-bottom: 1px solid var(--grigio-chiaro);
+  
   }
 
-  .linea_tabella {
-    display: none;
+  .voce_tabella_russia,
+  .voce_tabella_usa{
+    border-top: 2px solid var(--bianco);
   }
+
 
   .testo_tabella {
     font-size: 95%;
@@ -1308,12 +1310,16 @@ div span.bold-footer {
   }
 
   h1 {
-    font-size: 74px;
+    font-size: 70px;
     padding-top: 190px;
   }
 
+  #info {
+    font-size: 16px;
+  }
+
   div span.titolo {
-    font-size: 74px;
+    font-size: 70px;
   }
 
   #container-copertina {
@@ -1352,16 +1358,11 @@ div span.bold-footer {
   .voce_tabella_russia,
   .voce_tabella_usa,
   .voce_tabella_altri {
-    width: 37%;
-    border-bottom: 1px solid var(--grigio-chiaro);
-  }
-
-  .linea_tabella {
-    display: none;
+    width: 36%;
   }
 
   .testo_tabella {
-    font-size: 95%;
+    font-size: 92%;
   }
   
   #testoCorea {
@@ -1369,7 +1370,7 @@ div span.bold-footer {
   }
   
   .cifra_tabella {
-    font-size: 88%;
+    font-size: 86%;
   }
 
 
@@ -1435,7 +1436,165 @@ div span.bold-footer {
   }
 
 
-
 }
 
+
+
+
+
+
+
 /* SCHERMI TABLET */
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+
+  #copertina,
+  .container {
+    padding: 0% 5% 0% 5%;
+  }
+
+  .paragrafo-bianco,
+  #paragrafo-nero,
+  #info {
+    font-size: var(--font-paragrafi-mobile);
+  }
+
+  .citazione p {
+    font-size: 250%;
+  }
+
+  h1 {
+    font-size: 70px;
+    padding-top: 190px;
+  }
+
+  #info {
+    font-size: 16px;
+  }
+
+  div span.titolo {
+    font-size: 70px;
+  }
+
+  #container-copertina {
+    background-position: 0% 60%;
+    background-size: 200%;
+  }
+
+  #paragrafo-nero {
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 56px;
+    
+  }
+
+  div span.titoletto {
+    font-size: 56px;
+  }
+
+  #data1-tabella {
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+  #data1 {
+    width: 70%;
+  }
+
+
+  #tabella {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%
+  }
+
+  .voce_tabella_russia,
+  .voce_tabella_usa,
+  .voce_tabella_altri {
+    width: 38%;
+  }
+
+ 
+  .voce_tabella_usa{
+    border-top: 2px solid var(--bianco);
+  }
+
+  .testo_tabella {
+    font-size: 92%;
+  }
+  
+  #testoCorea {
+    width: 50%;
+  }
+  
+  .cifra_tabella {
+    font-size: 86%;
+  }
+
+
+  /************************** MEDIA QUERY DATA-2 **************************/
+
+  .data2_desktop {
+    display: none;
+  }
+
+  .data2_mobile {
+    display: block;
+  }
+
+  /************************** MEDIA QUERY DATA-3 **************************/
+
+  .data3-desktop {
+    display: none;
+  }
+
+  .data3-mobile {
+    display: block;
+  }
+
+  /**************************MEDIA QUERY DATA-4**************************/
+
+  .data4_desktop {
+    display: none;
+  }
+
+  .data4_mobile {
+    display: block;
+  }
+
+  /**************************FOOTER**************************/
+
+  #footer {
+    background-color: black;
+    padding: 35px 50px 35px 50px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .logo_unirsm {
+    width: 50px;
+    padding-right: 15px;
+    padding-top: 3px;
+  }
+
+  .column-footer {
+    width: 72%;
+  }
+
+  #soldi-spesi {
+    font-size: 70px;
+    margin: 30px 0px -20px 0px;
+  }
+
+  .tab-trattato#nazioni {
+    font-size: 2.8vw;
+  }
+
+
+}

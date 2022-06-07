@@ -92,6 +92,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#ededef");
       $("#data1 svg #nome_usa").css("display", "none");
       $("#tabella .voce_tabella_usa").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_usa").css("color", "#ededef");
 
       $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
       $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
@@ -129,6 +130,7 @@ $(document).ready(function () {
       $("#data1 svg #asta_3_sottile .st2, #data1 svg #asta_3_sottile .st10").css("stroke", "#ededef");
       $("#data1 svg #nome_usa").css("display", "none");
       $("#tabella .voce_tabella_usa").css("background-color", "#1c1c1c");
+      $("#tabella .voce_tabella_usa").css("color", "#ededef");
 
       $("#data1 svg #gruppo_altri .st1").css("stroke", "#4a4a4a");
       $("#data1 svg #gruppo_altri .st2").css("stroke", "#ededef");
