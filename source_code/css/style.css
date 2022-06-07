@@ -1293,7 +1293,7 @@ div span.bold-footer {
   }
   
   #data4 .st9 {
-    font-size: 16px;
+    font-size: 14px;
     transition: all 0.35s linear;
   }
   
@@ -1328,11 +1328,16 @@ div span.bold-footer {
   }
   
   #data4 .st16 {
-    font-size: 32px;
+    font-size: 28px;
     transition: all 0.35s linear;
   }
   
   #data4 .st17 {
+    font-size: 14px;
+    transition: all 0.35s linear;
+  }
+
+  #data4 .st18 {
     font-size: 16px;
     transition: all 0.35s linear;
   }
