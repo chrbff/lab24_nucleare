@@ -298,6 +298,7 @@ $(document).ready(function () {
       $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st21").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
 
       //Se clicco Altri stati mi scompaiono Russia e USA
+      $("#data2 svg #USA .st0, #data2 svg #USA .st1, #data2 svg #USA .st2, #data2 svg #USA .st3, #data2 svg #USA .st4, #data2 svg #USA .st5, #data2 svg #USA .st6, #data2 svg #USA .st7, #data2 svg #USA .st8, #data2 svg #USA .st9, #data2 svg #USA .st10").css("opacity", 0);
       $("#data2 svg #RUSSIA .st1, #data2 svg #RUSSIA .st3, #data2 svg #RUSSIA .st4, #data2 svg #RUSSIA .st6, #data2 svg #RUSSIA .st7, #data2 svg #RUSSIA .st8, #data2 svg #RUSSIA .st10, #data2 svg #RUSSIA .st11, #data2 svg #RUSSIA .st12, #data2 svg #RUSSIA .st13").css("opacity", 0);
       $("#data2 svg #Base_permanente .st3, #data2 svg #Base_permanente .st4").css("opacity", 0); //Scompare il titolo "Testate nucleari globali"
       $("#data2 svg #Base_permanente #Pallini #Pallino_RU .st22").css("fill", "#1c1c1c"); //Il pallino Russia torna spento
