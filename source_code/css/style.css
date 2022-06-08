@@ -1650,12 +1650,11 @@ div span.bold-footer {
   /************************** MEDIA QUERY DATA-2 **************************/
 
   .data2_desktop {
-    display: none;
+    display: block;
   }
 
   .data2_mobile {
-    margin-top: 40px;
-    display: block;
+    display: none;
   }
 
   /************************** MEDIA QUERY DATA-3 **************************/
