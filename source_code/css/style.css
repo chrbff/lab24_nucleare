@@ -521,7 +521,7 @@ div span.titoletto {
 }
 
 #data2 .st9 {
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.35s linear;
 }
 
@@ -638,6 +638,7 @@ div span.titoletto {
 }
 
 .data2_desktop {
+  margin-top: 40px;
   display: block;
 }
 
