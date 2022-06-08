@@ -1709,5 +1709,8 @@ div span.bold-footer {
     font-size: 1.7vw;
   }
 
+  .tab-trattato#nazioni .tab-trattato-wrapper {
+    width: 510px;
+}
 
 }
