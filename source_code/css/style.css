@@ -649,6 +649,22 @@ div span.titoletto {
 
 /* CONTAINER TRATTATO */
 
+#intro-firmatari {
+  font-family: 'sole_text';
+  font-style: normal;
+  font-weight: var(--regular);
+  font-size: 24px;
+  color: var(--bianco);
+}
+
+#firmatari-corallo {
+  color: var(--corallo);
+}
+
+#firmatari-ciano {
+  color: var(--ciano);
+}
+
 #slider {
   width: 226px;
   height: 33px;
@@ -705,43 +721,21 @@ div#tasto_popolazioni p {
   font-size: 12px;
 }
 
-.tab-trattato-wrapper svg {
-  margin-top: 15px;
-}
-
-#intro-firmatari {
-  font-family: 'sole_text';
-  font-style: normal;
-  font-weight: var(--regular);
-  font-size: 24px;
-  color: var(--bianco);
-}
-
-#firmatari-corallo {
-  color: var(--corallo);
-}
-
-#firmatari-ciano {
-  color: var(--ciano);
-}
-
-#nazioni span {
-  color: var(--ciano);
-}
-
 .trattato-wrapper {
   position: relative;
   height: 556px;
   margin-bottom: 80px;
 }
 
-.tab-trattato#popolazioni {
-  height: 556px;
-  margin: 0 auto;
-}
-
-.tab-trattato#popolazioni .tab-trattato-wrapper {
-  width: 360px;
+.tab-trattato {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.35s linear;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .tab-trattato#nazioni {
@@ -761,15 +755,17 @@ div#tasto_popolazioni p {
   width: 478px;
 }
 
-.tab-trattato {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 0;
-  transition: opacity 0.35s linear;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+#nazioni span {
+  color: var(--ciano);
+}
+
+.tab-trattato#popolazioni {
+  height: 556px;
+  margin: 0 auto;
+}
+
+.tab-trattato#popolazioni .tab-trattato-wrapper {
+  width: 360px;
 }
 
 .tab-trattato.visible {
