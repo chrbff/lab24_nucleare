@@ -146,7 +146,7 @@ div span.titolo {
 #info {
   font-family: 'sole_display';
   font-style: normal;
-  font-weight: var(--bold);
+  font-weight: var(--regular);
   font-size: 30px;
   line-height: 35px;
   color: var(--bianco);
